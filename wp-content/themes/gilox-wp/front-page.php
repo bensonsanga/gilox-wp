@@ -871,122 +871,29 @@ get_header();
 
 
 
-
-          <?php
-          $args = array(
-              'posts_per_page' => 5, // we need only the latest post, so get that post only
-              //'cat' => 'ID OF THE CATEGORY', // Use the category id, can also replace with category_name which uses category slug
-              'category_name' => 'bongoflava',
-          );
-          $q = new WP_Query( $args);
-
-          if ( $q->have_posts() ) {
-              while ( $q->have_posts() ) {
-              $q->the_post();        
-                  get_template_part( 'template-parts/content-review', );
-              }
-              wp_reset_postdata();
-          } 
-          ?>
-
-
-
           <ul class="home-legends__list">
-              <li class="home-legends__item">
-                <article class="card-legend" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <img alt="Reviews"
-                title="Reviews"
-                class="card-legend__image"
-                sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-legend__text">
-            <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 1 blah blah stuf </a></h4>
-              <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Bankole Wellington</span>
-        </a>          <span class="card-legend__reading-time"></span>
-              </div>
-            <p class="card-legend__description" itemprop="description">Amaterasu (天照) is the Japanese sun goddess, daughter of creator deities Izanagi and Izanami, and central to the Shinto religion. It is from her the Japanese nobility claims descent and their divine right to rule.</p>
-          </div>
-        </article>
-              </li>
-              <li class="home-legends__item">
-                <article class="card-legend" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <img alt="Reviews"
-                title="Reviews"
-                class="card-legend__image"
-                sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-legend__text">
-            <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 2 and stuf tbh</a>
-            </h4>
-              <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Solly Kolawole</span>
-        </a>          <span class="card-legend__reading-time"></span>
-              </div>
-            <p class="card-legend__description" itemprop="description">Sagacious Athena, the Greek goddess of wisdom, craft, and the arts of war, was a ceaseless champion of mortal heroes and consistent source of sound advice.</p>
-          </div>
-        </article>
-              </li><br>
-              <li class="home-legends__item">
-                <article class="card-legend" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <img alt="Reviews"
-                title="Reviews"
-                class="card-legend__image"
-                sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-legend__text">
-            <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 3  and stuf tbh</a>
-            </h4>
-              <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Timaya</span></a><span class="card-legend__reading-time"> </span>
-              </div>
-            <p class="card-legend__description" itemprop="description">In Chinese mythology, Nüwa (女媧), also known as Empress Wa, is the creator of all mankind and both sister and wife of the hero Fuxi (伏羲). She is most well-known for her role in the creation myth and for repairing the Pillars of Heaven.</p>
-          </div>
-        </article>
-              </li>
-              <li class="home-legends__item">
-                <article class="card-legend" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <img alt="Reviews"
-                title="Reviews"
-                class="card-legend__image"
-                sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-legend__text">
-            <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 4 and stuf tbh</a>
-            </h4>
-              <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Daddy Showkey</span></a></div>
-            <p class="card-legend__description" itemprop="description">The Morrígan, or “Phantom Queen,” was a fearsome Celtic deity and Irish goddess of death and battle. A trio of sisters who appeared as a crow, she was the keeper of fate and purveyor of prophecy.</p>
-          </div>
-        </article>
-              </li>
-              <li class="home-legends__item">
-                <article class="card-legend" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <img alt="Reviews"
-                title="Reviews"
-                class="card-legend__image"
-                sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-legend__text">
-            <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review And stuf stuff 5</a>
-            </h4>
-              <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Adekunle Gold</span></a></div>
-            <p class="card-legend__description" itemprop="description">One of the principal deities of the Norse pantheon, the lovely and enchanting Freya was a goddess of blessings, love, lust, and fertility.</p>
-          </div>
-        </article>
-              </li>
+           <?php
+            $args = array(
+                'posts_per_page' => 5, // we need only the latest post, so get that post only
+                //'cat' => 'ID OF THE CATEGORY', // Use the category id, can also replace with category_name which uses category slug
+                'category_name' => 'review',
+            );
+            $q = new WP_Query( $args);
+
+            if ( $q->have_posts() ) {
+                while ( $q->have_posts() ) {
+                $q->the_post();        
+                    get_template_part( 'template-parts/content-review', );
+                }
+                wp_reset_postdata();
+            } 
+            ?>
           </ul>
+          
+
+
+
+          
         </section>
         
         <section class="home-domains">

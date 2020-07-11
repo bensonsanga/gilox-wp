@@ -7,49 +7,41 @@
  * @package gilox-wp
  */
 
+
 ?>
+<li class="home-legends__item">
+    <article class="card-legend" itemscope itemtype="<?php echo get_home_url(); ?>" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <a href="<?php echo get_home_url(); ?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+        
+        <?php if ( has_post_thumbnail() ) {
+        gilox_wp_post_thumbnail();
+        } else { ?>
+        <img sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg" alt="<?php the_title(); ?>" />
+        <?php } ?>
+        </a>  
+        <div class="card-legend__text">
+            <?php
+                the_title( '<h4 class="card-legend__title">', '</h4>' );
+            
 
-<article class="card-legend" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="article-header">
-    
-	<?php gilox_wp_post_thumbnail(); ?>
+            if ( 'post' === get_post_type() ) :
+                ?>
+                <div class="card-legend__author">
+                    
+                    By <?php the_author(); ?><br />
+                    
+                </div><!-- .entry-meta -->
+            <?php endif; ?>
 
-		<?php
-			the_title( '<h4 class="card-legend__title">', '</h4>' );
-		
+        
+                <?php
+                    echo '<p class="card-legend__description">' . get_the_excerpt() . '</p>';
+                ?>
+            
+        </div><!-- .entry-content -->
 
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="card-legend__author">
-				<?php
-				gilox_wp_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<div class="card-legend__text">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'gilox-wp' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		?>
-	</div><!-- .entry-content -->
-
-</article><!-- #post-<?php the_ID(); ?> -->
-
+    </article><!-- #post-<?php the_ID(); ?> -->
+</li>
 
 
 
