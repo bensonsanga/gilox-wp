@@ -10,19 +10,20 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="body-content js-body-content">
 
 		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'gilox-wp' ), '<span>' . get_search_query() . '</span>' );
-					?>
-				</h1>
-			</header><!-- .page-header -->
-
+			<article class="article">
+				<section class="article-content">
+					<header class="article-header">
+						<h1 class="article-header__title">
+							<?php
+							/* translators: %s: search query. */
+							printf( esc_html__( 'Search Results for: %s', 'gilox-wp' ), '<span>' . get_search_query() . '</span>' );
+							?>
+						</h1>
+					</header><!-- .page-header -->
+			
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
@@ -45,9 +46,10 @@ get_header();
 
 		endif;
 		?>
-
+			</section>
+		</article>
+		<?php get_sidebar();?>
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

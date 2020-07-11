@@ -11,7 +11,7 @@ get_header();
 ?>
 
 <main class="body-content js-body-content">
-
+	<article class="article">
 		<?php if ( have_posts() ) : ?>
 
 			<figure class="mythology-header__hero" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -74,9 +74,9 @@ get_header();
 				
 			</div>
 		</section>
-
+		</article>
+		<?php get_sidebar();?>
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

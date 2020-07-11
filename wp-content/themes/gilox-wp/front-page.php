@@ -863,11 +863,34 @@ get_header();
 
 
     </section>
-        
+
     <section class="home-legends">
           <div class="home-legends__text">
             <h2 class="home-deities__title" id="legends">ALBUM REVIEWS</h2>
           </div>
+
+
+
+
+          <?php
+          $args = array(
+              'posts_per_page' => 5, // we need only the latest post, so get that post only
+              //'cat' => 'ID OF THE CATEGORY', // Use the category id, can also replace with category_name which uses category slug
+              'category_name' => 'bongoflava',
+          );
+          $q = new WP_Query( $args);
+
+          if ( $q->have_posts() ) {
+              while ( $q->have_posts() ) {
+              $q->the_post();        
+                  get_template_part( 'template-parts/content-review', );
+              }
+              wp_reset_postdata();
+          } 
+          ?>
+
+
+
           <ul class="home-legends__list">
               <li class="home-legends__item">
                 <article class="card-legend" itemscope itemtype="<?php echo get_home_url(); ?>">
@@ -879,7 +902,7 @@ get_header();
           </a>
           <div class="card-legend__text">
             <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 1</a></h4>
+              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 1 blah blah stuf </a></h4>
               <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
         <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Bankole Wellington</span>
         </a>          <span class="card-legend__reading-time"></span>
@@ -898,7 +921,7 @@ get_header();
           </a>
           <div class="card-legend__text">
             <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 2</a>
+              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 2 and stuf tbh</a>
             </h4>
               <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
         <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Solly Kolawole</span>
@@ -918,7 +941,7 @@ get_header();
           </a>
           <div class="card-legend__text">
             <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 3</a>
+              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 3  and stuf tbh</a>
             </h4>
               <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
         <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Timaya</span></a><span class="card-legend__reading-time"> </span>
@@ -937,7 +960,7 @@ get_header();
           </a>
           <div class="card-legend__text">
             <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 4</a>
+              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 4 and stuf tbh</a>
             </h4>
               <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
         <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Daddy Showkey</span></a></div>
@@ -955,7 +978,7 @@ get_header();
           </a>
           <div class="card-legend__text">
             <h4 class="card-legend__title">
-              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review 5</a>
+              <a href="<?php echo get_home_url(); ?>" class="card-legend__link" itemprop="url">Review And stuf stuff 5</a>
             </h4>
               <div class="card-legend__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
         <a href="<?php echo get_home_url(); ?>" class="card-legend__author-name" itemprop="url">          <span itemprop="name">Adekunle Gold</span></a></div>

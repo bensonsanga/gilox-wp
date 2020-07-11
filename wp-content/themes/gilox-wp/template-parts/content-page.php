@@ -9,14 +9,14 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+<article class="article" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<header class="article-header">
+		<?php the_title( '<h1 class="article-header__title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	<?php gilox_wp_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<section class="article-content">
 		<?php
 		the_content();
 
@@ -27,7 +27,7 @@
 			)
 		);
 		?>
-	</div><!-- .entry-content -->
+	</section><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
@@ -45,8 +45,8 @@
 					),
 					wp_kses_post( get_the_title() )
 				),
-				'<span class="edit-link">',
-				'</span>'
+				'<h4 class="card-legend__title">',
+				'</h4>'
 			);
 			?>
 		</footer><!-- .entry-footer -->

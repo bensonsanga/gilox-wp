@@ -466,15 +466,15 @@
 			<ul class="menu-collection__list">
 				<li class="menu-collection__item">
 					<article class="card-deity card-deity--small">
-		<a href="../../events/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 1</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
+					<a href="../../events/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Event 1</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+						</div>
+					</a></article>
 				</li>
 				<li class="menu-collection__item">
 					<article class="card-deity card-deity--small">

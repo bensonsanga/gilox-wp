@@ -206,13 +206,6 @@ function clean_custom_menus() {
 	echo $menu_list;
 }
 
-add_action( 'admin_bar_menu', 'show_template' );
-function show_template() {
-global $template;
-print_r( $template );
-}
-
-
 
 function latest_post() {
 
@@ -255,3 +248,16 @@ function latest_post() {
 }
 
 add_shortcode('lastest-post', 'latest_post');
+
+
+function wpdocs_my_search_form( $form ) {
+    $form = '<form role="search" method="get" id="searchform" class="article-form" action="' . home_url( '/' ) . '" >
+    <div><label class="article-form__label" for="s">' . __( 'Search:' ) . '</label>
+    <input class="article-form__input" type="text" value="' . get_search_query() . '" name="s" id="s" />
+	<button class="article-form__button" id="searchsubmit" type="submit" value="'. esc_attr__( 'Search' ) .'">Send Message →</button>
+    </div>
+    </form>';
+ 
+    return $form;
+}
+add_filter( 'get_search_form', 'wpdocs_my_search_form' );

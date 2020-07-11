@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="body-content js-body-content">
 
 		<?php
 		while ( have_posts() ) :
@@ -26,13 +26,13 @@ get_header();
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
 				comments_template();
-			endif;
+			endif; 
 
 		endwhile; // End of the loop.
 		?>
-
+		<?php
+	get_sidebar();?>
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

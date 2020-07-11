@@ -10,24 +10,28 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'gilox-wp' ); ?></h1>
+<main id="primary" class="body-content js-body-content">
+	<article class="article">
+		<section class="article-content">
+			<header class="article-header">
+				<h1 class="article-header__title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'gilox-wp' ); ?></h1>
 			</header><!-- .page-header -->
 
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'gilox-wp' ); ?></p>
+			<div class="article-grid">
+				<p class="article-card__description"><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'gilox-wp' ); ?></p>
 
 					<?php
 					get_search_form();
-
+					?> 
+				
+					<div class="article-header__text">
+					<?
 					the_widget( 'WP_Widget_Recent_Posts' );
 					?>
+					</div>
 
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'gilox-wp' ); ?></h2>
+					<div class="article-header__text">
+						<h2 class="widget-title"><?php esc_html_e( 'Our Categories', 'gilox-wp' ); ?></h2>
 						<ul>
 							<?php
 							wp_list_categories(
@@ -36,24 +40,22 @@ get_header();
 									'order'      => 'DESC',
 									'show_count' => 1,
 									'title_li'   => '',
-									'number'     => 10,
+									'number'     => 5,
 								)
 							);
 							?>
 						</ul>
 					</div><!-- .widget -->
-
+					<div class="article-header__text">
 					<?php
-					/* translators: %1$s: smiley */
-					$gilox_wp_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'gilox-wp' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$gilox_wp_archive_content" );
-
 					the_widget( 'WP_Widget_Tag_Cloud' );
 					?>
+					</div>
 
 			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
-
+		</article>					
+		<?php get_sidebar();?>
 	</main><!-- #main -->
 
 <?php
