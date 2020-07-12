@@ -126,7 +126,7 @@
 						<h4 class="menu-card__title">Afro Gospel</h4>
 					</div>
 					<figure class="menu-card__media">
-						<img src="<?php bloginfo('template_directory');?>/images/categories/Afrogospel.png">
+						<img src="<?php bloginfo('template_directory');?>/images/categories/afrogospe.png">
 							alt="Afro gospel"
 							title="Afro Gospel"
 							class="menu-card__image lazyload"

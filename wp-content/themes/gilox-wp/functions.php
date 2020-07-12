@@ -236,13 +236,13 @@ function latest_post() {
 						<a href="<?php the_permalink(); ?>" class="card-story__link" itemprop="url"><?php echo get_the_title(); ?></a></h4>
 					<div class="card-story__author" itemprop="author" itemscope itemtype="<?php the_permalink(); ?>">
 						<a href="#" class="card-story__author-name" itemprop="url">          <span itemprop="name"><?php echo the_author(); ?></span></a>
-
+					<div class="article-card__subtitle">
+						<?php
+						gilox_wp_posted_on();
+						?>
+					</div>
 				</article>
-				<div class="article-card__subtitle">
-					<?php
-					gilox_wp_posted_on();
-					?>
-				</div>
+				
 			</li>
             <?php
         endwhile;

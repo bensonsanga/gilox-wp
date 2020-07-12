@@ -835,16 +835,15 @@ get_header();
           <ul class="home-legends__list">
            <?php
             $args = array(
-                'posts_per_page' => 5, // we need only the latest post, so get that post only
-                //'cat' => 'ID OF THE CATEGORY', // Use the category id, can also replace with category_name which uses category slug
-                'category_name' => 'review',
+                'posts_per_page' => 5, 
+                'category_name' => 'review'
             );
             $q = new WP_Query( $args);
 
             if ( $q->have_posts() ) {
                 while ( $q->have_posts() ) {
                 $q->the_post();        
-                    get_template_part( 'template-parts/content-review', );
+                    get_template_part( 'template-parts/content-review' );
                 }
                 wp_reset_postdata();
             } 
