@@ -1,6 +1,4 @@
 
-<body class="index" data-layout="index" itemscope itemtype="https://schema.org/CollectionPage">
-
 <?php
 get_header();
 ?>
@@ -210,44 +208,7 @@ get_header();
         <ul class="home-stories__list">
           <?php echo do_shortcode('[lastest-post]'); ?>
         </ul>
-        <!--
-        <ul class="home-stories__list">
-            <li class="home-stories__item">
-              <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-                <a href="greek-mythology/articles/article1.html" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>"><img alt="Duduke video" title="News and Entertainment Gists" class="card-story__image" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-                </a>
-                <div class="card-story__text">
-                  <h4 class="card-story__title" itemprop="name">
-                    <a href="greek-mythology/articles/article1.html" class="card-story__link" itemprop="url">Latest Article 1</a>
-                  </h4>
-                  <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-                    <a href="#" class="card-story__author-name" itemprop="url">          
-                      <span itemprop="name">Simisola</span>
-                    </a>  
-                  </div>
-                  <p class="card-story__description" itemprop="description">This music video was release by Simisola to celebrate her unborn baby. A challenge has been initiated on Twitter regarding this via the hashtag #dudukechallenge.</p>
-                </div>
-              </article>
-            </li>
-            <li class="home-stories__item">
-              <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-                <a href="greek-mythology/articles/article1.html" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>"><img alt="Duduke video" title="News and Entertainment Gists" class="card-story__image" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-                </a>
-                <div class="card-story__text">
-                  <h4 class="card-story__title" itemprop="name">
-                    <a href="greek-mythology/articles/article1.html" class="card-story__link" itemprop="url">Latest Article 1</a>
-                  </h4>
-                  <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-                    <a href="#" class="card-story__author-name" itemprop="url">          
-                      <span itemprop="name">Simisola</span>
-                    </a>  
-                  </div>
-                  <p class="card-story__description" itemprop="description">This music video was release by Simisola to celebrate her unborn baby. A challenge has been initiated on Twitter regarding this via the hashtag #dudukechallenge.</p>
-                </div>
-              </article>
-            </li>
-          </ul>
-          -->
+        
     </section>
 
 
@@ -734,7 +695,7 @@ get_header();
 
                   
                   <div class="c-crop c-crop--ratio-7x4">
-                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="thomas middleditch ben schwartz" data-srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/thomas-middleditch-schwartz-first-time.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
+                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="thomas middleditch ben schwartz" data-srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
 
                 </figure><!-- .c-card__image -->
 
@@ -760,7 +721,7 @@ get_header();
 
                   
                   <div class="c-crop c-crop--ratio-7x4">
-                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="sting in my room" data-srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/05/Sting-MNishada-3892-hi_res.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
+                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="sting in my room" data-srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
 
                 </figure><!-- .c-card__image -->
 
@@ -786,7 +747,7 @@ get_header();
 
                   
                   <div class="c-crop c-crop--ratio-7x4">
-                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kadir - Rolling Stone Cover" data-srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/06/Kadir.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
+                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/images/video/sample.jpg" data-src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kadir - Rolling Stone Cover" data-srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
 
                 </figure><!-- .c-card__image -->
 
@@ -812,7 +773,7 @@ get_header();
 
                   
                   <div class="c-crop c-crop--ratio-7x4">
-                    <img width="1200" height="720" src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kamala Harris" data-srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Kamala.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
+                    <img width="1200" height="720" src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kamala Harris" data-srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
 
                 </figure><!-- .c-card__image -->
 
@@ -838,7 +799,7 @@ get_header();
 
                   
                   <div class="c-crop c-crop--ratio-7x4">
-                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Chronixx" data-srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/wp-content/uploads/2020/04/Chronixx.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
+                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Chronixx" data-srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
 
                 </figure><!-- .c-card__image -->
 

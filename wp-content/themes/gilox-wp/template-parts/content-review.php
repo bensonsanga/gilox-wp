@@ -21,7 +21,7 @@
         </a>  
         <div class="card-legend__text">
             <?php
-                the_title( '<h4 class="card-legend__title">', '</h4>' );
+                the_title( '<h4 class="card-legend__title">', '</h4>' ); 
             
 
             if ( 'post' === get_post_type() ) :

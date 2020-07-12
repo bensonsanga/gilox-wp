@@ -210,7 +210,7 @@ function clean_custom_menus() {
 function latest_post() {
 
     $args = array(
-        'posts_per_page' => 3, /* how many post you need to display */
+        'posts_per_page' => 4, /* how many post you need to display */
         'offset' => 0,
         'orderby' => 'post_date',
         'order' => 'DESC',
@@ -228,7 +228,9 @@ function latest_post() {
 						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 							<?php the_post_thumbnail('thumbnail', ['class' => 'card-story__media', 'title' => 'Feature image']); ?>
 						</a>
-					<?php endif; ?>
+					<?php else : ?>
+						<img sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg" alt="<?php the_title(); ?>" />
+					<?php  endif; ?>
 					<div class="card-story__text">
 					<h4 class="card-story__title" itemprop="name">
 						<a href="<?php the_permalink(); ?>" class="card-story__link" itemprop="url"><?php echo get_the_title(); ?></a></h4>

@@ -9,17 +9,17 @@
 
 ?>
 
-<section class="no-results not-found">
+<section class="article">
 	<header class="page-header">
-		<h1 class="article-header__title"><?php esc_html_e( 'Nothing Found', 'gilox-wp' ); ?></h1>
+		<h1 class="article-card__title"><?php esc_html_e( 'Nothing Found', 'gilox-wp' ); ?></h1>
 	</header><!-- .page-header -->
 
-	<div class="article-header__text">
+	<div class="article-hero__text">
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) :
 
 			printf(
-				'<p>' . wp_kses(
+				'<p class="article-hero__description">' . wp_kses(
 					/* translators: 1: link to WP admin new post page. */
 					__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'gilox-wp' ),
 					array(
@@ -34,14 +34,14 @@
 		elseif ( is_search() ) :
 			?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'gilox-wp' ); ?></p>
+			<p class="article-hero__description"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'gilox-wp' ); ?></p>
 			<?php
 			get_search_form();
 
 		else :
 			?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'gilox-wp' ); ?></p>
+			<p class="article-hero__description"><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'gilox-wp' ); ?></p>
 			<?php
 			get_search_form();
 
