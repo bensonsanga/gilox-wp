@@ -9,7 +9,7 @@
 
 ?>
 
-<article class="article" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header class="article-header">
   <div class="article-header__text">
     <div class="article-breadcrumbs">
@@ -37,12 +37,12 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
+			<div class="card-story__author">
 				<?php
 				gilox_wp_posted_on();
 				gilox_wp_posted_by();
 				?>
-			</div><!-- .entry-meta -->
+			</div>
 		<?php endif; ?>
 	</div><!-- .entry-header -->
 	<section class="article-content js-article-content">
@@ -74,9 +74,9 @@
 			?>
 		</div><!-- .entry-content -->
 	
-	<footer class="entry-footer">
+	<div class="article-hero__text">
 		<?php gilox_wp_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</div><!-- .entry-footer -->
 	</section>
 </article><!-- #post-<?php the_ID(); ?> -->
 

@@ -1107,87 +1107,25 @@ get_header();
           <div class="home-stories__text">
             <h2 class="home-deities__title" id="stories">MOVIE REVIEWS</h2>
           </div>
-          <ul class="home-stories__list">
-              <li class="home-stories__item">
-                <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-                <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <img alt="News"
-                  title="News"
-                  class="card-story__image"
-                  sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-story__text">
-            <h4 class="card-story__title" itemprop="name">
-              <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 1</a>
-            </h4>
-              <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-story__author-name" itemprop="url">          <span itemprop="name">Thomas Apel</span>
-        </a>          <span class="card-story__reading-time"></span>
-              </div>
-            <p class="card-story__description" itemprop="description">A paragon of strength and masculine virility, Thor was the Norse god of thunder and lightening. Wielding the hammer Mjölnir, he was the fiercest of warriors.</p>
-          </div>
-        </article>
-              </li>
-              <li class="home-stories__item">
-                <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <img alt="News"
-                  title="News"
-                  class="card-story__image"
-                  sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-story__text">
-            <h4 class="card-story__title" itemprop="name">
-              <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 2</a></h4>
-              <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" itemprop="url">          <span itemprop="name">Mae Hamilton</span>
-        </a>          <span class="card-story__reading-time"></span>
-              </div>
-            <p class="card-story__description" itemprop="description">Change is the Chinese goddess of the moon, best known for stealing an elixir of immortality from her husband, Hou Yi. Her story is celebrated as part of the annual Mid-Autumn Festival.</p>
-          </div>
-        </article>
-              </li>
-              <li class="home-stories__item">
-                <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <img alt="News"
-                  title="News"
-                  class="card-story__image"
-                  sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-story__text">
-            <h4 class="card-story__title" itemprop="name">
-              <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 3</a>
-            </h4>
-              <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" itemprop="url">          <span itemprop="name">Thomas Apel</span>
-        </a>          <span class="card-story__reading-time"></span>
-              </div>
-            <p class="card-story__description" itemprop="description">Known as the “one who takes away all,” dreadful Hades was the Greek god of the dead and king of the eponymous underworld, a figure rarely seen in mythology.</p>
-          </div>
-        </article>
-              </li>
-              <li class="home-stories__item">
-                <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <img alt="News"
-                  title="News"
-                  class="card-story__image"
-                  sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-          </a>
-          <div class="card-story__text">
-            <h4 class="card-story__title" itemprop="name">
-              <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 4</a>
-            </h4>
-              <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="<?php echo get_home_url(); ?>" class="card-story__author-name" itemprop="url">          <span itemprop="name">Evan Meehan</span>
-        </a>          <span class="card-story__reading-time"></span>
-              </div>
-            <p class="card-story__description" itemprop="description">The ruler of the Egyptian underworld, Osiris was one of the most important of the Egyptian gods. In life he was a great king; in death he decided who was worthy of reincarnation.</p>
-          </div>
-        </article>
-              </li>
+
+          <ul class="home-legends__list">
+           <?php
+            $args = array(
+                'posts_per_page' => 5, 
+                'category_name' => 'movie'
+            );
+            $q = new WP_Query( $args);
+
+            if ( $q->have_posts() ) {
+                while ( $q->have_posts() ) {
+                $q->the_post();        
+                    get_template_part( 'template-parts/content-review' );
+                }
+                wp_reset_postdata();
+            } 
+            ?>
           </ul>
+
         </section>
         
         <section class="home-feature">
@@ -1216,86 +1154,25 @@ get_header();
             <h2 class="home-deities__title" id="stories">Editors Pick</h2>
           </div>
             <ul class="home-stories__list">
-                <li class="home-stories__item">
-                  <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                <img alt="News"
-                    title="News"
-                    class="card-story__image"
-                    sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-            </a>
-            <div class="card-story__text">
-              <h4 class="card-story__title" itemprop="name">
-                <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 1</a>
-              </h4>
-                <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-story__author-name" itemprop="url">          <span itemprop="name">Thomas Apel</span>
-          </a>          <span class="card-story__reading-time"></span>
-                </div>
-              <p class="card-story__description" itemprop="description">A paragon of strength and masculine virility, Thor was the Norse god of thunder and lightening. Wielding the hammer Mjölnir, he was the fiercest of warriors.</p>
-            </div>
-          </article>
-                </li>
-                <li class="home-stories__item">
-                  <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                <img alt="News"
-                    title="News"
-                    class="card-story__image"
-                    sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-            </a>
-            <div class="card-story__text">
-              <h4 class="card-story__title" itemprop="name">
-                <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 2</a></h4>
-                <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" itemprop="url">          <span itemprop="name">Mae Hamilton</span>
-          </a>          <span class="card-story__reading-time"></span>
-                </div>
-              <p class="card-story__description" itemprop="description">Change is the Chinese goddess of the moon, best known for stealing an elixir of immortality from her husband, Hou Yi. Her story is celebrated as part of the annual Mid-Autumn Festival.</p>
-            </div>
-          </article>
-                </li>
-                <li class="home-stories__item">
-                  <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                <img alt="News"
-                    title="News"
-                    class="card-story__image"
-                    sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-            </a>
-            <div class="card-story__text">
-              <h4 class="card-story__title" itemprop="name">
-                <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 3</a>
-              </h4>
-                <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" itemprop="url">          <span itemprop="name">Thomas Apel</span>
-          </a>          <span class="card-story__reading-time"></span>
-                </div>
-              <p class="card-story__description" itemprop="description">Known as the “one who takes away all,” dreadful Hades was the Greek god of the dead and king of the eponymous underworld, a figure rarely seen in mythology.</p>
-            </div>
-          </article>
-                </li>
-                <li class="home-stories__item">
-                  <article class="card-story" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <a href="<?php echo get_home_url(); ?>" class="card-story__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                <img alt="News"
-                    title="News"
-                    class="card-story__image"
-                    sizes="(min-width: 960px) 25vw, (min-width: 640px) 33.33333vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-            </a>
-            <div class="card-story__text">
-              <h4 class="card-story__title" itemprop="name">
-                <a href="<?php echo get_home_url(); ?>" class="card-story__link" itemprop="url">News 4</a>
-              </h4>
-                <div class="card-story__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-story__author-name" itemprop="url">          <span itemprop="name">Evan Meehan</span>
-          </a>          <span class="card-story__reading-time"></span>
-                </div>
-              <p class="card-story__description" itemprop="description">The ruler of the Egyptian underworld, Osiris was one of the most important of the Egyptian gods. In life he was a great king; in death he decided who was worthy of reincarnation.</p>
-            </div>
-          </article>
-                </li>
-          </ul>
+              <?php
+                $args = array(
+                    'posts_per_page' => 5, 
+                    'category_name' => 'movie'
+                );
+                $q = new WP_Query( $args);
+
+                if ( $q->have_posts() ) {
+                    while ( $q->have_posts() ) {
+                    $q->the_post();        
+                        get_template_part( 'template-parts/content-review' );
+                    }
+                    wp_reset_postdata();
+                } 
+                ?>
+            </ul>
+            <ul class="home-stories__list">
+              
+            </ul>
         </section>
     </section>
         

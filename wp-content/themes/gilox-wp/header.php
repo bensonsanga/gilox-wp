@@ -126,7 +126,7 @@
 						<h4 class="menu-card__title">Afro Gospel</h4>
 					</div>
 					<figure class="menu-card__media">
-						<img src="<?php bloginfo('template_directory');?>/images/categories/afrogospe.png">
+						<img src="<?php bloginfo('template_directory');?>/images/categories/afrogospel.png">
 							alt="Afro gospel"
 							title="Afro Gospel"
 							class="menu-card__image lazyload"
@@ -182,7 +182,7 @@
 		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">About </span>
 		</a>        </li>
 				<li class="menu-static__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Contact</span>
+		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Contact</span>
 		</a>        </li>
 			</ul>
 		</div>
@@ -220,175 +220,176 @@
 					<div class="menu-collection__groups">
 						<div class="menu-collection__group" data-index="0">
 			<h4 class="menu-collection__name">Popular Artists</h4>
+			
 			<ul class="menu-collection__list">
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Olamide</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../prometheus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Reekado</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../uranus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Davido</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Tiwa Savage</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../cronus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Skale</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../rhea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Asa</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../oceanus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Amadi</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../thea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Wizkid</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Sheeba</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../phoebe/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Naira Marley</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Wizkid</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../tethys/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Simi</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../themis/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Adekunle</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../mnemosyne/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Falz</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
-			</div>
-		</a></article>
-				</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Olamide</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../prometheus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Reekado</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../uranus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Davido</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Tiwa Savage</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../cronus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Skale</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../rhea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Asa</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../oceanus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Amadi</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../thea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Wizkid</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Sheeba</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+						<a href="../phoebe/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+						<div class="card-deity__media">
+						</div>
+						</div>
+						<div class="card-deity__text">
+						<h4 class="card-deity__title" itemprop="name">Naira Marley</h4>
+						<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+						</div>
+					</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+				<a href="../iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+					<div class="card-deity__media">
+					</div>
+					</div>
+					<div class="card-deity__text">
+					<h4 class="card-deity__title" itemprop="name">Wizkid</h4>
+					<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+					</div>
+				</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+				<a href="../tethys/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+					<div class="card-deity__media">
+					</div>
+					</div>
+					<div class="card-deity__text">
+					<h4 class="card-deity__title" itemprop="name">Simi</h4>
+					<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+					</div>
+				</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+				<a href="../themis/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+					<div class="card-deity__media">
+					</div>
+					</div>
+					<div class="card-deity__text">
+					<h4 class="card-deity__title" itemprop="name">Adekunle</h4>
+					<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+					</div>
+				</a></article>
+						</li>
+						<li class="menu-collection__item">
+							<article class="card-deity card-deity--small">
+				<a href="../mnemosyne/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+					<div class="card-deity__media">
+					</div>
+					</div>
+					<div class="card-deity__text">
+					<h4 class="card-deity__title" itemprop="name">Falz</h4>
+					<p class="card-deity__subtitle" itemprop="description">Afrobeats Artist</p>
+					</div>
+				</a></article>
+						</li>
 			</ul>
 		</div>
 		<div class="menu-collection__group" data-index="1">
@@ -464,185 +465,185 @@
 						<div class="menu-collection__group" data-index="0">
 			<h4 class="menu-collection__name">Popular Events</h4>
 			<ul class="menu-collection__list">
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-					<a href="../../events/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-						<div class="card-deity__media">
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+									<a href="../../events/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+										<div class="card-deity__media">
+										</div>
+										</div>
+										<div class="card-deity__text">
+										<h4 class="card-deity__title" itemprop="name">Event 1</h4>
+										<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+										</div>
+									</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/prometheus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 2</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/uranus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 3</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 4</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/cronus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 5</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/rhea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 6</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/oceanus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 7</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/thea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 8</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 9</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/phoebe/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 10</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 11</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/tethys/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 12</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/themis/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 13</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+								<li class="menu-collection__item">
+									<article class="card-deity card-deity--small">
+						<a href="../../events/mnemosyne/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+							<div class="card-deity__media">
+							</div>
+							</div>
+							<div class="card-deity__text">
+							<h4 class="card-deity__title" itemprop="name">Event 14</h4>
+							<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
+							</div>
+						</a></article>
+								</li>
+							</ul>
 						</div>
-						</div>
-						<div class="card-deity__text">
-						<h4 class="card-deity__title" itemprop="name">Event 1</h4>
-						<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-						</div>
-					</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/prometheus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 2</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/uranus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 3</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 4</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/cronus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 5</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/rhea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 6</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/oceanus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 7</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/thea/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 8</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 9</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/phoebe/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 10</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 11</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/tethys/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 12</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/themis/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 13</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-				<li class="menu-collection__item">
-					<article class="card-deity card-deity--small">
-		<a href="../../events/mnemosyne/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-			<div class="card-deity__media">
-			</div>
-			</div>
-			<div class="card-deity__text">
-			<h4 class="card-deity__title" itemprop="name">Event 14</h4>
-			<p class="card-deity__subtitle" itemprop="description">Afrobeats Event</p>
-			</div>
-		</a></article>
-				</li>
-			</ul>
-		</div>
-		<div class="menu-collection__group" data-index="1">
-			<h4 class="menu-collection__name">Other Events</h4>
-			<ul class="menu-collection__list">
-				<li class="menu-collection__item">
-		<a href="../../events/coeus/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Other Events 1</span>
-		</a>          </li>
-				<li class="menu-collection__item">
-		<a href="../../events/crius/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Other Events 2</span>
-		</a>          </li>
+						<div class="menu-collection__group" data-index="1">
+							<h4 class="menu-collection__name">Other Events</h4>
+							<ul class="menu-collection__list">
+								<li class="menu-collection__item">
+						<a href="../../events/coeus/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Other Events 1</span>
+						</a>          </li>
+								<li class="menu-collection__item">
+						<a href="../../events/crius/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Other Events 2</span>
+						</a>          </li>
 			</ul>
 		</div>
 
