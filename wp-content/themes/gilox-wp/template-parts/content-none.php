@@ -10,6 +10,13 @@
 ?>
 
 <section class="article">
+		<div class="article-breadcrumbs">
+			<ol class="article-breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+				<?php
+				ah_breadcrumb(); 
+				?>
+			</ol>
+		</div>
 	<header class="page-header">
 		<h1 class="article-card__title"><?php esc_html_e( 'Nothing Found', 'gilox-wp' ); ?></h1>
 	</header><!-- .page-header -->

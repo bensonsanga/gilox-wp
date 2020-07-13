@@ -14,18 +14,9 @@
   <div class="article-header__text">
     <div class="article-breadcrumbs">
 		<ol class="article-breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
-		<li class="article-breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-			<a href="../../index.html" class="article-breadcrumbs__link" data-category="Navigation" data-action="Article Breadcrumb" itemprop="item" itemtype="https://schema.org/CollectionPage">
-			<span class="article-breadcrumbs__title" itemprop="name">Gilox</span>
-			</a>
-			<meta itemprop="position" content="1">
-		</li>
-		<li class="article-breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-			<a href="#" class="article-breadcrumbs__link" data-category="Navigation" data-action="Article Breadcrumb" itemprop="item" itemtype="https://schema.org/CollectionPage">
-			<span class="article-breadcrumbs__title" itemprop="name"> Artist</span>
-			</a>
-			<meta itemprop="position" content="2">
-		</li>
+			<?php
+			ah_breadcrumb(); 
+			?>
 		</ol>
 		</div>
 		<?php

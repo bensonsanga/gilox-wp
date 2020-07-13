@@ -11,13 +11,13 @@ get_header();
 ?>
 
 <main class="body-content js-body-content">
+		
 	
 		<?php if ( have_posts() ) : ?>
 			<header class="mythology-header">
 				<figure class="mythology-header__hero" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-				
-				<img alt="Home of Afro Beats" title="Home of Afro Beats" class="home-header__image" sizes="(min-width: 960px) 50vw, 100vw" src="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
-					</figure>
+					<img alt="Home of Afro Beats" title="Home of Afro Beats" class="home-header__image" sizes="(min-width: 960px) 50vw, 100vw" src="<?php bloginfo('template_directory');?>/images/cover/2x/<?php  echo get_query_var( 'category_name' )?>.png">
+				</figure>
 				<div class="mythology-header__text">
 					<?php
 					the_archive_title( '<h1 class="mythology-header__title">', '</h1>' );
@@ -56,7 +56,7 @@ get_header();
 								* If you want to override this in a child theme, then include a file
 								* called content-___.php (where ___ is the Post Type name) and that will be used instead.
 								*/
-								get_template_part( 'template-parts/content-review', get_post_type() );
+								get_template_part( 'template-parts/content-cat', get_post_type() );
 
 							endwhile;
 
@@ -71,7 +71,6 @@ get_header();
 					
 				</div>
 			</section>
-		
 	</main><!-- #main -->
 
 <?php

@@ -13,6 +13,13 @@ get_header();
 <main id="primary" class="body-content js-body-content">
 	<article class="article">
 		<section class="article-content">
+		<div class="article-breadcrumbs">
+		<ol class="article-breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<?php
+			ah_breadcrumb(); 
+			?>
+		</ol>
+		</div>
 			<header class="article-header">
 				<h1 class="article-header__title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'gilox-wp' ); ?></h1>
 			</header><!-- .page-header -->
