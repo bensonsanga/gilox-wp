@@ -104,17 +104,17 @@
               <h4 class="footer-region__name">NOLLYWOOD  </h4>
               <ul class="footer-region__list">
                   <li class="footer-region__item">
-						<a href="japanese-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Movies</span>
+						<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Movies</span>
 										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
 					<li class="footer-region__item">
-					<a href="japanese-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Series</span>
+					<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Series</span>
 										<span class="footer-region__link-suffix"></span>
 					</a>              
 					</li>
 					<li class="footer-region__item">
-						<a href="japanese-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Comedy</span>
+						<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Comedy</span>
 										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
@@ -131,7 +131,7 @@
 			</div>
 		</div>
 		<div class="footer-credit">
-			<p class="footer-credit__text">© 2020 <a href="https://wasai.co/" class="footer-credit__link">Gilox</a> – All Rights Reserved. <a href="../../privacy-pol<?php echo get_home_url(); ?>" class="footer-credit__link">Privacy Policy</a></p>
+			<p class="footer-credit__text">© 2020 <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Gilox</a> – All Rights Reserved. <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Privacy Policy</a></p>
 		</div>
 	</footer>
 	<script>
