@@ -13,7 +13,7 @@ get_header();
 <main class="body-content js-body-content">
 		
 	
-		<?php if ( have_posts() ) : ?>
+		
 			<header class="mythology-header">
 				<figure class="mythology-header__hero" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
 					<img alt="Home of Afro Beats" title="Home of Afro Beats" class="home-header__image" sizes="(min-width: 960px) 50vw, 100vw" src="<?php bloginfo('template_directory');?>/images/cover/2x/<?php  echo get_query_var( 'category_name' )?>.png">
@@ -42,6 +42,7 @@ get_header();
 					</ul>
 					</div>
 				</section>
+				<?php if ( have_posts() ) : ?>
 				
 				<section class="mythology-collection">
 					<div class="article-group article-group--grid article-group--ltr">

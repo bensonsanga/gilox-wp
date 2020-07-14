@@ -18,7 +18,7 @@
 			</ol>
 		</div>
 	<header class="page-header">
-		<h1 class="article-card__title"><?php esc_html_e( 'Nothing Found', 'gilox-wp' ); ?></h1>
+		<h1 class="article-card__title"><?php esc_html_e( 'Nothing here yet', 'gilox-wp' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="article-hero__text">

@@ -390,7 +390,7 @@ function ah_breadcrumb() {
         $parent_category = get_category( $parent );
         $category_link   = get_category_link( $parent );
 
-        echo '<li class="item"><a href="'. esc_url( $category_link ) .'">'. $parent_category->name .'</a></li>' . $sep;
+        echo '<li class="article-breadcrumbs__item"><a href="'. esc_url( $category_link ) .'">'. $parent_category->name .'</a></li>' . $sep;
 
       }
 
