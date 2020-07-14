@@ -242,6 +242,13 @@ get_header();
                   <article class="card-deity card-deity--small">
         <a href="egyptian-mythology/titans/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
               <div class="card-deity__media">
+                <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                        alt="Baldur, Norse God of Light"
+                        title="Baldur, Norse God of Light"
+                        class="card-deity__image lazyload"
+                        itemprop="url"
+                        loading="lazy"
+                        >
               </div>
             </div>
             <div class="card-deity__text">
@@ -254,6 +261,13 @@ get_header();
                   <article class="card-deity card-deity--small">
         <a href="egyptian-mythology/titans/coeus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
               <div class="card-deity__media">
+                <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                        alt="Baldur, Norse God of Light"
+                        title="Baldur, Norse God of Light"
+                        class="card-deity__image lazyload"
+                        itemprop="url"
+                        loading="lazy"
+                        >
               </div>
             </div>
             <div class="card-deity__text">
@@ -652,13 +666,13 @@ get_header();
                   <h3 class="card-pantheon__description">
 
                     <a class="card-pantheon__button" href="<?php bloginfo('template_directory');?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" data-video-gallery-card-heading="">
-                      Kadir Nelson’s Inspiration for the July Cover of Rolling Stone				</a>
+                      Kadir Nelson’s Inspiration for the July Cover of Gilox				</a>
                   </h3><!-- .c-card__heading -->
 
                   
                     <span class="c-card__tag t-semibold t-semibold--upper t-semibold--loose" data-video-gallery-card-tag="">
 
-                      Culture
+                      Gilox Videos
                     </span>
 
                   
@@ -739,7 +753,7 @@ get_header();
                 <div class="c-video-gallery__item c-slider__item" data-slider-item="">
                   
             <article class="c-card c-card--video-thumb  t-semibold">
-              <a href="<?php bloginfo('template_directory');?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" class="c-card__wrap is-active" data-video-gallery-thumb="" data-tag="Culture" data-heading="Kadir Nelson’s Inspiration for the July Cover of Rolling Stone" data-lead="&quot;I want everyone in this painting — particularly the African American women and children — to know that they matter,&quot; artist says" data-permalink="<?php bloginfo('template_directory');?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" data-tag-permalink="/culture/">
+              <a href="<?php bloginfo('template_directory');?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" class="c-card__wrap is-active" data-video-gallery-thumb="" data-tag="Culture" data-heading="Kadir Nelson’s Inspiration for the July Cover of Gilox" data-lead="&quot;I want everyone in this painting — particularly the African American women and children — to know that they matter,&quot; artist says" data-permalink="<?php bloginfo('template_directory');?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" data-tag-permalink="/culture/">
 
                 <figure class="c-card__image" data-active-text="Now Playing">
                   <div hidden="">
@@ -747,14 +761,14 @@ get_header();
 
                   
                   <div class="c-crop c-crop--ratio-7x4">
-                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/images/video/sample.jpg" data-src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kadir - Rolling Stone Cover" data-srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
+                    <img width="1260" height="720" src="<?php bloginfo('template_directory');?>/images/video/sample.jpg" data-src="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kadir - Gilox Cover" data-srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory');?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w">			</div><!-- .c-crop -->
 
                 </figure><!-- .c-card__image -->
 
                 <header class="c-card__header">
 
                   <h3 class="c-card__heading ">
-                    Kadir Nelson’s Inspiration for the July Cover of Rolling Stone			</h3><!-- .c-card__heading -->
+                    Kadir Nelson’s Inspiration for the July Cover of Gilox			</h3><!-- .c-card__heading -->
 
                 </header><!-- .c-card__header -->
               </a><!-- .c-card__wrap -->
@@ -869,9 +883,7 @@ get_header();
                     <article class="card-deity card-deity--small">
         <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
               <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      
-                      >
+                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format" >
               </div>
             </div>
             <div class="card-deity__text">
@@ -965,6 +977,13 @@ get_header();
                     <article class="card-deity card-deity--small">
                   <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
               <div class="card-deity__media">
+                <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                        alt="Baldur, Norse God of Light"
+                        title="Baldur, Norse God of Light"
+                        class="card-deity__image lazyload"
+                        itemprop="url"
+                        loading="lazy"
+                        >
               </div>
             </div>
             <div class="card-deity__text">
