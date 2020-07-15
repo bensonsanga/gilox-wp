@@ -17,13 +17,6 @@
 		<?php the_title( '<h4 class="article-card__title">', '</h4>' ); ?>
 	</header><!-- .entry-header -->
 	
-	<section class="">
-		<?php
-		echo '<p class="article-card__description">' . get_the_excerpt() . '</p>';
-
-		
-		?>
-	</section><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
