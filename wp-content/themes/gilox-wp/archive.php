@@ -42,22 +42,26 @@ get_header();
 					</ul>
 					</div>
 				</section>
-				<?php if ( have_posts() ) : ?>
+
+				<?php if ( have_posts() ) : $postCount = 1; ?>
 				
 				<section class="mythology-collection">
 					<div class="article-group article-group--grid article-group--ltr">
 						
 							<?php
 							/* Start the Loop */
-							while ( have_posts() ) :
-								the_post();
+							while ( have_posts() ) : 
+								$postCount++;
 
-								/*
-								* Include the Post-Type-specific template for the content.
-								* If you want to override this in a child theme, then include a file
-								* called content-___.php (where ___ is the Post Type name) and that will be used instead.
-								*/
+								if($postCount == 2) {
+									the_post();
+									get_template_part( 'template-parts/content-cat1', get_post_type() );
+								}
+
+								else {
+								the_post();
 								get_template_part( 'template-parts/content-cat', get_post_type() );
+								}
 
 							endwhile;
 
