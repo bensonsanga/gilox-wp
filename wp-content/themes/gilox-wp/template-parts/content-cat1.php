@@ -11,10 +11,14 @@
 
 
 
-<div class="article-grid" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <a href="<?php get_permalink();?>" class="article-card article-card--large-2x">
+
+    <a href="<?php get_permalink();?>" class="article-card article-card--large-2x"  id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
          <div class="article-card__media">
-	        <?php gilox_wp_post_thumbnail(); ?>
+            <?php if ( has_post_thumbnail() ) {
+                    gilox_wp_post_thumbnail();
+                    } else { ?>
+                    <img sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg" alt="<?php the_title(); ?>" />
+                <?php } ?>
         </div>
 	<div class="article-card__text">
         <?php get_the_author( '<h5 class="article-card__subtitle">', '</h5>' ); ?>
@@ -22,34 +26,11 @@
         <?php echo '<p class="article-card__description">' . get_the_excerpt() . '</p>'; ?>
 	</div>
     <div class="article-byline">
-      <div><img src="<?php bloginfo('template_directory');?>/images/Avatars/avatar.jpg"> &nbsp;</div>
+      <div><img src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg"> &nbsp;</div>
       <div class="article-byline__text">
         <span class="article-byline__name">Gilox</span>
         <span class="article-byline__time">7</span>
       </div>
     </div>
 
-	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
-			<?php
-			edit_post_link(
-				sprintf(
-					wp_kses(
-						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'gilox-wp' ),
-						array(
-							'span' => array(
-								'class' => array(),
-							),
-						)
-					),
-					wp_kses_post( get_the_title() )
-				),
-				'<h4 class="card-legend__title">',
-				'</h4>'
-			);
-			?>
-		</footer><!-- .entry-footer -->
-	<?php endif; ?>
     </a>
-</div>
