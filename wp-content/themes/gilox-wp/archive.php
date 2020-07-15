@@ -65,12 +65,12 @@ get_header();
 
 								else { ?>
 									<div class="article-grid">
-									<?php
+										<?php
 	
 										the_post();
 										get_template_part( 'template-parts/content-cat', get_post_type() );
 										?>
-										</div>
+									</div>
 									<?php }
 
 							endwhile;
