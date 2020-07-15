@@ -20,14 +20,14 @@
                     <img sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg" alt="<?php the_title(); ?>" />
                 <?php } ?>
         </div>
-	<div class="article-card__text">
+	<div class="">
         <?php get_the_author( '<h5 class="article-card__subtitle">', '</h5>' ); ?>
 		<?php the_title( '<h3 class="article-card__title">', '</h3>' ); ?>
         <?php echo '<p class="article-card__description">' . get_the_excerpt() . '</p>'; ?>
 	</div>
-    <div class="article-byline">
-      <div><img src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg"> &nbsp;</div>
-      <div class="article-byline__text">
+    <div class="">
+      <div><img src="<?php bloginfo('template_directory');?>/images/logo/author.png"> &nbsp;</div>
+      <div class="">
         <span class="article-byline__name">Gilox</span>
         <span class="article-byline__time">7</span>
       </div>
