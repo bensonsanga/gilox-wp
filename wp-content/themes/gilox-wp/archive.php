@@ -1,6 +1,9 @@
 <?php
 /**
  * The template for displaying archive pages
+ * 
+ * 
+ * Created by Benson
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -49,7 +52,7 @@ get_header();
 					<div class="article-group article-group--grid article-group--ltr">
 						
 							<?php
-							/* Start the Loop */
+							/* Start the Loop Created by Benson Ad*/
 							while ( have_posts() ) : 
 								$postCount++;
 
