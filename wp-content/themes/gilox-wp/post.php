@@ -2,6 +2,7 @@
 /**
  * The main template file
  *
+ * Created by Benson
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
  * It is used to display a page when nothing more specific matches a query.
@@ -33,6 +34,7 @@ get_header();
 				the_post();
 
 				/*
+				Created by Benson
 				 * Include the Post-Type-specific template for the content.
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
