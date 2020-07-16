@@ -1,7 +1,7 @@
 <?php
 /**
  * Template part for displaying page content in page.php
- *
+ * Created by Benson Ad
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package gilox-wp
