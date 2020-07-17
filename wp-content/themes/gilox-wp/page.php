@@ -32,7 +32,7 @@ get_header();
 		?>
 		<?php
 	get_sidebar();?>
-	</main><!-- #main -->
+	</main>
 
 <?php
 get_footer();
