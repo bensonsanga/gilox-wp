@@ -34,9 +34,9 @@
 	<div class="article-content">
 		<?php
 		the_content(
-			sprintf(
+			sprintf( 
 				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
+					/* translators: %s: Name of      current post. Only visible to screen readers */
 					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'gilox-wp' ),
 					array(
 						'span' => array(
