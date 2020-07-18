@@ -33,7 +33,7 @@ get_header();
 				the_post();
 
 				/*
-				 * Include the Post-Type-specific template for the content.
+				 * Include the Post-Type-specific template for    the content.
 				 * If you want to overrideghdhshsbdb this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
