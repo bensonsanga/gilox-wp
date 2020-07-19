@@ -62,18 +62,3 @@
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
 
-
-
-
-
-
-
-
-<!--
-
-		<article class="card-story" itemscope itemtype="https://schema.org/CreativeWork">
-			<a href="greek-mythology/articles/article1.html" class="card-story__media" itemprop="image" itemscope itemtype="https://schema.org/ImageObject"><img alt="Duduke video" title="News and Entertainment Gists" class="card-story__image" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
-            </a>
-            <div class="card-story__text">
-                           </div>
-      </article><!-- #post-<?php the_ID(); ?> -->
