@@ -67,16 +67,27 @@ get_header();
 								<?php }
 
 								else { ?>
-									<div class="article-grid">
+
+									<?php }
+
+							endwhile;
+
+
+							while ( have_posts() ) : ?>
+								
+								<div class="article-grid">
 										<?php
 	
 										the_post();
 										get_template_part( 'template-parts/content-cat', get_post_type() );
 										?>
 									</div>
-									<?php }
+									
+									<?php 
 
 							endwhile;
+
+
 
 							the_posts_navigation();
 
