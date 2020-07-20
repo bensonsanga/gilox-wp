@@ -57,7 +57,7 @@ get_header();
 								$postCount++;
 
 								if($postCount == 2) { ?>
-								<div class="article-grid">
+								<div class="article-grid"> 
 								<?php
 
 									the_post();
