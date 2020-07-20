@@ -50,7 +50,7 @@ get_header();
 				
 				<section class="mythology-collection">
 					<div class="article-group article-group--grid article-group--ltr">
-						
+					<div class="article-grid">
 							<?php
 							/* Start the Loop Created by Benson Ad*/
 							while ( have_posts() ) : 
@@ -67,17 +67,18 @@ get_header();
 								<?php }
 
 								else { ?>
-									<div class="">
+									
 										<?php
 	
 										the_post();
 										get_template_part( 'template-parts/content-cat', get_post_type() );
 										?>
-									</div>
+									
 									<?php }
 
 							endwhile;
 							
+
 
 							the_posts_navigation();
 
@@ -87,7 +88,7 @@ get_header();
 
 						endif;
 						?>
-					
+					</div>
 				</div>
 			</section>
 	</main><!-- #main -->
