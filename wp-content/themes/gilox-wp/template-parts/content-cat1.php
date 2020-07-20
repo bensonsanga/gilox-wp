@@ -12,7 +12,7 @@
 
 
 
-    <a href="<?php get_permalink();?>" class="article-card article-card--large-2x"  id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+    <a href="<?php get_permalink();?>"  id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
          <div class="article-card__media">
             <?php if ( has_post_thumbnail() ) {
                     gilox_wp_post_thumbnail();
