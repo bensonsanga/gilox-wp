@@ -58,12 +58,12 @@ get_header();
 
 								if($postCount == 2) { ?>
 								<div class="article-grid"> 
-								<?php
+									<?php
 
-									the_post();
-									get_template_part( 'template-parts/content-cat1', get_post_type() );
-									?>
-									</div>
+										the_post();
+										get_template_part( 'template-parts/content-cat1', get_post_type() );
+										?>
+								</div>
 								<?php }
 
 								else { ?>
