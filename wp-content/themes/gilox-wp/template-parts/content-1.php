@@ -19,6 +19,8 @@
 			?>
 		</ol>
 		</div>
+		<?php gilox_wp_post_thumbnail('post-thumbnail',['class' => 'article-related__image lazyload']); ?>
+
 		<?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="article-header__title">', '</h1>' );
@@ -37,9 +39,13 @@
 		<?php endif; ?>
 	</div><!-- .entry-header -->
 	<section class="article-content js-article-content">
-		<?php gilox_wp_post_thumbnail('post-thumbnail',['class' => 'article-related__image lazyload']); ?>
-
 		<div class="entry-content">
+		<!-- <div class="gig__tickets gig__detail-section">
+			<h3>Tickets</h3>
+			<p>$28-88</p>
+
+			<a class="citation-menu__copy js-citation-copy" href="https://www.gilox.com/ticketing">Find tickets at ticketing.gilox.co</a>
+		</div> -->
 			<?php
 			the_content(
 				sprintf(
