@@ -215,13 +215,13 @@ get_header();
 					</div>
 					</a>
 							<a href="gods/hera/index.html" class="article-bubble" data-id="12">  <div class="article-bubble__media">
-							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
-										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
-										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
-										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
-										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
-										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
-										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" data-srcset="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w" data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" srcset="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w">
 					</div>
 					</a>
 							<a href="gods/demeter/index.html" class="article-bubble" data-id="13">  <div class="article-bubble__media">
