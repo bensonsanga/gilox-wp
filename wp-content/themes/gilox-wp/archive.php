@@ -90,6 +90,155 @@ get_header();
 						?>
 					</div>
 				</div>
+				
+
+
+				<div class="article-group article-group--hero article-group--ltr">
+					<div class="article-hero">
+						<div class="article-hero__text">
+						<h2 class="article-hero__title">
+							<a href="gods/index.html"><?php echo the_archive_description(); ?> Artists</a>    
+						</h2>
+						<p class="article-hero__description">Explore the <?php echo the_archive_description(); ?> artists like Davido, Adekunle Gold and many others...</p>
+							<a href="gods/index.html" class="article-hero__button">        <span class="article-hero__button-title">Explore</span>
+							<span class="article-hero__button-arrow"></span>
+							</a>    </div>
+						<div class="article-hero__bubbles">
+							<a href="gods/athena/index.html" class="article-bubble" data-id="01">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/athena/athena-greek-goddess-of-wisdom--avatar.jpg?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w">
+					</div>
+					</a>
+							<a href="gods/artemis/index.html" class="article-bubble" data-id="02">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/artemis/artemis-greek-goddess-of-the-hunt--avatar.jpg?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w">
+					</div>
+					</a>
+							<a href="gods/apollo/index.html" class="article-bubble" data-id="03">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/apollo/apollo-greek-god-of-music--avatar.jpg?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w">
+					</div>
+					</a>
+							<a href="gods/zeus/index.html" class="article-bubble" data-id="04">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/zeus/zeus-greek-king-of-the-gods--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w">
+					</div>
+					</a>
+							<a href="gods/aphrodite/index.html" class="article-bubble" data-id="05">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/aphrodite/aphrodite-greek-goddess-of-love--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w">
+					</div>
+					</a>
+							<a href="gods/hades/index.html" class="article-bubble" data-id="06">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hades/hades-greek-god-of-the-underworld--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w">
+					</div>
+					</a>
+							<a href="gods/poseidon/index.html" class="article-bubble" data-id="07">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/poseidon/poseidon-greek-god-of-the-sea--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w">
+					</div>
+					</a>
+							<a href="gods/dionysus/index.html" class="article-bubble" data-id="08">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w" sizes="(min-width: 1600px) 108px, (min-width: 1280px) 96px, (min-width: 960px) 72px, (min-width: 640px) 96px, 48px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=144&amp;ar=1:1&amp;fit=crop&amp;auto=format 144w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/dionysus/dionysus-greek-god-of-wine--avatar.jpg?q=75&amp;w=216&amp;ar=1:1&amp;fit=crop&amp;auto=format 216w">
+					</div>
+					</a>
+							<a href="gods/hermes/index.html" class="article-bubble" data-id="09">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hermes/hermes-greek-god-of-commerce--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w">
+					</div>
+					</a>
+							<a href="gods/ares/index.html" class="article-bubble" data-id="10">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/ares/ares-greek-god-of-war--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w">
+					</div>
+					</a>
+							<a href="gods/hestia/index.html" class="article-bubble" data-id="11">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hestia/hestia-greek-goddess-of-the-hearth--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w">
+					</div>
+					</a>
+							<a href="gods/hera/index.html" class="article-bubble" data-id="12">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/hera/hera-greek-queen-of-the-gods--icon.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w">
+					</div>
+					</a>
+							<a href="gods/demeter/index.html" class="article-bubble" data-id="13">  <div class="article-bubble__media">
+							<img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" data-srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w" data-src="https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" src="https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w" sizes="(min-width: 1600px) 54px, (min-width: 1280px) 48px, (min-width: 960px) 72px, (min-width: 640px) 48px, 24px" srcset="https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=48&amp;ar=1:1&amp;fit=crop&amp;auto=format 48w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=72&amp;ar=1:1&amp;fit=crop&amp;auto=format 72w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=96&amp;ar=1:1&amp;fit=crop&amp;auto=format 96w,
+										https://media.mythopedia.com/assets/images/greek-mythology/gods/demeter/demeter-greek-goddess-of-fertility--avatar.jpg?q=75&amp;w=108&amp;ar=1:1&amp;fit=crop&amp;auto=format 108w">
+					</div>
+					</a>
+						</div>
+					</div>
+					</div>
+
+
 			</section>
 	</main><!-- #main -->
 
