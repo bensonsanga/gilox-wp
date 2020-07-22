@@ -68,6 +68,7 @@ get_header();
               </div>
 
               <div class="catalog-carousel js-catalog-carousel">
+              
               <?php
                 $args = array(
                     'posts_per_page' => 10, 

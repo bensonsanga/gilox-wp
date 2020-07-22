@@ -30,7 +30,13 @@
                             ?>
                           </div>
                           <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                            <img src="<?php bloginfo('template_directory');?>/images/cover/2x/<?php  echo get_query_var( 'category_name' )?>.png""
+                            <img src="<?php bloginfo('template_directory');?>/images/cover/2x/<?php  
+                            $categories = get_the_category();
+                            if ( ! empty( $categories ) ) {
+                                echo esc_html( $categories[0]->name );
+                            }
+
+                            ?>.png""
                                 alt="Greek Mythology" border="0"
                                 class="card-mythology__image"
                                 title="Afro beats"
