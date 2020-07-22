@@ -125,122 +125,124 @@ get_header();
           </div>
           <div class="card-pantheon__deities">
             <h5 class="card-pantheon__subtitle">Top Afro Beat Artists</h5>
+
             <ul class="card-pantheon__list">
-                <li class="card-pantheon__item">
-                  <article class="card-deity card-deity--small">
-        <a href="egyptian-mythology/titans/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                        alt="Baldur, Norse God of Light"
-                        title="Baldur, Norse God of Light"
-                        class="card-deity__image lazyload"
-                        itemprop="url"
-                        loading="lazy"
-                        >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Wizkid</h4>
-              <p class="card-deity__subtitle" itemprop="description">Money miss road</p>
-            </div>
-        </a></article>
-                </li>
-                <li class="card-pantheon__item">
-                  <article class="card-deity card-deity--small">
-        <a href="egyptian-mythology/titans/coeus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                        alt="Baldur, Norse God of Light"
-                        title="Baldur, Norse God of Light"
-                        class="card-deity__image lazyload"
-                        itemprop="url"
-                        loading="lazy"
-                        >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Naira Marley</h4>
-              <p class="card-deity__subtitle" itemprop="description">Vulgar  King</p>
-            </div>
-        </a></article>
-                </li>
-                <li class="card-pantheon__item">
-                  <article class="card-deity card-deity--small">
-        <a href="egyptian-mythology/titans/crius/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="The Morrigan, Celtic Phantom Queen"
-                      title="The Morrigan, Celtic Phantom Queen"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Tekno</h4>
-              <p class="card-deity__subtitle" itemprop="description">Real guyz</p>
-            </div>
-        </a></article>
-                </li>
-                <li class="card-pantheon__item">
-                  <article class="card-deity card-deity--small">
-        <a href="egyptian-mythology/titans/gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Lugh, Celtic God of Nobility"
-                      title="Lugh, Celtic God of Nobility"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Adekunle</h4>
-              <p class="card-deity__subtitle" itemprop="description">The sane artist</p>
-            </div>
-        </a></article>
-                </li>
-                <li class="card-pantheon__item">
-                  <article class="card-deity card-deity--small">
-        <a href="egyptian-mythology/titans/hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Cernunnos, Celtic God of the Wild"
-                      title="Cernunnos, Celtic God of the Wild"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Teni</h4>
-              <p class="card-deity__subtitle" itemprop="description">Money matters</p>
-            </div>
-        </a></article>
-                </li>
-                <li class="card-pantheon__item">
-                  <article class="card-deity card-deity--small">
-        <a href="egyptian-mythology/titans/iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Brigid, Celtic Goddess of Fertility"
-                      title="Brigid, Celtic Goddess of Fertility"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Tiwa Savage</h4>
-              <p class="card-deity__subtitle" itemprop="description">Queen always</p>
-            </div>
-        </a></article>
-                </li>
+                        <li class="card-pantheon__item">
+                          <article class="card-deity card-deity--small">
+                      <a href="egyptian-mythology/titans/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                      <div class="card-deity__media">
+                        <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                                alt="Baldur, Norse God of Light"
+                                title="Baldur, Norse God of Light"
+                                class="card-deity__image lazyload"
+                                itemprop="url"
+                                loading="lazy"
+                                >
+                      </div>
+                    </div>
+                    <div class="card-deity__text">
+                      <h4 class="card-deity__title" itemprop="name">Wizkid</h4>
+                      <p class="card-deity__subtitle" itemprop="description">Money miss road</p>
+                    </div>
+                </a></article>
+                        </li>
+                        <li class="card-pantheon__item">
+                          <article class="card-deity card-deity--small">
+                <a href="egyptian-mythology/titans/coeus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                      <div class="card-deity__media">
+                        <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                                alt="Baldur, Norse God of Light"
+                                title="Baldur, Norse God of Light"
+                                class="card-deity__image lazyload"
+                                itemprop="url"
+                                loading="lazy"
+                                >
+                      </div>
+                    </div>
+                    <div class="card-deity__text">
+                      <h4 class="card-deity__title" itemprop="name">Naira Marley</h4>
+                      <p class="card-deity__subtitle" itemprop="description">Vulgar  King</p>
+                    </div>
+                </a></article>
+                        </li>
+                        <li class="card-pantheon__item">
+                          <article class="card-deity card-deity--small">
+                <a href="egyptian-mythology/titans/crius/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                      <div class="card-deity__media">
+                          <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                              alt="The Morrigan, Celtic Phantom Queen"
+                              title="The Morrigan, Celtic Phantom Queen"
+                              class="card-deity__image lazyload"
+                              itemprop="url"
+                              loading="lazy"
+                              >
+                      </div>
+                    </div>
+                    <div class="card-deity__text">
+                      <h4 class="card-deity__title" itemprop="name">Tekno</h4>
+                      <p class="card-deity__subtitle" itemprop="description">Real guyz</p>
+                    </div>
+                </a></article>
+                        </li>
+                        <li class="card-pantheon__item">
+                          <article class="card-deity card-deity--small">
+                <a href="egyptian-mythology/titans/gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                      <div class="card-deity__media">
+                          <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                              alt="Lugh, Celtic God of Nobility"
+                              title="Lugh, Celtic God of Nobility"
+                              class="card-deity__image lazyload"
+                              itemprop="url"
+                              loading="lazy"
+                              >
+                      </div>
+                    </div>
+                    <div class="card-deity__text">
+                      <h4 class="card-deity__title" itemprop="name">Adekunle</h4>
+                      <p class="card-deity__subtitle" itemprop="description">The sane artist</p>
+                    </div>
+                </a></article>
+                        </li>
+                        <li class="card-pantheon__item">
+                          <article class="card-deity card-deity--small">
+                <a href="egyptian-mythology/titans/hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                      <div class="card-deity__media">
+                          <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                              alt="Cernunnos, Celtic God of the Wild"
+                              title="Cernunnos, Celtic God of the Wild"
+                              class="card-deity__image lazyload"
+                              itemprop="url"
+                              loading="lazy"
+                              >
+                      </div>
+                    </div>
+                    <div class="card-deity__text">
+                      <h4 class="card-deity__title" itemprop="name">Teni</h4>
+                      <p class="card-deity__subtitle" itemprop="description">Money matters</p>
+                    </div>
+                </a></article>
+                        </li>
+                        <li class="card-pantheon__item">
+                          <article class="card-deity card-deity--small">
+                <a href="egyptian-mythology/titans/iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                      <div class="card-deity__media">
+                          <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
+                              alt="Brigid, Celtic Goddess of Fertility"
+                              title="Brigid, Celtic Goddess of Fertility"
+                              class="card-deity__image lazyload"
+                              itemprop="url"
+                              loading="lazy"
+                              >
+                      </div>
+                    </div>
+                    <div class="card-deity__text">
+                      <h4 class="card-deity__title" itemprop="name">Tiwa Savage</h4>
+                      <p class="card-deity__subtitle" itemprop="description">Queen always</p>
+                    </div>
+                </a></article>
+                        </li>
             </ul>
+            
             <a href="celtic-mythology/gods/index.html" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
           </div>
         </article>

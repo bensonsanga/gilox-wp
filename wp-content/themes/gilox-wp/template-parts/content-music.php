@@ -15,7 +15,11 @@
                     <article class="card-mythology" data-mythology="greek" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
                           <a href="<?php echo get_permalink();?>" class="card-mythology__link">    <div class="card-mythology__text">
                             <div class="card-mythology__header">
-                            <h6 class="card-mythology__kicker"><?php  echo get_query_var( "category_name" ); ?></h6>
+                            <h6 class="card-mythology__kicker"><?php  $categories = get_the_category();
+                            if ( ! empty( $categories ) ) {
+                                echo esc_html( $categories[0]->name );
+                            } ?>
+                            </h6>
                               <?php 
                                     get_the_category( '<h6 class="card-mythology__kicker">', '</h6>' ); 
                                 ?>
