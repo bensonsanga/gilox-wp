@@ -10,8 +10,8 @@
 
 ?>
 <li class="home-legends__item">
-    <article class="card-legend" itemscope itemtype="<?php get_permalink();?>" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <a href="<?php get_permalink();?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php get_permalink();?>">
+    <article class="card-legend" itemscope itemtype="<?php echo get_permalink();?>" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <a href="<?php echo get_permalink();?>" class="card-legend__media" itemprop="image" itemscope itemtype="<?php echo get_permalink();?>">
         
         <?php if ( has_post_thumbnail() ) {
         gilox_wp_post_thumbnail();
