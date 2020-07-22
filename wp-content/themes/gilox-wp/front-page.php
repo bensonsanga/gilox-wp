@@ -126,6 +126,25 @@ get_header();
           <div class="card-pantheon__deities">
             <h5 class="card-pantheon__subtitle">Top Afro Beat Artists</h5>
 
+            <ul lass="card-pantheon__list">
+              <?php
+                $args = array(
+                  'posts_per_page' => 3, 
+                  'tag' => 'artist'
+                );
+                $q = new WP_Query( $args);
+
+                if ( $q->have_posts() ) {
+                  while ( $q->have_posts() ) {
+                  $q->the_post();        
+                    get_template_part( 'template-parts/content-artist' );
+                  }
+                  wp_reset_postdata();
+                } 
+                ?>
+					</ul>
+
+            <!--
             <ul class="card-pantheon__list">
                         <li class="card-pantheon__item">
                           <article class="card-deity card-deity--small">
@@ -242,7 +261,7 @@ get_header();
                 </a></article>
                         </li>
             </ul>
-            
+            -->
             <a href="celtic-mythology/gods/index.html" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
           </div>
         </article>
