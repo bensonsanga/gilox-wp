@@ -67,27 +67,28 @@ get_header();
                 <h2 class="home-catalog__title" id="mythologies">Music</h2>
               </div>
 
-
+              <div class="catalog-carousel js-catalog-carousel">
               <?php
                 $args = array(
-                    'posts_per_page' => 5, 
-                    'category_name' => 'movie'
+                    'posts_per_page' => 10, 
+                    'tag' => 'music'
                 );
                 $q = new WP_Query( $args);
 
                 if ( $q->have_posts() ) {
                     while ( $q->have_posts() ) {
                     $q->the_post();        
-                        get_template_part( 'template-parts/content-review' );
+                        get_template_part( 'template-parts/content-music' );
                     }
                     wp_reset_postdata();
                 } 
                 ?>
+                </div>
 
 
 
               <div class="catalog-carousel js-catalog-carousel">
-                            <article class="card-mythology" data-mythology="greek" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
+                      <article class="card-mythology" data-mythology="greek" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
                           <a href="greek-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
                             <div class="card-mythology__header">
                               <h6 class="card-mythology__kicker">AFROBEATS</h6>
@@ -101,7 +102,8 @@ get_header();
                                 class="card-mythology__image"
                                 title="Afro beats"
                                 itemprop="url">    </div>
-                      </a></article>
+                          </a>
+                      </article>
                             <article class="card-mythology" data-mythology="norse" itemscope itemtype="<?php echo get_home_url(); ?>" style="transform:translateY(3em)">
                       <a href="greek-mythology/titans/coeus/index.html" class="card-mythology__link">    <div class="card-mythology__text">
                             <div class="card-mythology__header">
