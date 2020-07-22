@@ -130,7 +130,7 @@ get_header();
               <?php
                 $args = array(
                   'posts_per_page' => 3, 
-                  'tag' => 'artist'
+                  'tag' => 'top-afrobeat'
                 );
                 $q = new WP_Query( $args);
 
