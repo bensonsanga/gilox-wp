@@ -196,7 +196,7 @@
 
 
 		<?php 
-		if ( is_page( 701 );) {
+		if ( is_page( "701" )) {
 		}
 		else { ?>
 			<nav class="menu-mythology" itemscope itemtype="https://schema.org/SiteNavigationElement">

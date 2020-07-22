@@ -66,138 +66,158 @@ get_header();
                 <h5 class="home-catalog__kicker">BEST NEW</h5>
                 <h2 class="home-catalog__title" id="mythologies">Music</h2>
               </div>
+
+
+              <?php
+                $args = array(
+                    'posts_per_page' => 5, 
+                    'category_name' => 'movie'
+                );
+                $q = new WP_Query( $args);
+
+                if ( $q->have_posts() ) {
+                    while ( $q->have_posts() ) {
+                    $q->the_post();        
+                        get_template_part( 'template-parts/content-review' );
+                    }
+                    wp_reset_postdata();
+                } 
+                ?>
+
+
+
               <div class="catalog-carousel js-catalog-carousel">
-                  <article class="card-mythology" data-mythology="greek" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
-            <a href="greek-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">AFROBEATS</h6>
-                        </div>
-                  <h3 class="card-mythology__title" itemprop="name">WIZKID</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore Wizkid latest genres, music and videos here </p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/davido.png"
-                      alt="Greek Mythology" border="0"
-                      class="card-mythology__image"
-                      title="Afro beats"
-                      itemprop="url">    </div>
-            </a></article>
-                  <article class="card-mythology" data-mythology="norse" itemscope itemtype="<?php echo get_home_url(); ?>" style="transform:translateY(3em)">
-            <a href="greek-mythology/titans/coeus/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">Afrobeats</h6>
-                
-                  </div>
-                  <h3 class="card-mythology__title" itemprop="name">DAVIDO</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore Davido's latest genres, music and videos here </p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/victor.png"
-                      alt="High Life"
-                      title="High Life"
-                      class="card-mythology__image"
-                      itemprop="url">
-                </div>
-            </a></article>
-                  <article class="card-mythology" data-mythology="celtic" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
-            <a href="norse-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">Juju music</h6>
-                
-                  </div>
-                  <h3 class="card-mythology__title" itemprop="name">Shina Peters</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore new Peter's Juju genres , music and videos here.</p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/shina.png"
-                      alt="Juju Music"
-                      title="Juju music"
-                      class="card-mythology__image"
-                      itemprop="url">
-                </div>
-            </a></article>
-                  <article class="card-mythology" data-mythology="roman" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
-            <a href="chinese-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">Bongo Flavo</h6>
-                
-                  </div>
-                  <h3 class="card-mythology__title" itemprop="name">Collabo BongoFlava</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore Bongo flava's genres, music and videos.</p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/onyeka.jpg"
-                      alt="Afro Gospel"
-                      title="Afro Gospel"
-                      class="card-mythology__image"
-                      itemprop="url">
-                </div>
-            </a></article>
-                  <article class="card-mythology" data-mythology="chinese" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
-            <a href="egyptian-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">AFro fusion</h6>
-                      </div>
-                  <h3 class="card-mythology__title" itemprop="name">Burna Boy</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore Burna Boys's genres , music and videos . </p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/burna.jpg"
-                      alt="Afrofusion"
-                      title="Afro Fusion"
-                      class="card-mythology__image"
-                      itemprop="url">
-                </div>
-            </a></article>
-                  <article class="card-mythology" data-mythology="japanese" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
-            <a href="roman-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">Highlife</h6>
-                      </div>
-                  <h3 class="card-mythology__title" itemprop="name">Victor Olaiya</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore Victor Olaiya's genres, music and videos </p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/collabo.jpg"
-                      alt="Bongo Flava"
-                      title="Bongo Flava"
-                      class="card-mythology__image"
-                      itemprop="url">
-                </div>
-            </a></article>
-                  <article class="card-mythology" data-mythology="egyptian" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
-            <a href="japanese-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">nollywood</h6>
-                      </div>
-                  <h3 class="card-mythology__title" itemprop="name">Nollywood Videos</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore Nollywood' genres , music and videos </p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/nollywood.jpg"
-                      alt="Egyptian Mythology"
-                      title="Nollywood"
-                      class="card-mythology__image"
-                      itemprop="url">
-                </div>
-            </a></article>
-                  <article class="card-mythology" data-mythology="aztec" itemscope itemtype="<?php echo get_home_url(); ?>" style="transform:translateY(3em)">
-            <a href="celtic-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
-                  <div class="card-mythology__header">
-                    <h6 class="card-mythology__kicker">Afrogospel</h6>
-              
-                  </div>
-                  <h3 class="card-mythology__title" itemprop="name">Onyeka Onwenu</h3>
-                  <p class="card-mythology__description" itemprop="description">Explore Onyeka Onwenu's latest music and videos </p>
-                </div>
-                <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                  <img src="<?php bloginfo('template_directory');?>/images/non/onyeka.jpg"
-                      alt="Aztec Mythology"
-                      title="Afrobeat"
-                      class="card-mythology__image"
-                      itemprop="url">
-                </div>
-             </a></article>
+                            <article class="card-mythology" data-mythology="greek" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
+                          <a href="greek-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">AFROBEATS</h6>
+                                  </div>
+                            <h3 class="card-mythology__title" itemprop="name">WIZKID</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore Wizkid latest genres, music and videos here </p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/davido.png"
+                                alt="Greek Mythology" border="0"
+                                class="card-mythology__image"
+                                title="Afro beats"
+                                itemprop="url">    </div>
+                      </a></article>
+                            <article class="card-mythology" data-mythology="norse" itemscope itemtype="<?php echo get_home_url(); ?>" style="transform:translateY(3em)">
+                      <a href="greek-mythology/titans/coeus/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">Afrobeats</h6>
+                          
+                            </div>
+                            <h3 class="card-mythology__title" itemprop="name">DAVIDO</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore Davido's latest genres, music and videos here </p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/victor.png"
+                                alt="High Life"
+                                title="High Life"
+                                class="card-mythology__image"
+                                itemprop="url">
+                          </div>
+                      </a></article>
+                            <article class="card-mythology" data-mythology="celtic" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
+                      <a href="norse-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">Juju music</h6>
+                          
+                            </div>
+                            <h3 class="card-mythology__title" itemprop="name">Shina Peters</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore new Peter's Juju genres , music and videos here.</p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/shina.png"
+                                alt="Juju Music"
+                                title="Juju music"
+                                class="card-mythology__image"
+                                itemprop="url">
+                          </div>
+                      </a></article>
+                            <article class="card-mythology" data-mythology="roman" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
+                      <a href="chinese-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">Bongo Flavo</h6>
+                          
+                            </div>
+                            <h3 class="card-mythology__title" itemprop="name">Collabo BongoFlava</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore Bongo flava's genres, music and videos.</p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/onyeka.jpg"
+                                alt="Afro Gospel"
+                                title="Afro Gospel"
+                                class="card-mythology__image"
+                                itemprop="url">
+                          </div>
+                      </a></article>
+                            <article class="card-mythology" data-mythology="chinese" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
+                      <a href="egyptian-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">AFro fusion</h6>
+                                </div>
+                            <h3 class="card-mythology__title" itemprop="name">Burna Boy</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore Burna Boys's genres , music and videos . </p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/burna.jpg"
+                                alt="Afrofusion"
+                                title="Afro Fusion"
+                                class="card-mythology__image"
+                                itemprop="url">
+                          </div>
+                      </a></article>
+                            <article class="card-mythology" data-mythology="japanese" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
+                      <a href="roman-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">Highlife</h6>
+                                </div>
+                            <h3 class="card-mythology__title" itemprop="name">Victor Olaiya</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore Victor Olaiya's genres, music and videos </p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/collabo.jpg"
+                                alt="Bongo Flava"
+                                title="Bongo Flava"
+                                class="card-mythology__image"
+                                itemprop="url">
+                          </div>
+                      </a></article>
+                            <article class="card-mythology" data-mythology="egyptian" itemscope itemtype="<?php echo get_home_url(); ?>" style="">
+                      <a href="japanese-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">nollywood</h6>
+                                </div>
+                            <h3 class="card-mythology__title" itemprop="name">Nollywood Videos</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore Nollywood' genres , music and videos </p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/nollywood.jpg"
+                                alt="Egyptian Mythology"
+                                title="Nollywood"
+                                class="card-mythology__image"
+                                itemprop="url">
+                          </div>
+                      </a></article>
+                            <article class="card-mythology" data-mythology="aztec" itemscope itemtype="<?php echo get_home_url(); ?>" style="transform:translateY(3em)">
+                      <a href="celtic-mythology/titans/atlas/index.html" class="card-mythology__link">    <div class="card-mythology__text">
+                            <div class="card-mythology__header">
+                              <h6 class="card-mythology__kicker">Afrogospel</h6>
+                        
+                            </div>
+                            <h3 class="card-mythology__title" itemprop="name">Onyeka Onwenu</h3>
+                            <p class="card-mythology__description" itemprop="description">Explore Onyeka Onwenu's latest music and videos </p>
+                          </div>
+                          <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+                            <img src="<?php bloginfo('template_directory');?>/images/non/onyeka.jpg"
+                                alt="Aztec Mythology"
+                                title="Afrobeat"
+                                class="card-mythology__image"
+                                itemprop="url">
+                          </div>
+                      </a></article>
               </div> 
     </section>
       
