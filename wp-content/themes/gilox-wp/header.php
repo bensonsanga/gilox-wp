@@ -71,7 +71,7 @@
 
 			<ul class="menu-mythologies__cards">
 				<li class="menu-mythologies__card">
-					<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+					<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 									<h6 class="menu-card__kicker">Category</h6>
 									<h4 class="menu-card__title">Afrobeat</h4>
 								</div>
@@ -84,7 +84,7 @@
 								</figure>
 					</a>          </li>
 				<li class="menu-mythologies__card">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=193" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=193" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 						<h6 class="menu-card__kicker">Category</h6>
 						<h4 class="menu-card__title">Afrobeats</h4>
 					</div>
@@ -96,7 +96,7 @@
 					</figure>
 		</a>          </li>
 				<li class="menu-mythologies__card">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=197" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=197" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 						<h6 class="menu-card__kicker">Category</h6>
 						<h4 class="menu-card__title">Highlife</h4>
 					</div>
@@ -108,7 +108,7 @@
 					</figure>
 		</a>          </li>
 				<li class="menu-mythologies__card">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=198" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=198" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 						<h6 class="menu-card__kicker">Category</h6>
 						<h4 class="menu-card__title">Juju music</h4>
 					</div>
@@ -121,7 +121,7 @@
 					</figure>
 		</a>          </li>
 				<li class="menu-mythologies__card">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=195" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=195" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 						<h6 class="menu-card__kicker">Category</h6>
 						<h4 class="menu-card__title">Afro Gospel</h4>
 					</div>
@@ -134,7 +134,7 @@
 					</figure>
 		</a>          </li>
 				<li class="menu-mythologies__card">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=194" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=194" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 						<h6 class="menu-card__kicker">Category</h6>
 						<h4 class="menu-card__title">Afrofusion</h4>
 					</div>
@@ -147,7 +147,7 @@
 					</figure>
 		</a>          </li>
 				<li class="menu-mythologies__card">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=196" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=196" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 						<h6 class="menu-card__kicker">Category</h6>
 						<h4 class="menu-card__title">Bongo Flava</h4>
 					</div>
@@ -160,7 +160,7 @@
 					</figure>
 		</a>          </li>
 				<li class="menu-mythologies__card">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=199" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=199" class="menu-card" data-category="Navigation" data-action="Header Mythologies (Card Menu)" itemprop="url">              <div class="menu-card__text" itemprop="name">
 						<h6 class="menu-card__kicker">Category</h6>
 						<h4 class="menu-card__title">Nollywood</h4>
 					</div>
@@ -190,174 +190,188 @@
 			<span class="menu-button__line"></span>
 		</button>
 		</nav>
-		<nav class="menu-mythology" itemscope itemtype="https://schema.org/SiteNavigationElement">
-		<ul class="menu-mythology__list">
-			<li class="menu-mythology__item">
-		<a href="index.html" class="menu-mythology__link is-active" data-category="Navigation" data-action="Header Collection" itemprop="url">        <span itemprop="name">Afrobeats</span>
-		</a>    </li>
-			<li class="menu-mythology__item has-children">
-				<div class="menu-mythology__link js-menu-toggle">
-					<span class="menu-mythology__title">
-					<span class="menu-mythology__region">Afrobeats</span>
-					<span class="menu-mythology__type">Artists</span>
-					</span>
-					<span class="menu-mythology__caret"></span>
-				</div>
-				<div class="menu-collection">
-					<div class="menu-collection__header">
-					<h4 class="menu-collection__name">Artists Collection</h4>
-					<article class="menu-collection__card">
-		<a href="#" class="menu-collection__card-link" data-category="Navigation" data-action="Header Collection (Card)">    <figure class="menu-collection__card-media">
-				</figure>
-		</a>  <div class="menu-collection__card-text">
-			<h4 class="menu-collection__card-title" itemprop="name">
-			
-			</h4>
-			
-		</div>
-		</article>
-					</div>
-					<div class="menu-collection__groups">
-						<div class="menu-collection__group" data-index="0">
-			<h4 class="menu-collection__name">Popular Artists</h4>
-			
-			<ul class="menu-collection__list">
-			<?php
-				$args = array(
-					'posts_per_page' => 10, 
-					'category_name' => 'artist'
-				);
-				$q = new WP_Query( $args);
 
-				if ( $q->have_posts() ) {
-					while ( $q->have_posts() ) {
-					$q->the_post();        
-						get_template_part( 'template-parts/content-event' );
-					}
-					wp_reset_postdata();
-				} 
-				?>
-			</ul>
-		</div>
-		<div class="menu-collection__group" data-index="1">
-			<h4 class="menu-collection__name">Other Artists</h4>
-			<ul class="menu-collection__list">
-				<li class="menu-collection__item">
-		<a href="index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">TuFace</span>
-		</a>          </li>
-				<li class="menu-collection__item">
-		<a href="../crius/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">9ice</span>
-		</a>          </li>
-			</ul>
-		</div>
-					</div>
-				</div>
-			</li>
+
+
+
+
+		<?php 
+		if ( is_page( 701 );) {
+		}
+		else { ?>
+			<nav class="menu-mythology" itemscope itemtype="https://schema.org/SiteNavigationElement">
+				<ul class="menu-mythology__list">
+					<li class="menu-mythology__item">
+				<a href="index.html" class="menu-mythology__link is-active" data-category="Navigation" data-action="Header Collection" itemprop="url">        <span itemprop="name">Afrobeats</span>
+				</a>    </li>
+					<li class="menu-mythology__item has-children">
+						<div class="menu-mythology__link js-menu-toggle">
+							<span class="menu-mythology__title">
+							<span class="menu-mythology__region">Afrobeats</span>
+							<span class="menu-mythology__type">Artists</span>
+							</span>
+							<span class="menu-mythology__caret"></span>
+						</div>
 						<div class="menu-collection">
-					<div class="menu-collection__header">
-					<h4 class="menu-collection__name">Collection</h4>
-					<article class="menu-collection__card">
-						
+							<div class="menu-collection__header">
+							<h4 class="menu-collection__name">Artists Collection</h4>
+							<article class="menu-collection__card">
 				<a href="#" class="menu-collection__card-link" data-category="Navigation" data-action="Header Collection (Card)">    <figure class="menu-collection__card-media">
-				</figure>
+						</figure>
+				</a>  <div class="menu-collection__card-text">
+					<h4 class="menu-collection__card-title" itemprop="name">
+					
+					</h4>
+					
+				</div>
+				</article>
+							</div>
+							<div class="menu-collection__groups">
+								<div class="menu-collection__group" data-index="0">
+					<h4 class="menu-collection__name">Popular Artists</h4>
+					
+					<ul class="menu-collection__list">
+					<?php
+						$args = array(
+							'posts_per_page' => 10, 
+							'category_name' => 'artist'
+						);
+						$q = new WP_Query( $args);
+
+						if ( $q->have_posts() ) {
+							while ( $q->have_posts() ) {
+							$q->the_post();        
+								get_template_part( 'template-parts/content-event' );
+							}
+							wp_reset_postdata();
+						} 
+						?>
+					</ul>
+				</div>
+				<div class="menu-collection__group" data-index="1">
+					<h4 class="menu-collection__name">Other Artists</h4>
+					<ul class="menu-collection__list">
+						<li class="menu-collection__item">
+				<a href="index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">TuFace</span>
+				</a>          </li>
+						<li class="menu-collection__item">
+				<a href="../crius/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">9ice</span>
+				</a>          </li>
+					</ul>
+				</div>
+							</div>
+						</div>
+					</li>
+								<div class="menu-collection">
+							<div class="menu-collection__header">
+							<h4 class="menu-collection__name">Collection</h4>
+							<article class="menu-collection__card">
+								
+						<a href="#" class="menu-collection__card-link" data-category="Navigation" data-action="Header Collection (Card)">    <figure class="menu-collection__card-media">
+						</figure>
+						
+				</a>  <div class="menu-collection__card-text">
+					<h4 class="menu-collection__card-title" itemprop="name">
+					
+					</h4>
+					
+				</div>
+				</article>
+							</div>
+							<div class="menu-collection__groups">
+								<div class="menu-collection__group" data-index="0">
+					<h4 class="menu-collection__name">Canonical Texts</h4>
+					<ul class="menu-collection__list">
+						<li class="menu-collection__item">
+				<a href="texts/iliad/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Iliad</span>
+				</a>          </li>
+						<li class="menu-collection__item">
+				<a href="texts/odyssey/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Odyssey</span>
+				</a>          </li>
+					</ul>
+				</div>
+
+							</div>
+						</div>
+						</li>
+						<li class="menu-mythology__item has-children">
+						<div class="menu-mythology__link js-menu-toggle">
+							<span class="menu-mythology__title">
+							<span class="menu-mythology__region">Afrobeats Artist</span>
+							<span class="menu-mythology__type">Events</span>
+							</span>
+							<span class="menu-mythology__caret"></span>
+						</div>
+						<div class="menu-collection">
+							<div class="menu-collection__header">
+							<h4 class="menu-collection__name">Events Collection</h4>
+							<article class="menu-collection__card">
+				<a href="#" class="menu-collection__card-link" data-category="Navigation" data-action="Header Collection (Card)">   <figure class="menu-collection__card-media">
+						</figure>  
+				</a>  <div class="menu-collection__card-text">
+					<h4 class="menu-collection__card-title" itemprop="name">
+					
+					</h4>
+					
+				</div>
 				
-		</a>  <div class="menu-collection__card-text">
-			<h4 class="menu-collection__card-title" itemprop="name">
-			
-			</h4>
-			
-		</div>
-		</article>
-					</div>
-					<div class="menu-collection__groups">
-						<div class="menu-collection__group" data-index="0">
-			<h4 class="menu-collection__name">Canonical Texts</h4>
-			<ul class="menu-collection__list">
-				<li class="menu-collection__item">
-		<a href="texts/iliad/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Iliad</span>
-		</a>          </li>
-				<li class="menu-collection__item">
-		<a href="texts/odyssey/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">Odyssey</span>
-		</a>          </li>
-			</ul>
-		</div>
+				</article>
+							</div>
+							<div class="menu-collection__groups">
+								<div class="menu-collection__group" data-index="0">
+					<h4 class="menu-collection__name">Popular Events</h4>
 
-					</div>
+
+					<ul class="menu-collection__list">
+					<?php
+						$args = array(
+							'posts_per_page' => 10, 
+							'category_name' => 'events'
+						);
+						$q = new WP_Query( $args);
+
+						if ( $q->have_posts() ) {
+							while ( $q->have_posts() ) {
+							$q->the_post();        
+								get_template_part( 'template-parts/content-event' );
+							}
+							wp_reset_postdata();
+						} 
+						?>
+					</ul>
+					
 				</div>
-				</li>
-				<li class="menu-mythology__item has-children">
-				<div class="menu-mythology__link js-menu-toggle">
-					<span class="menu-mythology__title">
-					<span class="menu-mythology__region">Afrobeats Artist</span>
-					<span class="menu-mythology__type">Events</span>
-					</span>
-					<span class="menu-mythology__caret"></span>
-				</div>
-				<div class="menu-collection">
-					<div class="menu-collection__header">
-					<h4 class="menu-collection__name">Events Collection</h4>
-					<article class="menu-collection__card">
-		<a href="#" class="menu-collection__card-link" data-category="Navigation" data-action="Header Collection (Card)">   <figure class="menu-collection__card-media">
-				</figure>  
-		</a>  <div class="menu-collection__card-text">
-			<h4 class="menu-collection__card-title" itemprop="name">
+
+							</div>
+						</div>
+						</li>
+				</ul>
+				<button class="menu-mythology__button"></button>
+			</nav>
+		<?php } ?>
 			
-			</h4>
-			
-		</div>
-		
-		</article>
-					</div>
-					<div class="menu-collection__groups">
-						<div class="menu-collection__group" data-index="0">
-			<h4 class="menu-collection__name">Popular Events</h4>
 
 
-			<ul class="menu-collection__list">
-			<?php
-				$args = array(
-					'posts_per_page' => 10, 
-					'category_name' => 'events'
-				);
-				$q = new WP_Query( $args);
 
-				if ( $q->have_posts() ) {
-					while ( $q->have_posts() ) {
-					$q->the_post();        
-						get_template_part( 'template-parts/content-event' );
-					}
-					wp_reset_postdata();
-				} 
-				?>
-			</ul>
-			
-		</div>
 
-					</div>
-				</div>
-				</li>
-		</ul>
-		<button class="menu-mythology__button"></button>
-		</nav>
-
-		<nav class="menu-main" itemscope itemtype="https://schema.org/SiteNavigationElement">
-		<ul class="menu-main__list">
-			<li class="menu-main__item">
-		<a href="<?php echo get_home_url(); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Home</span>
-		</a>    </li>
-			<li class="menu-main__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">About </span>
-		</a>    </li>
-			<li class="menu-main__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Authors</span>
-		</a>    </li>
-			<li class="menu-main__item">
-		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Contact</span>
-		</a>    </li>
+			<nav class="menu-main" itemscope itemtype="https://schema.org/SiteNavigationElement">
+			<ul class="menu-main__list">
+				<li class="menu-main__item">
+			<a href="<?php echo get_home_url(); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Home</span>
+			</a>    </li>
+				<li class="menu-main__item">
+			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">About </span>
+			</a>    </li>
+				<li class="menu-main__item">
+			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Authors</span>
+			</a>    </li>
+				<li class="menu-main__item">
+			<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Contact</span>
+			</a>    </li>
 		</ul>
 		<ul class="menu-main__mythologies">
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afrobeats</h4>
 				</div>
@@ -369,7 +383,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Highlife </h4>
 				</div>
@@ -381,7 +395,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Juju Music </h4>
 				</div>
@@ -393,7 +407,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afro Gospel </h4>
 				</div>
@@ -405,7 +419,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afrofusion</h4>
 				</div>
@@ -417,7 +431,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Bongo Flava </h4>
 				</div>
@@ -429,7 +443,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Nollywood</h4>
 				</div>
@@ -441,7 +455,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo get_home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afro Beat</h4>
 				</div>
