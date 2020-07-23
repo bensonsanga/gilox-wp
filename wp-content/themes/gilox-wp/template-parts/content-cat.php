@@ -9,7 +9,7 @@
 
 ?>
 
-    <a href="<?php get_permalink();?>" class="article-card article-card--small-1x" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+    <a href="<?php echo get_permalink();?>" class="article-card article-card--small-1x" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
          <div class="article-card__media">
             <?php if ( has_post_thumbnail() ) { ?>
               

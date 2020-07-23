@@ -272,13 +272,20 @@ get_header();
                 class="card-pantheon__image"
                 sizes="(min-width: 640px) 50vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
             </a>
+
           <div class="card-pantheon__text">
             <h3 class="card-pantheon__title">
-              <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url">History of Juju music</a></h3>
+            <?php
+            $post_info = get_post( 1873 );
+            $author = $post_info->post_author;
+            $title = $post_info->post_title; 
+            $excert = $post_info->post_excerpt;
+            ?>
+              <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title ?></a></h3>
               <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;Shina Peters
+        <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo $author ?>
         </a>      </div>
-            <p class="card-pantheon__description" itemprop="description">Explore the history of Juju music and rediscover how it all evolved and more.</p>
+            <p class="card-pantheon__description" itemprop="description"><?php echo $excert ?></p>
           </div>
           <div class="card-pantheon__deities">
             <h5 class="card-pantheon__subtitle">Top music ARTISTS</h5>
@@ -287,7 +294,7 @@ get_header();
             <ul lass="card-pantheon__list">
               <?php
                 $args = array(
-                  'posts_per_page' => 9, 
+                  'posts_per_page' => 6, 
                   'tag' => 'top-afrobeat'
                 );
                 $q = new WP_Query( $args);
@@ -422,7 +429,7 @@ get_header();
             </ul> -->
 
 
-            <a href="<?php echo get_home_url(); ?>" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
+            <a href="<?php echo home_url(); ?>/index.php?tag=music" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
           </div>
         </article>
               <article class="card-pantheon" itemscope itemtype="<?php echo get_home_url(); ?>">
@@ -445,8 +452,25 @@ get_header();
           <div class="card-pantheon__deities">
             <h5 class="card-pantheon__subtitle">Top African Artists</h5>
 
+            <ul lass="card-pantheon__list">
+              <?php
+                $args = array(
+                  'posts_per_page' => 3, 
+                  'tag' => 'top-afrobeat'
+                );
+                $q = new WP_Query( $args);
 
-<!--             
+                if ( $q->have_posts() ) {
+                  while ( $q->have_posts() ) {
+                  $q->the_post();        
+                    get_template_part( 'template-parts/content-artist' );
+                  }
+                  wp_reset_postdata();
+                } 
+                ?>
+					  </ul>
+
+<!--              
             <ul class="card-pantheon__list">
                         <li class="card-pantheon__item">
                           <article class="card-deity card-deity--small">
