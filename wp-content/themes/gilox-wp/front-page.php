@@ -432,7 +432,7 @@ get_header();
             </ul> -->
 
 
-            <a href="<?php echo home_url(); ?>/index.php?tag=music" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
+            <a href="<?php echo the_permalink(); ?>" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
           </div>
         </article>
               <article class="card-pantheon" itemscope itemtype="<?php echo get_home_url(); ?>">
@@ -1115,26 +1115,42 @@ get_header();
 
         </section>
         
+        <?php
+        $original_query = $wp_query;
+        $wp_query = null;
+        $args=array('posts_per_page'=>1, 'tag' => 'featured');
+        $wp_query = new WP_Query( $args );
+        if ( have_posts() ) :
+            while (have_posts()) : the_post();
+                ?>
+            
         <section class="home-feature">
           <article class="card-feature" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <a href="<?php echo get_home_url(); ?>" class="card-feature__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <img src="<?php bloginfo('template_directory');?>/images/non/wizkid.jpg" class="card-feature__image" alt="Afrobeats" />
+          <a href="<?php echo the_permalink(); ?>" class="card-feature__media" itemprop="image" itemscope itemtype="<?php echo the_permalink(); ?>">
+            <img src="<?php echo get_the_post_thumbnail_url();?>" class="card-feature__image" alt="Afrobeats" />
           </a>
           <div class="card-feature__panel">
             <div class="card-feature__text">
               <h5 class="card-feature__kicker">Featured</h5>
               <h2 class="card-feature__title" itemprop="name">
-                <a href="<?php echo get_home_url(); ?>" class="card-feature__link" itemprop="url">The Home of Afrobeats</a>
+                <a href="<?php echo the_permalink(); ?>" class="card-feature__link" itemprop="url"><?php echo the_title(); ?></a>
               </h2>
-                <div class="card-feature__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
+                <div class="card-feature__author" itemprop="author" itemscope itemtype="<?php echo the_permalink(); ?>">
                   <a href="authors/mythopedia-editors/index.html" class="card-feature__author-name" itemprop="url">
-                    <span itemprop="name">Gilox Editors</span>
+                    <span itemprop="name"><?php echo get_the_author(); ?></span>
                   </a>
                 </div>
-              <p class="card-feature__description">Explore the works of great African artists, including Davido, Olamide and 9ice, Tuface, Wizkid, King Sunny Ade, Ebenezer Obey and more..</p>
-              <a href="<?php echo get_home_url(); ?>" class="card-feature__button">Discover<span class"card-feature__arrow"></span></a>
+              <p class="card-feature__description"><?php echo get_the_excerpt(); ?></p>
+              <a href="<?php echo the_permalink(); ?>" class="card-feature__button">Discover<span class"card-feature__arrow"></span></a>
           </div>
           </div>
+          <?php
+          endwhile;
+          endif;
+          $wp_query = null;
+          $wp_query = $original_query;
+          wp_reset_postdata(); 
+          ?>
         </article>
         <section class="home-stories">
           <div class="home-stories__text">
