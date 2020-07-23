@@ -111,20 +111,23 @@ get_header();
             <img alt="History"
                 title="History"
                 class="card-pantheon__image"
-                sizes="(min-width: 640px) 50vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
+                sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
             </a>
           <div class="card-pantheon__text">
             <h3 class="card-pantheon__title">
-              <a href="greek-mythology/history/history1.html" class="card-pantheon__link" itemprop="url">History of Afro beats</a>
-            </h3>
+            <?php
+            $post_id1 = 1873;
+            $post_info = get_post( $post_id1 );
+            $title = $post_info->post_title; 
+            ?>
+              <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
               <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="#" class="card-pantheon__author-name" itemprop="url">          <span itemprop="name">Aberdeen Wright</span>
-        </a>          <span class="card-pantheon__reading-time">11</span>
-              </div>
-            <p class="card-pantheon__description" itemprop="description">Explore the profile, works and achievements of top Afro Beat artists in Nigeria and Africa at large.</p>
+        <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id); ?>
+        </a>      </div>
+            <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id); ?></p>
           </div>
           <div class="card-pantheon__deities">
-            <h5 class="card-pantheon__subtitle">Top Afro Beat Artists</h5>
+            <h5 class="card-pantheon__subtitle">Top music ARTISTS</h5>
 
             <ul lass="card-pantheon__list">
               <?php
@@ -267,28 +270,28 @@ get_header();
         </article>
               <article class="card-pantheon is-selected" itemscope itemtype="<?php echo get_home_url(); ?>">
         <a href="greek-mythology/history/history2.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+            
             <img alt="History"
                 title="History"
                 class="card-pantheon__image"
-                sizes="(min-width: 640px) 50vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
+                sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
             </a>
 
           <div class="card-pantheon__text">
             <h3 class="card-pantheon__title">
             <?php
-            $post_info = get_post( 1873 );
-            $author = $post_info->post_author;
+            $post_id = 1873;
+            $post_info = get_post( $post_id );
             $title = $post_info->post_title; 
-            $excert = $post_info->post_excerpt;
             ?>
-              <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title ?></a></h3>
+              <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
               <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo $author ?>
+        <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id); ?>
         </a>      </div>
-            <p class="card-pantheon__description" itemprop="description"><?php echo $excert ?></p>
+            <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id); ?></p>
           </div>
           <div class="card-pantheon__deities">
-            <h5 class="card-pantheon__subtitle">Top music ARTISTS</h5>
+            <h5 class="card-pantheon__subtitle">Top Afrobeats artists</h5>
             
             
             <ul lass="card-pantheon__list">
@@ -437,21 +440,25 @@ get_header();
             <img alt="History"
                 title="History"
                 class="card-pantheon__image"
-                sizes="(min-width: 640px) 50vw, 100vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg">
+                sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
             </a>
           </a>
           <div class="card-pantheon__text">
             <h3 class="card-pantheon__title">
-              <a href="greek-mythology/history/history3.html" class="card-pantheon__link" itemprop="url">African artists </a>
-            </h3>
+            <?php
+            $post_id2 = 1873;
+            $post_info = get_post( $post_id2 );
+            $title = $post_info->post_title; 
+            ?>
+               <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
               <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="#" class="card-pantheon__author-name" itemprop="url">          <span itemprop="name">Babatunde Kelani</span>
+        <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id2); ?>
         </a>      </div>
-            <p class="card-pantheon__description" itemprop="description">Explore the works of great African artists, including Davido, Olamide and 9ice, Tuface, Wizkid, King Sunny Ade, Ebenezer Obey and more.</p>
+            <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id2); ?></p>
           </div>
           <div class="card-pantheon__deities">
-            <h5 class="card-pantheon__subtitle">Top African Artists</h5>
-
+            <h5 class="card-pantheon__subtitle">Top Afrobeat </h5>
+            
             <ul lass="card-pantheon__list">
               <?php
                 $args = array(
