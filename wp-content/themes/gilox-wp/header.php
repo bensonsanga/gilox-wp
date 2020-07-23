@@ -191,14 +191,10 @@
 		</button>
 		</nav>
 
-
-
-
-
-		<?php 
-		if ( is_page( "701" )) {
-		}
-		else { ?>
+		<?php
+		if ( is_front_page() ) :
+			echo " ";
+		else : ?>
 			<nav class="menu-mythology" itemscope itemtype="https://schema.org/SiteNavigationElement">
 				<ul class="menu-mythology__list">
 					<li class="menu-mythology__item">
@@ -348,9 +344,19 @@
 				</ul>
 				<button class="menu-mythology__button"></button>
 			</nav>
-		<?php } ?>
-			
+		<?php
+		endif;
+		?>
 
+
+		<?php 
+		if ( is_page( "701" )) :
+		
+		else : ?>
+
+		<?php endif; ?>
+			
+		
 
 
 
