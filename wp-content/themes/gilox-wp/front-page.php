@@ -29,35 +29,35 @@ get_header();
               <div class="catalog-index">
                 <ul class="catalog-index__list">
                       <li class="catalog-index__item">
-                      <a href="aztec-mythology/index.html" class="catalog-index__link"> <span class="catalog-index__title"> AfroBeat </span> 
+                      <a href="<?php echo home_url(); ?>/index.php?cat=193" class="catalog-index__link"> <span class="catalog-index__title"> AfroBeat </span> 
                     <span class="catalog-index__arrow"></span></a>        </li>
                 <li class="catalog-index__item">
-                      <a href="<?php echo get_home_url(); ?>" class="catalog-index__link"> <span class="catalog-index__title"> Afrobeats </span> 
+                      <a href="<?php echo home_url(); ?>/index.php?cat=192" class="catalog-index__link"> <span class="catalog-index__title"> Afrobeats </span> 
                     <span class="catalog-index__arrow"></span></a>        </li>
                   <li class="catalog-index__item">
-                       <a href="egyptian-mythology/index.html" class="catalog-index__link"> <span class="catalog-index__title"> Afrofusion </span> 
+                       <a href="<?php echo home_url(); ?>/index.php?cat=194" class="catalog-index__link"> <span class="catalog-index__title"> Afrofusion </span> 
                         <span class="catalog-index__arrow"></span>
             </a>        </li>
                     <li class="catalog-index__item">
-            <a href="celtic-mythology/index.html" class="catalog-index__link">            <span class="catalog-index__title">Afro Gospel</span>
+            <a href="<?php echo home_url(); ?>/index.php?cat=195" class="catalog-index__link">            <span class="catalog-index__title">Afro Gospel</span>
                     <span class="catalog-index__arrow"></span></a>        </li>  
                     <li class="catalog-index__item">
-            <a href="<?php echo get_tag_link(200); ?>" class="catalog-index__link">            <span class="catalog-index__title">Bongo Flava</span>
+            <a href="<?php echo home_url(); ?>/index.php?cat=196" class="catalog-index__link">            <span class="catalog-index__title">Bongo Flava</span>
                         <span class="catalog-index__arrow"></span>
             </a>        </li>
                     <li class="catalog-index__item">
-            <a href="roman-mythology/index.html" class="catalog-index__link"> <span class="catalog-index__title"> Highlife 
+            <a href="<?php echo home_url(); ?>/index.php?cat=197" class="catalog-index__link"> <span class="catalog-index__title"> Highlife 
                         <span class="catalog-index__arrow"></span>
             </a>        </li>
             
                     <li class="catalog-index__item">
-            <a href="norse-mythology/index.html" class="catalog-index__link"> <span class="catalog-index__title"> Juju Music 
+            <a href="<?php echo home_url(); ?>/index.php?cat=198" class="catalog-index__link"> <span class="catalog-index__title"> Juju Music 
                         <span class="catalog-index__arrow"></span>
             </a>        </li>
             
                   
                     <li class="catalog-index__item">
-            <a href="japanese-mythology/index.html" class="catalog-index__link">            <span class="catalog-index__title">Nollywood</span>
+            <a href="<?php echo home_url(); ?>/index.php?cat=199" class="catalog-index__link">            <span class="catalog-index__title">Nollywood</span>
                         <span class="catalog-index__arrow"></span>
             </a>        </li>
                 </ul>
