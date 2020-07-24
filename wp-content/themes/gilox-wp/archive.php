@@ -50,33 +50,21 @@ get_header();
 				
 				<section class="mythology-collection">
 					<div class="article-group article-group--grid article-group--ltr">
-					<div class="article-grid">
+						<div class="article-grid">
 							<?php
 							/* Start the Loop Created by Benson Ad*/
 							while ( have_posts() ) : 
-								$postCount++;
-
-								if($postCount == 2) { ?>
-								<div class="article-grid"> 
-									<?php
-
-										the_post();
-										get_template_part( 'template-parts/content-cat1', get_post_type() );
-										?>
-								</div>
-								<?php }
-
-								else { ?>
-									
-										<?php
 	
 										the_post();
 										get_template_part( 'template-parts/content-cat', get_post_type() );
 										?>
 									
-									<?php }
+									<?php 
 
 							endwhile; ?>
+
+						</div>
+					</div>
 
 
   

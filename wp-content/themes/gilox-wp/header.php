@@ -38,7 +38,7 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/images/logo/title.png" />
     <meta name="google-site-verification" content="e9OXvF_GPLEYW6YS5_5wpR_1Uhb7aS7pBRdMcEfWNLs" />
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/images/logo/favicon.png" />
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/images/logo/Favicon.svg" />
 
     <script>
       window.lazySizesConfig = window.lazySizesConfig || {};
@@ -58,7 +58,10 @@
     </script>
 	<header class="body-header js-body-header">
       <nav class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
-		<a href="<?php echo get_home_url(); ?>" data-category="Navigation" data-action="Header Logo"> <img src="<?php bloginfo('template_directory');?>/images/logo/Favicon.png"> </a><a href="<?php echo get_home_url(); ?>" class="menu-link" data-category="Navigation" data-action="Header Link" itemprop="url">&nbsp;Gilox</a>  
+		<a href="<?php echo get_home_url(); ?>" data-category="Navigation" data-action="Header Logo"> 
+			<img width="48px" src="<?php bloginfo('template_directory');?>/images/logo/Favicon.svg"> 
+		</a>
+		<a href="<?php echo get_home_url(); ?>" class="menu-link" data-category="Navigation" data-action="Header Link" itemprop="url">&nbsp;Gilox</a>  
 		<div class="menu-search">
 			<input class="menu-search__input" placeholder="Search music categories, and more...">
 		</div>
