@@ -127,9 +127,9 @@ get_header();
             <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id); ?></p>
           </div>
           <div class="card-pantheon__deities">
-            <h5 class="card-pantheon__subtitle">Top music ARTISTS</h5>
+            <h5 class="card-pantheon__subtitle">Top Afrogospel Artist</h5>
 
-            <ul lass="card-pantheon__list">
+            <ul lass="home-domains__list">
               <?php
                 $args = array(
                   'posts_per_page' => 3, 
@@ -457,7 +457,7 @@ get_header();
             <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id2); ?></p>
           </div>
           <div class="card-pantheon__deities">
-            <h5 class="card-pantheon__subtitle">Top Afrobeat </h5>
+            <h5 class="card-pantheon__subtitle">Top Bongo Flava Artist </h5>
             
             <ul lass="card-pantheon__list">
               <?php
@@ -846,245 +846,99 @@ get_header();
           <div class="home-domains__groups">
             <div class="home-domains__group">
               <h4 class="home-domains__category">NIGERIA</h4>
-              <ul class="home-domains__list">
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format" >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Adekunle Productions</h4>
-              <p class="card-deity__subtitle" itemprop="description">From Abeokuta</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Talent"
-                      title="Talent"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Sola Ray Productions</h4>
-              <p class="card-deity__subtitle" itemprop="description">From Ibadan</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Huitzilopochtli, Aztec God of War"
-                      title="Huitzilopochtli, Aztec God of War"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name"> Kay Film Centre</h4>
-              <p class="card-deity__subtitle" itemprop="description">From Badagry</p>
-            </div>
-        </a></article>
-                  </li>
+              
+              
+              <ul lass="home-domains__list">
+                <?php
+                  $args = array(
+                    'posts_per_page' => 3, 
+                    'tag' => 'nigeria'
+                  );
+                  $q = new WP_Query( $args);
+
+                  if ( $q->have_posts() ) {
+                    while ( $q->have_posts() ) {
+                    $q->the_post();        
+                      get_template_part( 'template-parts/content-artist' );
+                    }
+                    wp_reset_postdata();
+                  } 
+                  ?>
               </ul>
-            </div>
-            <div class="home-domains__group">
-              <h4 class="home-domains__category">KENYA</h4>
-              <ul class="home-domains__list">
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Chang’e, Chinese Goddess of the Moon"
-                      title="Chang’e, Chinese Goddess of the Moon"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Aduke Silencer</h4>
-              <p class="card-deity__subtitle" itemprop="description">Best Director 2017 (AMVCA)</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Artemis, Greek Goddess of the Hunt"
-                      title="Artemis, Greek Goddess of the Hunt"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Alani Adesola</h4>
-              <p class="card-deity__subtitle" itemprop="description">Best Director 2019 (AMVCA)</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-                  <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                        alt="Baldur, Norse God of Light"
-                        title="Baldur, Norse God of Light"
-                        class="card-deity__image lazyload"
-                        itemprop="url"
-                        loading="lazy"
-                        >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Sola Sobowale</h4>
-              <p class="card-deity__subtitle" itemprop="description">Best Director 2020 (AMVCA)</p>
-            </div>
-        </a></article>
-                  </li>
-              </ul>
+
+
             </div>
             <div class="home-domains__group">
               <h4 class="home-domains__category">GHANA</h4>
-              <ul class="home-domains__list">
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-                  <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Loki, Norse Trickster God"
-                      title="Loki, Norse Trickster God"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Kike Olakunle</h4>
-              <p class="card-deity__subtitle" itemprop="description">Senior makeup Artisit</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Lugh, Celtic God of Nobility"
-                      title="Lugh, Celtic God of Nobility"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Kunle Tomori</h4>
-              <p class="card-deity__subtitle" itemprop="description">Director of makingup services</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?> class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Sun Wukong, the Monkey King"
-                      title="Sun Wukong, the Monkey King"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Adediran Bode</h4>
-              <p class="card-deity__subtitle" itemprop="description">Pepper Dem geng</p>
-            </div>
-        </a></article>
-                  </li>
+              
+              
+              <ul lass="home-domains__list">
+                <?php
+                  $args = array(
+                    'posts_per_page' => 3, 
+                    'tag' => 'ghana'
+                  );
+                  $q = new WP_Query( $args);
+
+                  if ( $q->have_posts() ) {
+                    while ( $q->have_posts() ) {
+                    $q->the_post();        
+                      get_template_part( 'template-parts/content-artist' );
+                    }
+                    wp_reset_postdata();
+                  } 
+                  ?>
               </ul>
+
+
             </div>
             <div class="home-domains__group">
-              <h4 class="home-domains__category">Senegal</h4>
-              <ul class="home-domains__list">
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?>" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Hades, Greek God of the Underworld"
-                      title="Hades, Greek God of the Underworld"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Bimbo Jude</h4>
-              <p class="card-deity__subtitle" itemprop="description">Chief bouncer</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?>" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Mictlantecuhtli, Aztec God of the Dead"
-                      title="Mictlantecuhtli, Aztec God of the Dead"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Imisi Imole</h4>
-              <p class="card-deity__subtitle" itemprop="description">Site Protocol Officer</p>
-            </div>
-        </a></article>
-                  </li>
-                  <li class="home-domains__item">
-                    <article class="card-deity card-deity--small">
-        <a href="<?php echo get_home_url(); ?>" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-              <div class="card-deity__media">
-                  <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                      alt="Osiris, Egyptian Lord of the Underworld"
-                      title="Osiris, Egyptian Lord of the Underworld"
-                      class="card-deity__image lazyload"
-                      itemprop="url"
-                      loading="lazy"
-                      >
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">Itele </h4>
-              <p class="card-deity__subtitle" itemprop="description">Undertaker specialist</p>
-            </div>
-        </a></article>
-                  </li>
+              <h4 class="home-domains__category">TANZANIA</h4>
+              
+              
+              <ul lass="home-domains__list">
+                <?php
+                  $args = array(
+                    'posts_per_page' => 3, 
+                    'tag' => 'tanzania'
+                  );
+                  $q = new WP_Query( $args);
+
+                  if ( $q->have_posts() ) {
+                    while ( $q->have_posts() ) {
+                    $q->the_post();        
+                      get_template_part( 'template-parts/content-artist' );
+                    }
+                    wp_reset_postdata();
+                  } 
+                  ?>
               </ul>
+              
+              
+            </div>
+            <div class="home-domains__group">
+              <h4 class="home-domains__category">S.AFRICA</h4>
+              
+
+              <ul lass="home-domains__list">
+                <?php
+                  $args = array(
+                    'posts_per_page' => 3, 
+                    'tag' => 'safrica'
+                  );
+                  $q = new WP_Query( $args);
+
+                  if ( $q->have_posts() ) {
+                    while ( $q->have_posts() ) {
+                    $q->the_post();        
+                      get_template_part( 'template-parts/content-artist' );
+                    }
+                    wp_reset_postdata();
+                  } 
+                  ?>
+              </ul>
+
+
             </div>
           </div>
           
