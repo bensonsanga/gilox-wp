@@ -102,7 +102,7 @@ get_header();
 
     <section class="home-legends">
           <div class="home-deities__text">
-            <h5 class="home-deities__kicker">the origin story:</h5>
+            <!-- <h5 class="home-deities__kicker">the origin story:</h5> -->
             <h2 class="home-deities__title" id="pantheons">Features</h2>
           </div>
           <div class="home-deities__cards">
