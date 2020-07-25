@@ -63,7 +63,7 @@
       <div class="article-byline__icon"></div>
       <div class="article-byline__text">
         <span class="article-byline__name"><?php echo get_the_author(); ?></span>
-        <span class="article-byline__time">8</span>
+        <span class="article-byline__time">2</span>
       </div>
     </div>
   </div>
