@@ -34,13 +34,13 @@
 					<a href="<?php echo get_home_url(); ?>" class="footer-general__link" data-category="Navigation" data-action="Footer General">Home</a>
 					</li>
 					<li class="footer-general__item">
-					<a href="<?php echo get_home_url(); ?>" class="footer-general__link" data-category="Navigation" data-action="Footer General">About</a>
+					<a href="<?php echo home_url(); ?>/index.php?page_id=2" class="footer-general__link" data-category="Navigation" data-action="Footer General">About</a>
 					</li>
 					<li class="footer-general__item">
-					<a href="submitmedia.html" class="footer-general__link" data-category="Navigation" data-action="Footer General">Submit</a>
+					<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-general__link" data-category="Navigation" data-action="Footer General">Submit</a>
 					</li>
 					<li class="footer-general__item">
-					<a href="cont<?php echo get_home_url(); ?>" class="footer-general__link" data-category="Navigation" data-action="Footer General">Contact</a>
+					<a href="<?php echo home_url(); ?>/index.php?page_id=1772" class="footer-general__link" data-category="Navigation" data-action="Footer General">Contact</a>
 					</li>
 				</ul>
 				</div>
@@ -49,16 +49,16 @@
               <h4 class="footer-region__name">AFROBEATS</h4>
               <ul class="footer-region__list">
                   <li class="footer-region__item">
-					<a href="/Gilox/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Beats</span>
+					<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Beats</span>
 									<span class="footer-region__link-suffix">beats</span>
 					</a>              </li>
                   <li class="footer-region__item">
-						<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Fusion</span>
+						<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Fusion</span>
 										<span class="footer-region__link-suffix">Fusion</span>
 						</a>              
 					</li>
                   <li class="footer-region__item">
-					<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Gospel</span>
+					<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Gospel</span>
 									<span class="footer-region__link-suffix">Gospel</span>
 					</a>              
 				 </li>
@@ -69,12 +69,12 @@
               <h4 class="footer-region__name">PALMWINE</h4>
               <ul class="footer-region__list">
                   <li class="footer-region__item">
-						<a href="roman-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Juju</span>
+						<a href="roman-mythol<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Juju</span>
 										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
                   <li class="footer-region__item">
-					<a href="roman-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Highlife</span>
+					<a href="roman-mythol<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Highlife</span>
 									<span class="footer-region__link-suffix">Juju</span>
 					</a>              
 				</li>
@@ -84,17 +84,17 @@
               <h4 class="footer-region__name">BONGO FLAVA</h4>
               <ul class="footer-region__list">
                   <li class="footer-region__item">
-					<a href="chinese-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Tanzania</span>
+					<a href="chinese-mythol<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Tanzania</span>
 									<span class="footer-region__link-suffix"></span>
 					</a>              
 				</li>
 				<li class="footer-region__item">
-						<a href="chinese-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Kenya</span>
+						<a href="chinese-mythol<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Kenya</span>
 										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
 					<li class="footer-region__item">
-						<a href="chinese-mythol<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Rwanda</span>
+						<a href="chinese-mythol<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Rwanda</span>
 										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
@@ -104,17 +104,17 @@
               <h4 class="footer-region__name">NOLLYWOOD  </h4>
               <ul class="footer-region__list">
                   <li class="footer-region__item">
-						<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Movies</span>
+						<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Movies</span>
 										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
 					<li class="footer-region__item">
-					<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Series</span>
+					<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Series</span>
 										<span class="footer-region__link-suffix"></span>
 					</a>              
 					</li>
 					<li class="footer-region__item">
-						<a href="<?php echo get_home_url(); ?>" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Comedy</span>
+						<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Comedy</span>
 										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
@@ -127,7 +127,7 @@
 		<div class="footer-popout">
 			<div class="footer-popout__text">
 			<h3 class="footer-popout__title">About Gilox</h3>
-			<p class="footer-popout__description">As an ever-growing archive, our mission is to catalog the world’s musicology on the web for all to enjoy. <a href="<?php echo get_home_url(); ?>" class="footer-popout__link">Learn more</a>.</p>
+			<p class="footer-popout__description">As an ever-growing archive, our mission is to catalog the world’s musicology on the web for all to enjoy. <a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-popout__link">Learn more</a>.</p>
 			</div>
 		</div>
 		<div class="footer-credit">
