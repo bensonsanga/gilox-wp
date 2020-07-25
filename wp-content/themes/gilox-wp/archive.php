@@ -23,7 +23,8 @@ get_header();
 				</figure>
 				<div class="mythology-header__text">
 					<?php
-					the_archive_title( '<h1 class="mythology-header__title">', '</h1>' );
+					// the_archive_title( '<h1 class="mythology-header__title">', '</h1>' );
+					the_archive_description( '<h1 class="mythology-header__title">', '</h1>' );
 					the_archive_description( '<div class="mythology-header__description">', '</div>' );
 					?>
 				</div>
