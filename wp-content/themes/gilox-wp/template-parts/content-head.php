@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying posts
  *
@@ -10,48 +11,23 @@
 
 ?>
 
-<!--
 
-    <li class="card-pantheon__item">
-                  <article class="card-deity card-deity--small">
-        <a href="norse-mythology/titans/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope="" itemtype="http://localhost/Gilox">
-              <div class="card-deity__media">
-                  <img data-src="http://localhost/Gilox/wp-content/themes/gilox-wp/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format" alt="Jupiter, Roman King of the Gods" title="Great Artists" class="card-deity__image lazyload" itemprop="url" loading="lazy" src="http://localhost/Gilox/wp-content/themes/gilox-wp/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format">
-              </div>
-            </div>
-            <div class="card-deity__text">
-              <h4 class="card-deity__title" itemprop="name">KSA</h4>
-              <p class="card-deity__subtitle" itemprop="description">King Sunny Ade</p>
-            </div>
-        </a></article>
-                </li> -->
+<a href="<?php echo get_permalink() ?>" class="article-bubble" data-id="02">
+    <div class="article-bubble__media">
+        <?php if (has_post_thumbnail()) { ?>
+            <img alt="Artist" title="Artist" class="article-bubble__image lazyload" loading="lazy" data-sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" data-srcset="<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+                                    
+                                                <?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+												<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+												<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w" data-src="<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" src="<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w" sizes="(min-width: 1600px) 216px, (min-width: 1280px) 192px, (min-width: 960px) 144px, (min-width: 640px) 192px, 96px" srcset="<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=192&amp;ar=1:1&amp;fit=crop&amp;auto=format 192w,
+												<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=288&amp;ar=1:1&amp;fit=crop&amp;auto=format 288w,
+												<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=384&amp;ar=1:1&amp;fit=crop&amp;auto=format 384w,
+												<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=432&amp;ar=1:1&amp;fit=crop&amp;auto=format 432w">
+        <?php
 
-<li class="card-pantheon__item">
-    <article class="card-deity card-deity--small" itemscope itemtype="<?php echo get_home_url(); ?>" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    
-    <a href="<?php echo get_permalink() ?>" class="card-deity__link" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-        
-                        <div class="card-deity__icon" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-                                <div class="card-deity__media">
+        } else { ?>
+            <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format" alt="Jupiter, Roman King of the Gods" title="Great Artists" class="card-deity__image lazyload" itemprop="url" loading="lazy" src="http://localhost/Gilox/wp-content/themes/gilox-wp/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format">
 
-                                <?php if ( has_post_thumbnail() ) { ?>
-                                
-                                    <img data-src="<?php echo the_post_thumbnail_url(); ?>?q=75&amp;w=80&amp;auto=format" alt="Jupiter, Roman King of the Gods" title="Great Artists" class="card-deity__image lazyload" itemprop="url" loading="lazy" src="http://localhost/Gilox/wp-content/themes/gilox-wp/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format">
-
-                                <?php
-                                
-                                } else { ?>
-                                <img data-src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format" alt="Jupiter, Roman King of the Gods" title="Great Artists" class="card-deity__image lazyload" itemprop="url" loading="lazy" src="http://localhost/Gilox/wp-content/themes/gilox-wp/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format">
-
-                                <?php } ?>
-                                </div>
-						    </div>
-						<div class="card-deity__text">
-                            <?php
-                            the_title( '<h4 class="card-deity__title">', '</h4>' ); ?>
-                            <p class="card-deity__subtitle" itemprop="description">By <?php the_author(); ?></p>
-						</div>
-        </a>  
-
-    </article>
-</li>
+        <?php } ?>
+    </div>
+</a>
