@@ -14,7 +14,7 @@
 
 
 <li class="card-pantheon__item">
-    <article class="card-deity card-deity--small" itemscope itemtype="<?php echo get_home_url(); ?>" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <article class="card-deity card-deity--small" itemscope itemtype="<?php echo get_home_url(); ?>" id="" <?php post_class(); ?>>
 
         <a href="<?php echo get_permalink() ?>" class="card-deity__link" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
 

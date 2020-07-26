@@ -91,8 +91,9 @@ get_header();
 
 								if ( $q->have_posts() ) {
 								while ( $q->have_posts() ) {
-								$q->the_post();        
 								$count++;
+								$q->the_post();        
+									set_query_var('my_var_name', $count);
 									get_template_part( 'template-parts/content-bubble' );
 								}
 								wp_reset_postdata();
