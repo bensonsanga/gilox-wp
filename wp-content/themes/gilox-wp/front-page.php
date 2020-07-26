@@ -606,13 +606,31 @@ get_header();
 
           <div class="c-video-gallery__main">
 
+
+                <?php 
+                  $args = array(
+                      'posts_per_page' => 1, // we need only the latest post, so get that post only
+                      'category_name' => 'video', // Use the category id, can also replace with category_name which uses category slug
+                      //'category_name' => 'SLUG OF FOO CATEGORY,
+                  );
+                  $q = new WP_Query( $args);
+
+                  if ( $q->have_posts() ) {
+                      while ( $q->have_posts() ) {
+                      $q->the_post();        
+                          //Your template tags and markup like:
+                         
+                   ?>
+
+
             <article class="c-card c-card--video ">
               <div class="c-card__wrap">
                 <figure class="c-card__image">
+                  
 
 
                   <div class="c-crop c-crop--video c-crop--ratio-video">
-                    <div data-video-crop=""><iframe type="text/html" width="670" height="407" data-src="https://www.youtube.com/embed/bjzj0x2WFA8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;" src="https://www.youtube.com/embed/Z2rUZ1LDeq0?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent&amp;autoplay=1"></iframe></div>
+                    <div data-video-crop=""><iframe type="text/html" width="670" height="407" data-src="https://www.youtube.com/embed/<?php echo get_the_excerpt(); ?>?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;" src="https://www.youtube.com/embed/<?php echo get_the_excerpt(); ?>?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent&amp;autoplay=1"></iframe></div>
                     <div class="jwplayer_container" hidden="">
                       <div id="jwplayer_0_div" class="jwplayer jw-reset jw-state-idle jw-stretch-uniform jw-flag-aspect-mode jw-breakpoint--1 jw-flag-small-player jw-floating-dismissible jw-flag-user-inactive" tabindex="0" aria-label="Video Player" role="application" aria-describedby="jw-shortcuts-tooltip-explanation" style="width: 100%;">
                         <div class="jw-aspect jw-reset" style="padding-top: 56.25%;">
@@ -629,7 +647,7 @@ get_header();
                           <div class="jw-aspect jw-reset" style="padding-top: 56.25%;"></div>
                           <div class="jw-media jw-reset"><video class="jw-video jw-reset" tabindex="-1" disableremoteplayback="" webkit-playsinline="" playsinline="">
                             </video></div>
-                          <div class="jw-preview jw-reset" style="background-image: url(&quot;https://content.jwplatform.com/v2/media/QiQSuoWk/poster.jpg?width=720&quot;);">
+                          <div class="jw-preview jw-reset" style="background-image: url(&quot;http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?width=720&quot;);">
                             <div class="jw-video-thumbnail-generated jw-video-thumbnail-container"><video class="jw-reset jw-video-thumbnail" tabindex="-1" disableremoteplayback="" webkit-playsinline="" playsinline="" loop=""></video></div>
                           </div>
                           <div class="jw-controls-backdrop jw-reset">
@@ -1037,21 +1055,24 @@ get_header();
 
                   <h3 class="card-pantheon__description">
 
-                    <a class="card-pantheon__button" href="<?php bloginfo('template_directory'); ?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" data-video-gallery-card-heading="">
-                      Kadir Nelson’s Inspiration for the July Cover of Gilox </a>
+                    <a class="card-pantheon__button" href="<?php echo get_permalink();?>" data-video-gallery-card-heading="">
+                    <?php echo the_title(); ?> </a>
                   </h3><!-- .c-card__heading -->
 
 
                   <span class="c-card__tag t-semibold t-semibold--upper t-semibold--loose" data-video-gallery-card-tag="">
 
-                    Gilox Videos
+                    <?php echo the_title(); ?> 
                   </span>
 
 
                   <p class="c-card__lead t-copy" data-video-gallery-card-lead="">
                     "I want everyone in this painting — particularly the African American women and children — to know that they matter," artist says </p><!-- /.c-card__lead t-copy -->
 
-
+                    <?php
+                      }
+                      wp_reset_postdata();
+                  } ?>
                 </header><!-- .c-card__header -->
               </div><!-- .c-card__wrap -->
             </article><!-- .c-card -->
@@ -1085,7 +1106,7 @@ get_header();
             if ($q->have_posts()) {
               while ($q->have_posts()) {
                 $q->the_post();
-                get_template_part('template-parts/content-review');
+                get_template_part('template-parts/content-video');
               }
               wp_reset_postdata();
             }
