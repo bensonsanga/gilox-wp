@@ -1074,142 +1074,25 @@ get_header();
 
             <div class="c-slider__track" data-slider-track="" style="transform: translateX(-124.363px);">
 
-              <div class="c-video-gallery__item c-slider__item" data-slider-item="">
 
-                <article class="c-card c-card--video-thumb  t-semibold">
-                  <a href="<?php bloginfo('template_directory'); ?>/tv/tv-news/thomas-middleditch-ben-schwartz-comedy-990868/" class="c-card__wrap" data-video-gallery-thumb="" data-tag="TV" data-heading="‘The First Time’: Thomas Middleditch and Ben Schwartz" data-lead="The comedy duo have a new improv series on Netflix, 'Middleditch &amp; Schwartz'" data-permalink="<?php bloginfo('template_directory'); ?>/tv/tv-news/thomas-middleditch-ben-schwartz-comedy-990868/" data-tag-permalink="/tv/">
+            <?php
+            $args = array(
+              'posts_per_page' => 5,
+              'category_name' => 'video'
+            );
+            $q = new WP_Query($args);
 
-                    <figure class="c-card__image" data-active-text="Now Playing">
-                      <div hidden="">
-                        <script type="text/javascript" src="https://content.jwplatform.com/libraries/zFOPDjEV.js"></script>
-                        <div id="jwplayer_QiQSuoWk_div" data-videoid="QiQSuoWk" data-jsonfeed="https://content.jwplatform.com/feeds/QiQSuoWk.json" data-jwplayer-id="jwplayer_QiQSuoWk_div"></div>
-                      </div>
+            if ($q->have_posts()) {
+              while ($q->have_posts()) {
+                $q->the_post();
+                get_template_part('template-parts/content-review');
+              }
+              wp_reset_postdata();
+            }
+            ?>
 
-
-                      <div class="c-crop c-crop--ratio-7x4">
-                        <img width="1260" height="720" src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="thomas middleditch ben schwartz" data-srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w"> </div><!-- .c-crop -->
-
-                    </figure><!-- .c-card__image -->
-
-                    <header class="c-card__header">
-
-                      <h3 class="c-card__heading ">
-                        ‘The First Time’: Thomas Middleditch and Ben Schwartz </h3><!-- .c-card__heading -->
-
-                    </header><!-- .c-card__header -->
-                  </a><!-- .c-card__wrap -->
-                </article><!-- .c-card -->
-              </div><!-- /.c-video-gallery__item c-slider__item -->
-
-
-              <div class="c-video-gallery__item c-slider__item" data-slider-item="">
-
-                <article class="c-card c-card--video-thumb  t-semibold">
-                  <a href="<?php bloginfo('template_directory'); ?>/music/music-news/sting-in-my-room-video-993023/" class="c-card__wrap" data-video-gallery-thumb="" data-tag="Music" data-heading="‘In My Room’ With Sting" data-lead="Sting performs &quot;Message in a Bottle,&quot; &quot;Fragile,&quot; &quot;Englishman in New York&quot; from his home studio" data-permalink="<?php bloginfo('template_directory'); ?>/music/music-news/sting-in-my-room-video-993023/" data-tag-permalink="/music/">
-
-                    <figure class="c-card__image" data-active-text="Now Playing">
-                      <div hidden="">
-                        <script type="text/javascript" src="https://content.jwplatform.com/libraries/CbSoxmhC.js"></script>
-                        <div id="jwplayer_MCd0q6VB_div" data-videoid="MCd0q6VB" data-jsonfeed="https://content.jwplatform.com/feeds/MCd0q6VB.json" data-jwplayer-id="jwplayer_MCd0q6VB_div"></div>
-                      </div>
-
-
-                      <div class="c-crop c-crop--ratio-7x4">
-                        <img width="1260" height="720" src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="sting in my room" data-srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w"> </div><!-- .c-crop -->
-
-                    </figure><!-- .c-card__image -->
-
-                    <header class="c-card__header">
-
-                      <h3 class="c-card__heading ">
-                        ‘In My Room’ With Sting </h3><!-- .c-card__heading -->
-
-                    </header><!-- .c-card__header -->
-                  </a><!-- .c-card__wrap -->
-                </article><!-- .c-card -->
-              </div><!-- /.c-video-gallery__item c-slider__item -->
-
-
-              <div class="c-video-gallery__item c-slider__item" data-slider-item="">
-
-                <article class="c-card c-card--video-thumb  t-semibold">
-                  <a href="<?php bloginfo('template_directory'); ?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" class="c-card__wrap is-active" data-video-gallery-thumb="" data-tag="Culture" data-heading="Kadir Nelson’s Inspiration for the July Cover of Gilox" data-lead="&quot;I want everyone in this painting — particularly the African American women and children — to know that they matter,&quot; artist says" data-permalink="<?php bloginfo('template_directory'); ?>/culture/culture-news/kadir-nelson-cover-artwork-july-2020-1014011/" data-tag-permalink="/culture/">
-
-                    <figure class="c-card__image" data-active-text="Now Playing">
-                      <div hidden="">
-                        <iframe type="text/html" width="670" height="407" data-src="https://www.youtube.com/embed/bjzj0x2WFA8?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe> </div>
-
-
-                      <div class="c-crop c-crop--ratio-7x4">
-                        <img width="1260" height="720" src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg" data-src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kadir - Gilox Cover" data-srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w"> </div><!-- .c-crop -->
-
-                    </figure><!-- .c-card__image -->
-
-                    <header class="c-card__header">
-
-                      <h3 class="c-card__heading ">
-                        Kadir Nelson’s Inspiration for the July Cover of Gilox </h3><!-- .c-card__heading -->
-
-                    </header><!-- .c-card__header -->
-                  </a><!-- .c-card__wrap -->
-                </article><!-- .c-card -->
-              </div><!-- /.c-video-gallery__item c-slider__item -->
-
-
-              <div class="c-video-gallery__item c-slider__item" data-slider-item="">
-
-                <article class="c-card c-card--video-thumb  t-semibold">
-                  <a href="<?php bloginfo('template_directory'); ?>/politics/politics-news/senator-kamala-harris-interview-jamil-smith-988800/" class="c-card__wrap" data-video-gallery-thumb="" data-tag="Politics" data-heading="‘RS Interview: Special Edition’ With Sen. Kamala Harris" data-lead="The former presidential candidate speaks with senior writer Jamil Smith about her new effort to protect November’s election from the coronavirus" data-permalink="<?php bloginfo('template_directory'); ?>/politics/politics-news/senator-kamala-harris-interview-jamil-smith-988800/" data-tag-permalink="/politics/">
-
-                    <figure class="c-card__image" data-active-text="Now Playing">
-                      <div hidden="">
-                        <div id="jwplayer_zXyORl5f_div" data-videoid="zXyORl5f" data-jsonfeed="https://content.jwplatform.com/feeds/zXyORl5f.json" data-jwplayer-id="jwplayer_zXyORl5f_div"></div>
-                      </div>
-
-
-                      <div class="c-crop c-crop--ratio-7x4">
-                        <img width="1200" height="720" src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Kamala Harris" data-srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w"> </div><!-- .c-crop -->
-
-                    </figure><!-- .c-card__image -->
-
-                    <header class="c-card__header">
-
-                      <h3 class="c-card__heading ">
-                        ‘RS Interview: Special Edition’ With Sen. Kamala Harris </h3><!-- .c-card__heading -->
-
-                    </header><!-- .c-card__header -->
-                  </a><!-- .c-card__wrap -->
-                </article><!-- .c-card -->
-              </div><!-- /.c-video-gallery__item c-slider__item -->
-
-
-              <div class="c-video-gallery__item c-slider__item" data-slider-item="">
-
-                <article class="c-card c-card--video-thumb  t-semibold">
-                  <a href="<?php bloginfo('template_directory'); ?>/music/music-news/chronixx-first-time-video-991922/" class="c-card__wrap" data-video-gallery-thumb="" data-tag="Music" data-heading="The First Time: Chronixx" data-lead="Jamaican artist talks the origins of &quot;Smile Jamaica,&quot; performing to a crowd of thousands in Kenya" data-permalink="<?php bloginfo('template_directory'); ?>/music/music-news/chronixx-first-time-video-991922/" data-tag-permalink="/music/">
-
-                    <figure class="c-card__image" data-active-text="Now Playing">
-                      <div hidden="">
-                        <div id="jwplayer_8KSlzyTD_div" data-videoid="8KSlzyTD" data-jsonfeed="https://content.jwplatform.com/feeds/8KSlzyTD.json" data-jwplayer-id="jwplayer_8KSlzyTD_div"></div>
-                      </div>
-
-
-                      <div class="c-crop c-crop--ratio-7x4">
-                        <img width="1260" height="720" src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" data-src="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="Chronixx" data-srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="<?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=300 300w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=450 450w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=350 350w, <?php bloginfo('template_directory'); ?>/images/video/sample.jpg?resize=1260,720&amp;w=210 210w"> </div><!-- .c-crop -->
-
-                    </figure><!-- .c-card__image -->
-
-                    <header class="c-card__header">
-
-                      <h3 class="c-card__heading ">
-                        The First Time: Chronixx </h3><!-- .c-card__heading -->
-
-                    </header><!-- .c-card__header -->
-                  </a><!-- .c-card__wrap -->
-                </article><!-- .c-card -->
-              </div><!-- /.c-video-gallery__item c-slider__item -->
-
-            </div><!-- /.c-slider__track -->
+            </div>
+            
           </div><!-- /.c-video-gallery__slider c-slider -->
 
 
