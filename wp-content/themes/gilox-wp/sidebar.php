@@ -33,7 +33,8 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
                   wp_reset_postdata();
                 } 
                 ?>
-		</ul>
+    </ul>
+    
     <!-- <ul class="article-related__list">
               <li class="article-related__item">
                   <div class="article-related__text">
@@ -129,6 +130,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
         </a>
               </li>
     </ul> -->
+    
   </div>
 
   <div class="citation js-citation js-citation-popup">
