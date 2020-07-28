@@ -17,13 +17,6 @@ get_header();
 				the_post();
 
 				get_template_part( 'template-parts/content-1', get_post_type() );
-				
-				the_post_navigation(
-					array(
-						'prev_text' => '<span class="home-header__description-link">' . esc_html__( 'Previous:', 'gilox-wp' ) . '</span> <span class="article-related__title">%title</span>',
-						'next_text' => '<span class="home-header__description-link">' . esc_html__( 'Next:', 'gilox-wp' ) . '</span> <span class="article-related__title">%title</span>',
-					)
-				);
 
 			endwhile; // End of the loop.
 			?>

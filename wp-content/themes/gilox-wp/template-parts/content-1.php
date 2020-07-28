@@ -71,9 +71,6 @@
 			?>
 		</div><!-- .entry-content -->
 	
-	<div class="article-hero__text">
-		<?php gilox_wp_entry_footer(); ?>
-	</div><!-- .entry-footer -->
 	</section>
 </article><!-- #post-<?php the_ID(); ?> -->
 
