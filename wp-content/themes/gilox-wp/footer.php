@@ -50,16 +50,16 @@
               <ul class="footer-region__list">
                   <li class="footer-region__item">
 					<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Beats</span>
-									<span class="footer-region__link-suffix">beats</span>
+									<span class="footer-region__link-suffix"></span>
 					</a>              </li>
                   <li class="footer-region__item">
 						<a href="<?php echo home_url(); ?>/index.php?cat=194" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Fusion</span>
-										<span class="footer-region__link-suffix">Fusion</span>
+										<span class="footer-region__link-suffix"></span>
 						</a>              
 					</li>
                   <li class="footer-region__item">
 					<a href="<?php echo home_url(); ?>/index.php?cat=195" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Gospel</span>
-									<span class="footer-region__link-suffix">Gospel</span>
+									<span class="footer-region__link-suffix"></span>
 					</a>              
 				 </li>
               
@@ -75,7 +75,7 @@
 					</li>
                   <li class="footer-region__item">
 					<a href="roman-mythol<?php echo home_url(); ?>/index.php?cat=197" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology">                  <span class="footer-region__link-title">Highlife</span>
-									<span class="footer-region__link-suffix">Juju</span>
+									<span class="footer-region__link-suffix"></span>
 					</a>              
 				</li>
               </ul>
