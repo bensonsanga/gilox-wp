@@ -12,13 +12,7 @@
 <article class="" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header class="article-header">
   <div class="article-header__text">
-    <div class="article-breadcrumbs">
-		<ol class="article-breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
-			<?php
-			ah_breadcrumb(); 
-			?>
-		</ol>
-		</div>
+    
 		<?php gilox_wp_post_thumbnail('post-thumbnail',['class' => 'article-related__image lazyload']); ?>
 
 		<?php
@@ -36,7 +30,7 @@
 				gilox_wp_posted_by();
 				?>
 			</div>
-		<?php endif; ?>
+		<?php endif; ?> 
 	</div><!-- .entry-header -->
 	<section class="article-content js-article-content">
 		<div class="entry-content">
