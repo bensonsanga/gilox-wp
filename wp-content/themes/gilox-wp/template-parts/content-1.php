@@ -40,12 +40,7 @@
 	</div><!-- .entry-header -->
 	<section class="article-content js-article-content">
 		<div class="entry-content">
-		<!-- <div class="gig__tickets gig__detail-section">
-			<h3>Tickets</h3>
-			<p>$28-88</p>
-
-			<a class="citation-menu__copy js-citation-copy" href="https://www.gilox.com/ticketing">Find tickets at ticketing.gilox.co</a>
-		</div> -->
+	
 			<?php
 			the_content(
 				sprintf(
