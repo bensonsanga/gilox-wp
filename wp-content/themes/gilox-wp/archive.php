@@ -51,7 +51,7 @@ get_header();
 				
 				<section class="mythology-collection">
 					<div class="article-group article-group--grid article-group--ltr">
-						<div class="article-grid">
+						<!-- <div class="article-grid"> -->
 							<?php
 							/* Start the Loop Created by Benson Ad*/
 							while ( have_posts() ) : 
@@ -64,7 +64,7 @@ get_header();
 
 							endwhile; ?>
 
-						</div>
+						<!-- </div> -->
 					</div>
 
 

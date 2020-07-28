@@ -34,7 +34,7 @@
                             ?>
                           </div>
                           <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                            <img src="<?php bloginfo('template_directory');?>/images/cover/2x/<?php  
+                            <img src="<?php bloginfo('template_directory');?>/images/cover/2x/y/<?php  
                             $categories = get_the_category();
                             if ( ! empty( $categories ) ) {
                                 echo esc_html( $categories[0]->name );
