@@ -56,11 +56,13 @@
                        <?php echo get_the_post_thumbnail_url();?>?q=75&amp;w=1680&amp;ar=3:2&amp;fit=crop&amp;auto=format 1680w">
   </div>
   <div class="article-card__text">
-    <h5 class="article-card__subtitle"><?php echo get_the_category() ?></h5>
+    <!-- <h5 class="article-card__subtitle"><?php echo get_the_category(); ?></h5> -->
     <h3 class="article-card__title"><?php echo the_title(); ?></h3>
     <p class="article-card__description"><?php echo get_the_excerpt(); ?></p>
     <div class="article-byline">
-      <div class="article-byline__icon"></div>
+      <div class="article-byline__icon">
+        <img src="<?php bloginfo('template_directory');?>/images/logo/author.png">
+      </div>
       <div class="article-byline__text">
         <span class="article-byline__name"><?php echo get_the_author(); ?></span>
         <span class="article-byline__time">2</span>

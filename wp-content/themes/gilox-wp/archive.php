@@ -76,7 +76,6 @@ get_header();
 								<h2 class="article-hero__title">
 								<a href="<?php echo get_permalink();?>"><?php echo the_archive_description(); ?> Artists</a>    
 								</h2>
-								<a href="<?php echo get_permalink();?>" <?php echo "Discover the biggest Artist in"; echo the_archive_description(); ?></a>
 								<a href="<?php echo get_permalink();?>" class="article-hero__button">        <span class="article-hero__button-title">Explore</span>
 									<span class="article-hero__button-arrow"></span>
 									</a>    </div>
