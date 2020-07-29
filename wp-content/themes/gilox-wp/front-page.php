@@ -1360,3 +1360,8 @@ get_footer();
 ?>
 
 </body>
+<div class="hidden">
+  <svg id="svg-icon-chevron" width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.7 4.7l-6 6c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3l-6-6c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0L7 8.6l5.3-5.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4z" fill="#D32531" />
+  </svg>
+</div>
