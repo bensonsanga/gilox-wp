@@ -11,7 +11,7 @@
 <div class="article-grid">
 <a href="<?php echo get_permalink();?>" class="article-card article-card--large-2x">
   <div class="article-card__media">
-          <img alt="Mars, Roman God of War" title="Mars, Roman God of War" class="article-card__image lazyload" loading="lazy" data-sizes="(min-width: 1920px) 736px, (min-width: 1280px) 42.5vw, (min-width: 640px) 50vw, 100vw" data-srcset="<?php echo get_the_post_thumbnail_url();?>?q=75&amp;w=320&amp;ar=3:2&amp;fit=crop&amp;auto=format 320w,
+          <img alt="Just give it a sec" title="Just give it a sec" class="article-card__image lazyload" loading="lazy" data-sizes="(min-width: 1920px) 736px, (min-width: 1280px) 42.5vw, (min-width: 640px) 50vw, 100vw" data-srcset="<?php echo get_the_post_thumbnail_url();?>?q=75&amp;w=320&amp;ar=3:2&amp;fit=crop&amp;auto=format 320w,
                        <?php echo get_the_post_thumbnail_url();?>?q=75&amp;w=360&amp;ar=3:2&amp;fit=crop&amp;auto=format 360w,
                        <?php echo get_the_post_thumbnail_url();?>?q=75&amp;w=375&amp;ar=3:2&amp;fit=crop&amp;auto=format 375w,
                        <?php echo get_the_post_thumbnail_url();?>?q=75&amp;w=480&amp;ar=3:2&amp;fit=crop&amp;auto=format 480w,
