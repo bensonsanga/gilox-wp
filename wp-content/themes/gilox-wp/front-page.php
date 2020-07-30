@@ -1081,19 +1081,22 @@ get_header();
 
           <div class="c-video-gallery__slider c-slider " data-slider="" data-slider--centered="">
 
-
-            <a href="" class="c-slider__nav c-slider__nav--left" data-slider-nav="prev">
+          <div id="rightArrow">
+            <a  class="c-slider__nav c-slider__nav--left" data-slider-nav="prev">
               <svg class="c-slider__icon">
                 <use xlink:href="#svg-icon-chevron"></use>
               </svg>
             </a>
-            <a href="" class="c-slider__nav c-slider__nav--right" data-slider-nav="next">
+          </div>
+          <div id="leftArrow">
+            <a  class="c-slider__nav c-slider__nav--right" data-slider-nav="next">
               <svg class="c-slider__icon">
                 <use xlink:href="#svg-icon-chevron"></use>
               </svg>
             </a>
+          </div>
 
-            <div class="c-slider__track" data-slider-track="" style="transform: translateX(-124.363px);">
+            <div id="tslshow" class="c-slider__track" data-slider-track="" style="transform: translateX(-124.363px);">
 
 
             <?php

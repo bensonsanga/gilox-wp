@@ -43,6 +43,23 @@
     <script>
       window.lazySizesConfig = window.lazySizesConfig || {};
       window.lazySizesConfig.init = false;
+	  var view = $("#tslshow");
+		var move = "100px";
+		var sliderLimit = -750;
+
+		$("#rightArrow").click(function(){
+
+			var currentPosition = parseInt(view.css("left"));
+			if (currentPosition >= sliderLimit) view.stop(false,true).animate({left:"-="+move},{ duration: 400})
+
+		});
+
+		$("#leftArrow").click(function(){
+
+			var currentPosition = parseInt(view.css("left"));
+			if (currentPosition < 0) view.stop(false,true).animate({left:"+="+move},{ duration: 400});
+
+		});
     </script>
 
 	<?php wp_head(); ?>
@@ -62,10 +79,6 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'gilox-wp' ); ?></a>
-	<script>
-      window.lazySizesConfig = window.lazySizesConfig || {};
-      window.lazySizesConfig.init = false;
-    </script>
 	<header class="body-header js-body-header"> 
       <nav class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
 		<a class="" href="<?php echo get_home_url(); ?>" data-category="Navigation" data-action="Header Logo"> 
