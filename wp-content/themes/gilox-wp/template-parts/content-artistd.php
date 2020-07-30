@@ -11,7 +11,7 @@
 
 ?>
 
-
+<!-- 
 <li class="home-domains__item">
             <article class="card-deity card-deity--small">
 <a href="greek-mythology/discoveries/d4.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
@@ -24,7 +24,7 @@
       <p class="card-deity__subtitle" itemprop="description">Best Director 2017 (AMVCA)</p>
     </div>
 </a></article>
-          </li>
+          </li> -->
 
 
 <li class="home-domains__item">
