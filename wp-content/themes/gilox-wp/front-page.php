@@ -1177,7 +1177,7 @@ get_header();
           if ($q->have_posts()) {
             while ($q->have_posts()) {
               $q->the_post();
-              get_template_part('template-parts/content-artist');
+              get_template_part('template-parts/content-artistd');
             }
             wp_reset_postdata();
           }
@@ -1201,7 +1201,7 @@ get_header();
           if ($q->have_posts()) {
             while ($q->have_posts()) {
               $q->the_post();
-              get_template_part('template-parts/content-artist');
+              get_template_part('template-parts/content-artistd');
             }
             wp_reset_postdata();
           }
@@ -1225,7 +1225,7 @@ get_header();
           if ($q->have_posts()) {
             while ($q->have_posts()) {
               $q->the_post();
-              get_template_part('template-parts/content-artist');
+              get_template_part('template-parts/content-artistd');
             }
             wp_reset_postdata();
           }
@@ -1249,7 +1249,7 @@ get_header();
           if ($q->have_posts()) {
             while ($q->have_posts()) {
               $q->the_post();
-              get_template_part('template-parts/content-artist');
+              get_template_part('template-parts/content-artistd');
             }
             wp_reset_postdata();
           }
