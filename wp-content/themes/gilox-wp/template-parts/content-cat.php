@@ -26,7 +26,7 @@
     <p class="article-card__description"><?php echo get_the_excerpt(); ?></p>
     <div class="article-byline">
       <div class="article-byline__icon">
-        <img src="<?php bloginfo('template_directory');?>/images/logo/author.png">
+        <img src="<?php bloginfo('template_directory');?>/images/logo/author-01.svg">
       </div>
       <div class="article-byline__text">
         <span class="article-byline__name"><?php echo get_the_author(); ?></span>
