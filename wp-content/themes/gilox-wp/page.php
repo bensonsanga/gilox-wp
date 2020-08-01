@@ -31,8 +31,6 @@ get_header();
 			endwhile; // End of the loop.
 			?>
 		<article class="article">
-		<?php
-	get_sidebar();?>
 	</main>
 
 <?php
