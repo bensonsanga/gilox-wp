@@ -231,8 +231,12 @@
 	ga('send', 'pageview');
 </script>
 </div><!-- #page -->
+
+
 <!-- <?php global $template;
 echo basename($template); ?> -->
+
+
 <?php wp_footer(); ?>
 
 </html>

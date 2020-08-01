@@ -24,9 +24,13 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
+			
+
 			<div class="card-story__author">
+			
+				<img class="article-byline__icon" src="<?php bloginfo('template_directory');?>/images/logo/author-01.svg">
 				<?php
-				gilox_wp_posted_on();
+				// gilox_wp_posted_on();
 				gilox_wp_posted_by();
 				?>
 			</div>

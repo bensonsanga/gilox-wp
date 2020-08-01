@@ -28,7 +28,7 @@
     <meta property="og:url" content="index.html">
     <meta property="og:title" content="Home of Afro Beats">
     <meta property="og:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
-    <meta property="og:image" content="<?php bloginfo('template_directory');?>/images/logo/title.png">
+    <meta property="og:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
     <meta name="twitter:domain" content="mythopedia.com">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="index.html">
@@ -63,8 +63,6 @@
     </script>
 
 	<?php wp_head(); ?>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172947534-2"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
