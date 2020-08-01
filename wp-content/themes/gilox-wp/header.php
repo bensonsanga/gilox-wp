@@ -442,7 +442,7 @@
 		</ul>
 		<ul class="menu-main__mythologies">
 			<li class="menu-main__mythology">
-		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=193" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afrobeats</h4>
 				</div>
@@ -454,7 +454,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=197" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Highlife </h4>
 				</div>
@@ -466,7 +466,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=198" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Juju Music </h4>
 				</div>
@@ -478,7 +478,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=195" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afro Gospel </h4>
 				</div>
@@ -490,7 +490,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=194" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afrofusion</h4>
 				</div>
@@ -502,7 +502,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=196" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Bongo Flava </h4>
 				</div>
@@ -514,7 +514,7 @@
 				</figure> -->
 		</a>      </li>
 			<li class="menu-main__mythology">
-		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
+		<a href="<?php echo home_url(); ?>/index.php?cat=199" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Nollywood</h4>
 				</div>
