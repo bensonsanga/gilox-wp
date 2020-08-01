@@ -294,8 +294,8 @@
 					<ul class="menu-collection__list">
 					<?php
 						$args = array(
-							'posts_per_page' => 10, 
-							'category_name' => 'artist'
+							'posts_per_page' => 14, 
+							'tag' => 'artist'
 						);
 						$q = new WP_Query( $args);
 
@@ -386,7 +386,7 @@
 					<ul class="menu-collection__list">
 					<?php
 						$args = array(
-							'posts_per_page' => 10, 
+							'posts_per_page' => 14, 
 							'category_name' => 'events'
 						);
 						$q = new WP_Query( $args);
