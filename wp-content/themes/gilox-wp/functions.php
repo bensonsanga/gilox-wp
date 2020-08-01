@@ -230,16 +230,19 @@ function latest_post() {
 						</a>
 					<?php else : ?>
 						<img sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg" alt="<?php the_title(); ?>" />
-					<?php  endif; ?>
+          <?php  endif; ?>
+
+          
+
 					<div class="card-story__text">
 					<h4 class="card-story__title" itemprop="name">
 						<a href="<?php the_permalink(); ?>" class="card-story__link" itemprop="url"><?php echo get_the_title(); ?></a></h4>
 					<div class="card-story__author" itemprop="author" itemscope itemtype="<?php the_permalink(); ?>">
-						<a href="#" class="card-story__author-name" itemprop="url">          <span itemprop="name"><?php echo the_author(); ?></span></a>
+          <img class="article-byline__icon" src="<?php bloginfo('template_directory');?>/images/logo/author-01.svg">
+          <a href="#" class="card-story__author-name" itemprop="url">          
+            <span itemprop="name"><?php echo get_the_author(); ?></span><span class="article-byline__time">2</span></a>
 					<div class="article-card__subtitle">
-						<?php
-						gilox_wp_posted_on();
-						?>
+
 					</div>
 				</article>
 				
