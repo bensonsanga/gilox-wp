@@ -90,7 +90,7 @@
 						<a href="<?php echo home_url(); ?>/index.php?page_id=2" class="footer-general__link" data-category="Navigation" data-action="Footer General">About</a>
 					</li>
 					<li class="footer-general__item">
-						<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-general__link" data-category="Navigation" data-action="Footer General">Submit</a>
+						<a href="<?php echo get_page_link( get_page_by_title( Submit )->ID ); ?>" class="footer-general__link" data-category="Navigation" data-action="Footer General">Submit</a>
 					</li>
 					<li class="footer-general__item">
 						<a href="<?php echo home_url(); ?>/index.php?page_id=1772" class="footer-general__link" data-category="Navigation" data-action="Footer General">Contact</a>
