@@ -28,7 +28,8 @@
                             ?>
                           </div>
                           <div class="card-mythology__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                            <img src="<?php bloginfo('template_directory');?>/images/cover/2x/y/<?php  
+                            
+                            <!-- <img src="<?php bloginfo('template_directory');?>/images/cover/2x/y/<?php  
                             $categories = get_the_category();
                             if ( ! empty( $categories ) ) {
                                 echo esc_html( $categories[0]->name );
@@ -38,7 +39,15 @@
                                 alt="Greek Mythology" border="0"
                                 class="card-mythology__image"
                                 title="Afro beats"
-                                itemprop="url">    </div>
+                                itemprop="url"> -->
+
+                                <img src="<?php echo get_the_post_thumbnail_url();?>"
+                                    alt="Something soon" border="0"
+                                    class="card-mythology__image"
+                                    title="Afro beats"
+                                    itemprop="url"
+                                    style="object-fit: cover;">
+                            </div>
                           </a>
                       </article>
 
