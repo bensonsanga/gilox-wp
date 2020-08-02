@@ -226,7 +226,7 @@ function latest_post() {
 				<article class="card-story">
 					<?php if ( has_post_thumbnail() ) : ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-							<?php the_post_thumbnail('thumbnail', ['class' => 'card-story__media', 'title' => 'Feature image']); ?>
+							<?php the_post_thumbnail('large', ['class' => 'card-story__media', 'title' => 'Feature image']); ?>
 						</a>
 					<?php else : ?>
 						<img sizes="(min-width: 960px) 20vw, 25vw" src="<?php bloginfo('template_directory');?>/images/Avatars/1x/avatar.jpg" alt="<?php the_title(); ?>" />
