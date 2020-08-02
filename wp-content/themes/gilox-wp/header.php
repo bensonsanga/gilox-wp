@@ -34,7 +34,7 @@
     <meta name="twitter:url" content="index.html">
     <meta name="twitter:title" content="Home of Afro Beats">
     <meta name="twitter:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
-  
+	<meta name="twitter:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
 
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/images/logo/title.png" />
     <meta name="google-site-verification" content="e9OXvF_GPLEYW6YS5_5wpR_1Uhb7aS7pBRdMcEfWNLs" />
