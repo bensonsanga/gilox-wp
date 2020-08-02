@@ -103,7 +103,27 @@ get_header();
     </div>
     <div class="home-deities__cards">
       <article class="card-pantheon" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="greek-mythology/history/history1.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+        
+      
+        <?php
+            $args = array(
+              'posts_per_page' => 1,
+              'tag' => 'feature-left'
+            );
+            $q = new WP_Query($args);
+
+            if ($q->have_posts()) {
+              while ($q->have_posts()) {
+                $q->the_post();
+                get_template_part('template-parts/content-feature');
+              }
+              wp_reset_postdata();
+            }
+            ?>
+
+
+
+         <!-- <a href="<?php echo get_home_url(); ?>" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
           <img alt="History" title="History" class="card-pantheon__image" sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
         </a>
         <div class="card-pantheon__text">
@@ -113,12 +133,14 @@ get_header();
             $post_info = get_post($post_id1);
             $title = $post_info->post_title;
             ?>
-            <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
+            <a href="<?php echo get_home_url(); ?>" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
           <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
             <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id); ?>
             </a> </div>
           <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id); ?></p>
-        </div>
+        </div> -->
+
+
         <div class="card-pantheon__deities">
           <h5 class="card-pantheon__subtitle">Top Afrogospel Artist</h5>
 
@@ -126,7 +148,7 @@ get_header();
             <?php
             $args = array(
               'posts_per_page' => 3,
-              'tag' => 'top-afrobeat'
+              'tag' => 'top-afrogospel'
             );
             $q = new WP_Query($args);
 
@@ -262,7 +284,25 @@ get_header();
         </div>
       </article>
       <article class="card-pantheon is-selected" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="greek-mythology/history/history2.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+       
+      
+      <?php
+            $args = array(
+              'posts_per_page' => 1,
+              'tag' => 'feature-middle'
+            );
+            $q = new WP_Query($args);
+
+            if ($q->have_posts()) {
+              while ($q->have_posts()) {
+                $q->the_post();
+                get_template_part('template-parts/content-feature');
+              }
+              wp_reset_postdata();
+            }
+            ?>
+
+      <!-- <a href="greek-mythology/history/history2.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
 
           <img alt="History" title="History" class="card-pantheon__image" sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
         </a>
@@ -279,7 +319,9 @@ get_header();
             <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id); ?>
             </a> </div>
           <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id); ?></p>
-        </div>
+        </div> -->
+
+
         <div class="card-pantheon__deities">
           <h5 class="card-pantheon__subtitle">Top Afrobeats artists</h5>
 
@@ -288,7 +330,7 @@ get_header();
             <?php
             $args = array(
               'posts_per_page' => 6,
-              'tag' => 'top-afrobeat'
+              'tag' => 'top-afrobeats'
             );
             $q = new WP_Query($args);
 
@@ -426,7 +468,25 @@ get_header();
         </div>
       </article>
       <article class="card-pantheon" itemscope itemtype="<?php echo get_home_url(); ?>">
-        <a href="greek-mythology/history/history3.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
+       
+      
+      <?php
+            $args = array(
+              'posts_per_page' => 1,
+              'tag' => 'feature-right'
+            );
+            $q = new WP_Query($args);
+
+            if ($q->have_posts()) {
+              while ($q->have_posts()) {
+                $q->the_post();
+                get_template_part('template-parts/content-feature');
+              }
+              wp_reset_postdata();
+            }
+            ?>
+      
+      <!-- <a href="greek-mythology/history/history3.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
           <img alt="History" title="History" class="card-pantheon__image" sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
         </a>
         </a>
@@ -442,7 +502,7 @@ get_header();
             <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id2); ?>
             </a> </div>
           <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id2); ?></p>
-        </div>
+        </div> -->
         <div class="card-pantheon__deities">
           <h5 class="card-pantheon__subtitle">Top Bongo Flava Artist </h5>
 
@@ -450,7 +510,7 @@ get_header();
             <?php
             $args = array(
               'posts_per_page' => 3,
-              'tag' => 'top-afrobeat'
+              'tag' => 'top-bongoflava'
             );
             $q = new WP_Query($args);
 
