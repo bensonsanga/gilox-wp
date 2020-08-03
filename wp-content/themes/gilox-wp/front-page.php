@@ -1139,7 +1139,7 @@ get_header();
           </div><!-- /.c-video-gallery__main -->
 
 
-          <div class="c-video-gallery__slider c-slider " data-slider="" data-slider--centered="">
+          <div class="c-video-gallery__slider c-slider bstimeslider" data-slider="" data-slider--centered="">
 
           <div id="rightArrow">
             <a  class="c-slider__nav c-slider__nav--left" data-slider-nav="prev">
@@ -1149,33 +1149,32 @@ get_header();
             </a>
           </div>
           <div id="leftArrow">
-            <a  class="c-slider__nav c-slider__nav--right" data-slider-nav="next">
+            <a  class="c-slider__nav c-slider__nav--right " data-slider-nav="next">
               <svg class="c-slider__icon">
                 <use xlink:href="#svg-icon-chevron"></use>
               </svg>
             </a>
           </div>
+            <div class="viewContainer">
+              <div id="tslshow" class="c-slider__track" data-slider-track="" style="transform: translateX(-124.363px);">
+              <?php
+              $args = array(
+                'posts_per_page' => 5,
+                'category_name' => 'video'
+              );
+              $q = new WP_Query($args);
 
-            <div id="tslshow" class="c-slider__track" data-slider-track="" style="transform: translateX(-124.363px);">
-
-
-            <?php
-            $args = array(
-              'posts_per_page' => 5,
-              'category_name' => 'video'
-            );
-            $q = new WP_Query($args);
-
-            if ($q->have_posts()) {
-              while ($q->have_posts()) {
-                $q->the_post();
-                get_template_part('template-parts/content-video');
+              if ($q->have_posts()) {
+                while ($q->have_posts()) {
+                  $q->the_post();
+                  get_template_part('template-parts/content-video');
+                }
+                wp_reset_postdata();
               }
-              wp_reset_postdata();
-            }
-            ?>
+              ?>
 
-            </div>
+              </div>
+            </div>  
             
           </div><!-- /.c-video-gallery__slider c-slider -->
 
@@ -1428,3 +1427,23 @@ get_footer();
     <path d="M13.7 4.7l-6 6c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3l-6-6c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0L7 8.6l5.3-5.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4z" fill="#D32531" />
   </svg>
 </div>
+
+<script>
+  var view = $("#tslshow");
+  var move = "100px";
+  var sliderLimit = -750;
+
+  $("#rightArrow").click(function(){
+
+      var currentPosition = parseInt(view.css("left"));
+      if (currentPosition >= sliderLimit) view.stop(false,true).animate({left:"-="+move},{ duration: 400})
+
+  });
+
+  $("#leftArrow").click(function(){
+
+      var currentPosition = parseInt(view.css("left"));
+      if (currentPosition < 0) view.stop(false,true).animate({left:"+="+move},{ duration: 400});
+
+  });
+</script>
