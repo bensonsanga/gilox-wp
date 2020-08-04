@@ -25,7 +25,7 @@
     <meta name="description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
     <meta property="og:site_name" content="Gilox">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="index.html">
+    <!-- <meta property="og:url" content="index.html"> -->
     <meta property="og:title" content="Home of Afro Beats">
     <meta property="og:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
     <meta property="og:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
