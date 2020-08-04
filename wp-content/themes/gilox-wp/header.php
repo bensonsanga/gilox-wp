@@ -29,9 +29,9 @@
     <meta property="og:title" content="Home of Afro Beats">
     <meta property="og:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
     <meta property="og:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
-    <meta name="twitter:domain" content="mythopedia.com">
+    <!-- <meta name="twitter:domain" content="mythopedia.com"> -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="index.html">
+    <!-- <meta name="twitter:url" content="index.html"> -->
     <meta name="twitter:title" content="Home of Afro Beats">
     <meta name="twitter:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
 	<meta name="twitter:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
