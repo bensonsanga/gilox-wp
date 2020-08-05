@@ -247,6 +247,18 @@
 				<li class="menu-static__item">
 		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Contact</span>
 		</a>        </li>
+				<li class="menu-static__item">
+		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">About </span>
+		</a>        </li>
+				<li class="menu-static__item">
+		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Contact</span>
+		</a>        </li>
+				<li class="menu-static__item">
+		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">About </span>
+		</a>        </li>
+				<li class="menu-static__item">
+		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Contact</span>
+		</a>        </li>
 			</ul>
 		</div>
 		<button class="menu-button js-menu-button" aria-label="Open menu" data-category="Navigation" data-action="Hamburger">
