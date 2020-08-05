@@ -20,7 +20,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="turbolinks-cache-control" content="no-preview">
-      <title><?php echo wp_title(); ?></title>
+	<title><?php wp_title(''); ?></title>
     <meta name="title" content="Home of Afro Beats">
     <meta name="description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
     <meta property="og:site_name" content="Gilox">

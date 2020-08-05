@@ -1197,7 +1197,7 @@ get_header();
       <?php
       $args = array(
         'posts_per_page' => 5,
-        'category_name' => 'review'
+        'category_name' => 'album-review'
       );
       $q = new WP_Query($args);
 
@@ -1332,7 +1332,7 @@ get_header();
       <?php
       $args = array(
         'posts_per_page' => 5,
-        'category_name' => 'movie'
+        'category_name' => 'movie-review'
       );
       $q = new WP_Query($args);
 
@@ -1393,7 +1393,7 @@ get_header();
             <?php
             $args = array(
               'posts_per_page' => 5,
-              'category_name' => 'movie'
+              'category_name' => 'editors-pick'
             );
             $q = new WP_Query($args);
 
