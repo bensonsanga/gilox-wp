@@ -187,6 +187,14 @@
 	<div class="footer-credit">
 		<p class="footer-credit__text">© 2020 <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Gilox</a> – All Rights Reserved. <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Privacy Policy</a></p>
 	</div>
+                                    <ul>
+                                        <li><a href="https://paypal.me/bbbootstrap/5" target="_blank">Donate us</a></li>
+                                        <li><a href="https://www.facebook.com/bbbootstrap" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                                        <li><a href="https://twitter.com/bbbootstrap" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.instagram.com/bbbootstrap_" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        
+                                    </ul>
+                               
 </footer>
 <script>
 	if ('loading' in HTMLImageElement.prototype) {

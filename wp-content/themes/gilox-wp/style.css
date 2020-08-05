@@ -1416,3 +1416,18 @@ https://flickity.metafizzy.co
 	border-top: .1rem solid #20b6e4;
 	padding-left: 1.5rem;
 }
+
+.socialOnes {
+	padding: .5rem 1.6rem;
+	font-size: .64rem;
+	color: #fff;
+	background-color: #3b5998 !important;
+	margin: .375rem;
+	white-space: normal;
+	white-space: normal;
+	border: 0;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	position: relative;
+    overflow: hidden;
+}
