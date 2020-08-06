@@ -523,7 +523,7 @@ https://flickity.metafizzy.co
 	padding-left: 0.75em;
 	border-left: 1px solid #e6e6e6
 }@media only screen and (min-width: 40em){.article-byline--translator{margin-left:0.75em;padding-left:0.75em}}.article-byline__icon{
-	flex: 1 0 1.75em;
+	/* flex: 1 0 1.75em; */
 	width: 1.75em;
 	height: 1.75em;
 	border-radius: 50%;

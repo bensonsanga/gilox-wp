@@ -240,10 +240,10 @@ function latest_post() {
           </h4>
           <div class="article-byline">
           <div class="article-byline__icon">
-            <img width=24px src="http://localhost/Gilox/wp-content/themes/gilox-wp/images/logo/author.png">
+            <img width=24px src="<?php bloginfo('template_directory');?>/images/logo/author-01.svg">
           </div>
           <div class="article-byline__text">
-            <span class="article-byline__name">gilox_admin</span>
+            <span class="article-byline__name"><?php echo get_the_author(); ?></span>
             <span class="article-byline__time">2</span>
           </div>
         </div>
