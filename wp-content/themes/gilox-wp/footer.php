@@ -69,15 +69,19 @@
 
 	<div class="footer-center">
 		<div class="footer-breadcrumbs">
-			<a href="..<?php echo get_home_url(); ?>" class="menu-link" data-category="Navigation" data-action="Footer Breadcrumb">Gilox</a>
-			<ol class="breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
-				<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-					<a href="<?php echo get_home_url(); ?>" class="breadcrumbs__link" data-category="Navigation" data-action="Footer Breadcrumb" itemprop="item" itemtype="https://schema.org/Article">
-						<span class="breadcrumbs__title" itemprop="name">About</span>
-					</a>
-					<meta itemprop="position" content="3">
-				</li>
-			</ol>
+			<a href="..<?php echo get_home_url(); ?>" class="menu-link top-margin-1" data-category="Navigation" data-action="Footer Breadcrumb">Gilox</a>
+			<div >
+						<ul class="icons-row">
+							<li class="menu-static__item"><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-instagram"></a></span>
+							</a>        </li>
+									<li class="menu-static__item">
+							<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-twitter"></a></span>
+							</a>        </li>
+									<li class="menu-static__item">
+							<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-facebook"></a></span>
+							</a>        </li>
+						</ul>
+					</div>
 
 
 		</div>
@@ -186,17 +190,9 @@
 	</div>
 	<div class="footer-credit">
 		<p class="footer-credit__text">© 2020 <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Gilox</a> – All Rights Reserved. <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Privacy Policy</a></p>
-		<ul>
-			<li><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-instagram"></a></span>
-			</a>        </li>
-					<li class="menu-static__item">
-			<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-twitter"></a></span>
-			</a>        </li>
-					<li class="menu-static__item">
-			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-facebook"></a></span>
-			</a>        </li>
-		</ul>
+
 	</div>
+	
 
 	
 </footer>

@@ -1446,3 +1446,10 @@ https://flickity.metafizzy.co
 	opacity: 0.7;
   }
   
+  .icons-row {
+	  display: flex;
+	  flex-flow: row wrap;
+  }
+.top-margin-1{
+	margin-top: 0.5em;
+}
