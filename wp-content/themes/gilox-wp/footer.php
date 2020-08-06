@@ -186,7 +186,18 @@
 	</div>
 	<div class="footer-credit">
 		<p class="footer-credit__text">© 2020 <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Gilox</a> – All Rights Reserved. <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Privacy Policy</a></p>
+		<ul>
+			<li><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-instagram"></a></span>
+			</a>        </li>
+					<li class="menu-static__item">
+			<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-twitter"></a></span>
+			</a>        </li>
+					<li class="menu-static__item">
+			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-facebook"></a></span>
+			</a>        </li>
+		</ul>
 	</div>
+
 	
 </footer>
 <script>

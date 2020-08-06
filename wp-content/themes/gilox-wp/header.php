@@ -39,7 +39,8 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/images/logo/title.png" /> -->
     <!-- <meta name="google-site-verification" content="e9OXvF_GPLEYW6YS5_5wpR_1Uhb7aS7pBRdMcEfWNLs" /> -->
     <link rel="shortcut icon" href="<?php bloginfo('template_directory');?>/images/logo/Favicon.svg" />
-
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
       window.lazySizesConfig = window.lazySizesConfig || {};
       window.lazySizesConfig.init = false;
@@ -248,13 +249,13 @@
 		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Contact</span>
 		</a>        </li>
 				<li class="menu-static__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Instagram </span>
+		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-instagram"></a></span>
 		</a>        </li>
 				<li class="menu-static__item">
-		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Twitter</span>
+		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-twitter"></a></span>
 		</a>        </li>
 				<li class="menu-static__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Facebook </span>
+		<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-facebook"></a></span>
 		</a>        </li>
 			</ul>
 		</div>
@@ -495,14 +496,15 @@
 			<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Contact</span>
 			</a>    </li>
 			<li class="menu-main__item">
-					<button type="button" class="socialOnes"><i class="fab fa-facebook-f pr-1"></i> Instagram</button>
-				</li>
-			<li class="menu-main__item">
-					<button type="button" class="socialOnes"><i class="fab fa-facebook-f pr-1"></i> Twitter</button>
-				</li>
-			<li class="menu-main__item">
-					<button type="button" class="socialOnes"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
-				</li>
+			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Instagram </span>
+			</a>    </li>
+				<li class="menu-main__item">
+			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Twitter</span>
+			</a>    </li>
+				<li class="menu-main__item">
+			<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Facebook</span>
+			</a>    </li>
+			
 		</ul>
 		<ul class="menu-main__mythologies">
 			<li class="menu-main__mythology">
