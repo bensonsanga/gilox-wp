@@ -271,7 +271,7 @@
 			<nav class="menu-mythology" itemscope itemtype="https://schema.org/SiteNavigationElement">
 				<ul class="menu-mythology__list">
 					<li class="menu-mythology__item">
-				<a href="index.html" class="menu-mythology__link is-active" data-category="Navigation" data-action="Header Collection" itemprop="url">        <span itemprop="name">Afrobeats</span>
+				<a href="<?php echo home_url() ?>" class="menu-mythology__link is-active" data-category="Navigation" data-action="Header Collection" itemprop="url">        <span itemprop="name">Afrobeats</span>
 				</a>    </li>
 					<li class="menu-mythology__item has-children">
 						<div class="menu-mythology__link js-menu-toggle">
