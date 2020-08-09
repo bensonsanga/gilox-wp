@@ -280,7 +280,7 @@ get_header();
                         </li>
             </ul>
             -->
-          <a href="celtic-mythology/gods/index.html" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
+          <a href="<?php echo home_url(); ?>/index.php?cat=193" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
         </div>
       </article>
       <article class="card-pantheon is-selected" itemscope itemtype="<?php echo get_home_url(); ?>">
@@ -1141,7 +1141,7 @@ get_header();
 
           <div class="c-video-gallery__slider c-slider bstimeslider" data-slider="" data-slider--centered="">
 
-          <div id="rightArrow">
+          <!-- <div id="rightArrow">
             <a  class="c-slider__nav c-slider__nav--left" data-slider-nav="prev">
               <svg class="c-slider__icon">
                 <use xlink:href="#svg-icon-chevron"></use>
@@ -1154,7 +1154,7 @@ get_header();
                 <use xlink:href="#svg-icon-chevron"></use>
               </svg>
             </a>
-          </div>
+          </div> -->
             <div class="viewContainer">
               <div id="tslshow" class="c-slider__track" data-slider-track="" style="transform: translateX(-124.363px);">
               <?php
