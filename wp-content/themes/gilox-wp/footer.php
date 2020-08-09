@@ -142,17 +142,17 @@
 					<h4 class="footer-region__name">BONGO FLAVA</h4>
 					<ul class="footer-region__list">
 						<li class="footer-region__item">
-							<a href="<?php echo home_url(); ?>/index.php?tag=tanzania" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Tanzania</span>
+							<a href="<?php echo home_url(); ?>/index.php?cat=196" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Tanzania</span>
 								<span class="footer-region__link-suffix"></span>
 							</a>
 						</li>
 						<li class="footer-region__item">
-							<a href="<?php echo home_url(); ?>/index.php?tag=kenya" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Kenya</span>
+							<a href="<?php echo home_url(); ?>/index.php?cat=196" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Kenya</span>
 								<span class="footer-region__link-suffix"></span>
 							</a>
 						</li>
 						<li class="footer-region__item">
-							<a href="<?php echo home_url(); ?>/index.php?tag=rwanda" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Rwanda</span>
+							<a href="<?php echo home_url(); ?>/index.php?cat=196" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Rwanda</span>
 								<span class="footer-region__link-suffix"></span>
 							</a>
 						</li>
@@ -162,17 +162,17 @@
 					<h4 class="footer-region__name">NOLLYWOOD </h4>
 					<ul class="footer-region__list">
 						<li class="footer-region__item">
-							<a href="<?php echo home_url(); ?>/index.php?tag=nollywood" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Movies</span>
+							<a href="<?php echo home_url(); ?>/index.php?cat=199" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Movies</span>
 								<span class="footer-region__link-suffix"></span>
 							</a>
 						</li>
 						<li class="footer-region__item">
-							<a href="<?php echo home_url(); ?>/index.php?tag=nollywood" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Series</span>
+							<a href="<?php echo home_url(); ?>/index.php?cat=199" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Series</span>
 								<span class="footer-region__link-suffix"></span>
 							</a>
 						</li>
 						<li class="footer-region__item">
-							<a href="<?php echo home_url(); ?>/index.php?tag=nollywood" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Comedy</span>
+							<a href="<?php echo home_url(); ?>/index.php?cat=199" class="footer-region__link" data-category="Navigation" data-action="Footer Mythology"> <span class="footer-region__link-title">Comedy</span>
 								<span class="footer-region__link-suffix"></span>
 							</a>
 						</li>
@@ -241,8 +241,8 @@
 </div><!-- #page -->
 
 
-<!-- <?php global $template;
-echo basename($template); ?> -->
+ <?php global $template;
+echo basename($template); ?>
 
 
 <?php wp_footer(); ?>

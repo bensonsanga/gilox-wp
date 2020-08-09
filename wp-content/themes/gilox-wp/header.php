@@ -317,7 +317,7 @@
 						?>
 					</ul>
 				</div>
-				<div class="menu-collection__group" data-index="1">
+				<!-- <div class="menu-collection__group" data-index="1">
 					<h4 class="menu-collection__name">Other Artists</h4>
 					<ul class="menu-collection__list">
 						<li class="menu-collection__item">
@@ -327,7 +327,7 @@
 				<a href="../crius/index.html" class="menu-collection__link" data-category="Navigation" data-action="Header Collection (List Item)">              <span itemprop="name">9ice</span>
 				</a>          </li>
 					</ul>
-				</div>
+				</div> -->
 							</div>
 						</div>
 					</li>

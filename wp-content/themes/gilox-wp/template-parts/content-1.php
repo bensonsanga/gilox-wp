@@ -20,14 +20,29 @@
 			?>
 			
 
-			<div class="card-story__author">
+			<div class="article-byline">
+			<div class="article-byline__icon">
+				<img width="24px" src="<?php bloginfo('template_directory');?>/images/logo/author-01.svg">
+			</div>
+			<div class="article-byline__text">
+				<span class= "article-byline__name">
+				<?php
+					// gilox_wp_posted_on();
+					gilox_wp_posted_by();
+					?>
+				</span>
+				<span class="article-byline__time">2</span>
+			</div>
+			</div>
+				
+			<!-- <div class="card-story__author">
 			
 				<img class="article-byline__icon" src="<?php bloginfo('template_directory');?>/images/logo/author-01.svg">
 				<?php
 				// gilox_wp_posted_on();
 				gilox_wp_posted_by();
 				?>
-			</div>
+			</div> -->
 		<?php endif; ?> 
 	</div><!-- .entry-header -->
 	<section class="article-content js-article-content">
