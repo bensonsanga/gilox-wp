@@ -15,7 +15,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <aside class="article-sidebar js-sidebar">
  
   <div class="article-related js-article-related">
-    <h4 class="article-related__name">Related Articles</h4>
+    <h4 class="article-related__name">Stories you may also like</h4>
 
     <ul lass="article-related__list">
               <?php
