@@ -16,7 +16,7 @@ get_header();
 ?>
 
 	<main id="primary" class="body-content js-body-content">
-		<article class="article">
+	
 			<?php
 			while ( have_posts() ) :
 				the_post();
@@ -30,7 +30,7 @@ get_header();
 
 			endwhile; // End of the loop.
 			?>
-		<article class="article">
+		
 	</main>
 
 <?php

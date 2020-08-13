@@ -185,7 +185,7 @@
 	<div class="footer-popout">
 		<div class="footer-popout__text">
 			<h3 class="footer-popout__title">About Gilox</h3>
-			<p class="footer-popout__description">As an ever-growing archive, our mission is to catalog the world’s musicology on the web for all to enjoy. <a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-popout__link">Learn more</a>.</p>
+			<p class="footer-popout__description">We are a Phoenix rising to lad the way in African storytelling, to champion the rise of Afrobeats and the new Pan African sound<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-popout__link">Learn more</a>.</p>
 		</div>
 	</div>
 	<div class="footer-credit">
@@ -239,11 +239,11 @@
 	ga('send', 'pageview');
 </script>
 </div><!-- #page -->
-
+<!-- 
 
  <?php global $template;
 echo basename($template); ?>
-
+ -->
 
 <?php wp_footer(); ?>
 
