@@ -1188,10 +1188,9 @@ get_header();
   </section>
 
   <section class="home-legends">
-    <div class="home-legends__text">
+    <div class="home-deities__text">
       <h2 class="home-deities__title" id="legends">ALBUM REVIEWS</h2>
     </div>
-
 
 
     <ul class="home-legends__list">

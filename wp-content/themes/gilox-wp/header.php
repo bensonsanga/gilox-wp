@@ -490,9 +490,6 @@
 			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">About </span>
 			</a>    </li>
 				<li class="menu-main__item">
-			<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Authors</span>
-			</a>    </li>
-				<li class="menu-main__item">
 			<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Contact</span>
 			</a>    </li>
 			<li class="menu-main__item">
