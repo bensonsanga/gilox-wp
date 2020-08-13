@@ -72,13 +72,13 @@
 			<a href="..<?php echo get_home_url(); ?>" class="menu-link top-margin-1" data-category="Navigation" data-action="Footer Breadcrumb">Gilox</a>
 			<div >
 						<ul class="icons-row">
-							<li class="menu-static__item"><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-instagram"></a></span>
+							<li class="menu-static__item"><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.instagram.com/gilox.co" class="fa fa-instagram"></a></span>
 							</a>        </li>
 									<li class="menu-static__item">
-							<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-twitter"></a></span>
+							<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.twitter.com/gilox" class="fa fa-twitter"></a></span>
 							</a>        </li>
 									<li class="menu-static__item">
-							<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="#" class="fa fa-facebook"></a></span>
+							<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.facebook.com/gilox" class="fa fa-facebook"></a></span>
 							</a>        </li>
 						</ul>
 					</div>

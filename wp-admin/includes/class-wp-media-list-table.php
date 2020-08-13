@@ -428,7 +428,7 @@ class WP_Media_List_Table extends WP_List_Table {
 	 */
 	public function column_author( $post ) {
 		printf(
-			'<a href="%s">%s</a>',
+			'<a href="#">%s</a>',
 			esc_url( add_query_arg( array( 'author' => get_the_author_meta( 'ID' ) ), 'upload.php' ) ),
 			get_the_author()
 		);

@@ -42,12 +42,12 @@ get_header();
             <span class="catalog-index__arrow"></span>
           </a> </li>
         <li class="catalog-index__item">
-          <a href="<?php echo home_url(); ?>/index.php?cat=197" class="catalog-index__link"> <span class="catalog-index__title"> Highlife
+          <a href="<?php echo home_url(); ?>/index.php?cat=197" class="catalog-index__link"> <span class="catalog-index__title"> Highlife</span>
               <span class="catalog-index__arrow"></span>
           </a> </li>
 
         <li class="catalog-index__item">
-          <a href="<?php echo home_url(); ?>/index.php?cat=198" class="catalog-index__link"> <span class="catalog-index__title"> Juju Music
+          <a href="<?php echo home_url(); ?>/index.php?cat=198" class="catalog-index__link"> <span class="catalog-index__title"> Juju Music</span>
               <span class="catalog-index__arrow"></span>
           </a> </li>
 

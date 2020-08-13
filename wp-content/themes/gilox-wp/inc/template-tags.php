@@ -43,8 +43,8 @@ if ( ! function_exists( 'gilox_wp_posted_by' ) ) :
 	function gilox_wp_posted_by() {
 		$byline = sprintf(
 			/* translators: %s: post author. */
-			esc_html_x( '%s', 'post author', 'gilox-wp' ),
-			'<span class=""><a class="#" href="#">' . esc_html( get_the_author() ) . '</a></span>'
+			esc_html_x( ' %s', 'post author', 'gilox-wp' ),
+			'<span class=""><a class="url fn n" href="#">' . esc_html( get_the_author() ) . '</a></span>'
 		);
 
 		echo '<span class="byline"> ' . $byline . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
