@@ -25,8 +25,7 @@ get_header();
 					class="home-header__image" 
 					sizes="(min-width: 960px) 50vw, 100vw" 
 					src="<?php bloginfo('template_directory');?>/images/cover/2x/<?php  echo get_query_var( 'category_name' )?>.png"
-					onerror="this.onerror=null;this.src='<?php bloginfo('template_directory');?>/images/cover/2x/afrobeat.png';"
-					>
+					onerror="this.onerror=null;this.src='<?php bloginfo('template_directory');?>/images/cover/2x/afrobeat.png';" >
 				</figure>
 				<div class="mythology-header__text">
 					<?php

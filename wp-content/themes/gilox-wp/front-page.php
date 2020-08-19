@@ -706,7 +706,7 @@ get_header();
                           <div class="jw-aspect jw-reset" style="padding-top: 56.25%;"></div>
                           <div class="jw-media jw-reset"><video class="jw-video jw-reset" tabindex="-1" disableremoteplayback="" webkit-playsinline="" playsinline="">
                             </video></div>
-                          <div class="jw-preview jw-reset" style="background-image: url(&quot;http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?width=720&quot;);">
+                          <div class="jw-preview jw-reset" style="background-image: url(&quot;http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?width=720&quot;);">
                             <div class="jw-video-thumbnail-generated jw-video-thumbnail-container"><video class="jw-reset jw-video-thumbnail" tabindex="-1" disableremoteplayback="" webkit-playsinline="" playsinline="" loop=""></video></div>
                           </div>
                           <div class="jw-controls-backdrop jw-reset">

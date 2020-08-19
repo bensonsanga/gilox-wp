@@ -72,13 +72,13 @@
 			<a href="..<?php echo get_home_url(); ?>" class="menu-link top-margin-1" data-category="Navigation" data-action="Footer Breadcrumb">Gilox</a>
 			<div >
 						<ul class="icons-row">
-							<li class="menu-static__item"><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.instagram.com/gilox.co" class="fa fa-instagram"></a></span>
+							<li class="menu-static__item"><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.instagram.com/Gilox.co.co" class="fa fa-instagram"></a></span>
 							</a>        </li>
 									<li class="menu-static__item">
-							<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.twitter.com/gilox" class="fa fa-twitter"></a></span>
+							<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.twitter.com/Giloxco" class="fa fa-twitter"></a></span>
 							</a>        </li>
 									<li class="menu-static__item">
-							<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.facebook.com/gilox" class="fa fa-facebook"></a></span>
+							<a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.facebook.com/Gilox.co" class="fa fa-facebook"></a></span>
 							</a>        </li>
 						</ul>
 					</div>
@@ -185,7 +185,7 @@
 	<div class="footer-popout">
 		<div class="footer-popout__text">
 			<h3 class="footer-popout__title">About Gilox</h3>
-			<p class="footer-popout__description">We are a Phoenix rising to lad the way in African storytelling, to champion the rise of Afrobeats and the new Pan African sound<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-popout__link">Learn more</a>.</p>
+			<p class="footer-popout__description">We are a Phoenix rising to lead the way in African storytelling, to champion the rise of Afrobeats and the new Pan African sound<a href="<?php echo home_url(); ?>/index.php?cat=193" class="footer-popout__link">Learn more</a>.</p>
 		</div>
 	</div>
 	<div class="footer-credit">
