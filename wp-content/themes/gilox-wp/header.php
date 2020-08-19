@@ -21,20 +21,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="turbolinks-cache-control" content="no-preview">
 	<title><?php wp_title(''); ?></title>
-    <meta name="title" content="Home of Afro Beats">
+
+	
+    <!-- <meta name="title" content="Home of Afro Beats">
     <meta name="description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
     <meta property="og:site_name" content="Gilox">
     <meta property="og:type" content="website">
-    <!-- <meta property="og:url" content="index.html"> -->
+    <meta property="og:url" content="index.html">
     <meta property="og:title" content="Home of Afro Beats">
     <meta property="og:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
     <meta property="og:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
-    <!-- <meta name="twitter:domain" content="mythopedia.com"> -->
+    <meta name="twitter:domain" content="gilox.co">
     <meta name="twitter:card" content="summary_large_image">
-    <!-- <meta name="twitter:url" content="index.html"> -->
+    <meta name="twitter:url" content="index.html">
     <meta name="twitter:title" content="Home of Afro Beats">
     <meta name="twitter:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
-	<meta name="twitter:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png">
+	<meta name="twitter:image" content="<?php bloginfo('template_directory');?>/images/cover/afrobeat.png"> -->
 
     <!-- <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/images/logo/title.png" /> -->
     <!-- <meta name="google-site-verification" content="e9OXvF_GPLEYW6YS5_5wpR_1Uhb7aS7pBRdMcEfWNLs" /> -->
@@ -243,19 +245,19 @@
 		<div class="menu-static">
 			<ul class="menu-static__list">
 				<li class="menu-static__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About US )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">About </span>
+		<a href="<?php echo get_page_link( get_page_by_title( "About US" )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">About </span>
 		</a>        </li>
 				<li class="menu-static__item">
 		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name">Contact</span>
 		</a>        </li>
 				<li class="menu-static__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About US )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.instagram.com/gilox.co" class="fa fa-instagram"></a></span>
+		<a href="<?php echo get_page_link( get_page_by_title( "About US" )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.instagram.com/gilox.co" class="fa fa-instagram"></a></span>
 		</a>        </li>
 				<li class="menu-static__item">
 		<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.twitter.com/Giloxco" class="fa fa-twitter"></a></span>
 		</a>        </li>
 				<li class="menu-static__item">
-		<a href="<?php echo get_page_link( get_page_by_title( About US )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.facebook.com/Gilox.co" class="fa fa-facebook"></a></span>
+		<a href="<?php echo get_page_link( get_page_by_title( "About US" )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.facebook.com/Gilox.co" class="fa fa-facebook"></a></span>
 		</a>        </li>
 			</ul>
 		</div>
@@ -487,7 +489,7 @@
 			<a href="<?php echo get_home_url(); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Home</span>
 			</a>    </li>
 				<li class="menu-main__item">
-			<a href="<?php echo get_page_link( get_page_by_title( About US )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">About </span>
+			<a href="<?php echo get_page_link( get_page_by_title( "About US" )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">About </span>
 			</a>    </li>
 				<li class="menu-main__item">
 			<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-main__link" data-category="Navigation" data-action="Header General (Main Menu)" itemprop="url">        <span itemprop="name">Contact</span>

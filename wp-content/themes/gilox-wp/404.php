@@ -15,7 +15,7 @@ get_header();
 
 <header class="home-header">
     <div class="home-header__text">
-      <h1 class="home-header__title" itemprop="name"><span>Oops</span></h1>
+      <h1 class="home-header__title" itemprop="name"><span>Afrobeats to the world</span></h1>
       <div class="home-header__block">
 
         <div class="home-header__description">
@@ -40,11 +40,11 @@ get_header();
 		</ol>
 		</div>
 			<header class="article-header">
-				<h1 class="article-header__title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'gilox-wp' ); ?></h1>
+				<h1 class="article-header__title"><?php esc_html_e( 'This page is missing', 'gilox-wp' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<div class="article-grid">
-				<p class="article-hero__description"><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'gilox-wp' ); ?></p>
+				<!-- <p class="article-hero__description"><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'gilox-wp' ); ?></p> -->
 
 					<?php
 					get_search_form();
