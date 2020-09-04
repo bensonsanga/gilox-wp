@@ -19,12 +19,15 @@
     <figure class="c-card__image" data-active-text="Now Playing">
       <div hidden="">
         <script type="text/javascript" src="https://content.jwplatform.com/libraries/zFOPDjEV.js"></script>
-        <div id="jwplayer_QiQSuoWk_div" data-videoid="QiQSuoWk" data-jsonfeed="https://content.jwplatform.com/feeds/QiQSuoWk.json" data-jwplayer-id="jwplayer_QiQSuoWk_div"></div>
+        <div id="jwplayer_QiQSuoWk_div" data-videoid="QiQSuoWk" 
+        data-jsonfeed="https://content.jwplatform.com/feeds/QiQSuoWk.json" 
+        data-jwplayer-id="jwplayer_QiQSuoWk_div"></div>
       </div>
 
 
       <div class="c-crop c-crop--ratio-7x4">
-        <img width="1260" height="720" src="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=300" data-src="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="thomas middleditch ben schwartz" data-srcset="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=300 300w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=450 450w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=350 350w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=300 300w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=450 450w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=350 350w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/maxresdefault.jpg?resize=1260,720&amp;w=210 210w"> </div><!-- .c-crop -->
+        <img width="1260" height="720" src="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=300" 
+        data-src="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=300" class="c-crop__img wp-post-image visible" alt="thomas middleditch ben schwartz" data-srcset="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=300 300w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=450 450w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=350 350w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=210 210w" sizes="(max-width: 480px) 210px, (max-width: 767px) 350px,(max-width: 959px) 450px, 300px" srcset="http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=300 300w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=450 450w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=350 350w, http://i3.ytimg.com/vi/<?php echo get_the_excerpt(); ?>/hqdefault.jpg?resize=1260,720&amp;w=210 210w"> </div><!-- .c-crop -->
 
     </figure><!-- .c-card__image -->
 

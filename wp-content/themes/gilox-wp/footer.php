@@ -15,7 +15,7 @@
 <footer class="body-footer js-body-footer">
 
 	<div class="footer-banner">
-		<a href="/" class="footer-banner__logo" data-category="Navigation" data-action="Footer Logo"> 
+		<a href="<?php echo get_home_url(); ?>" class="footer-banner__logo" data-category="Navigation" data-action="Footer Logo"> 
 		
 
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -63,16 +63,16 @@
 
 
 		</a>
-		<a href="" class="footer-banner__link">
+		<a href="<?php echo get_home_url(); ?>" class="footer-banner__link">
 			<span class="">Gilox</span>
 		</a></div>
 
 	<div class="footer-center">
 		<div class="footer-breadcrumbs">
-			<a href="..<?php echo get_home_url(); ?>" class="menu-link top-margin-1" data-category="Navigation" data-action="Footer Breadcrumb">Gilox</a>
+			<a href="<?php echo get_home_url(); ?>" class="menu-link top-margin-1" data-category="Navigation" data-action="Footer Breadcrumb">Gilox</a>
 			<div >
 						<ul class="icons-row">
-							<li class="menu-static__item"><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.instagram.com/Gilox.co.co" class="fa fa-instagram"></a></span>
+							<li class="menu-static__item"><a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.instagram.com/Gilox.co" class="fa fa-instagram"></a></span>
 							</a>        </li>
 									<li class="menu-static__item">
 							<a href="<?php echo get_page_link( get_page_by_title( Contact )->ID ); ?>" class="menu-static__link" data-category="Navigation" data-action="Header Link" itemprop="url">            <span itemprop="name"><a href="https://www.twitter.com/Giloxco" class="fa fa-twitter"></a></span>

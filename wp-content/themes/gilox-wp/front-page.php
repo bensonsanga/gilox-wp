@@ -1356,7 +1356,7 @@ get_header();
                 <a href="<?php echo the_permalink(); ?>" class="card-feature__link" itemprop="url"><?php echo the_title(); ?></a>
               </h2>
               <div class="card-feature__author" itemprop="author" itemscope itemtype="<?php echo the_permalink(); ?>">
-                <a href="authors/mythopedia-editors/index.html" class="card-feature__author-name" itemprop="url">
+                <a href="#" class="card-feature__author-name" itemprop="url">
                   <span itemprop="name"><?php echo get_the_author(); ?></span>
                 </a>
               </div>
