@@ -1,6 +1,20 @@
 <?php
 get_header();
 ?>
+<head>
+  
+    <meta name="title" content="Home of Afro Beats">
+    <meta name="description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
+    <meta property="og:site_name" content="Gilox">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Home of Afro Beats">
+    <meta property="og:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
+    <meta name="twitter:domain" content="gilox.co">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="index.html">
+    <meta name="twitter:title" content="Home of Afro Beats">
+    <meta name="twitter:description" content="Gilox network is the ultimate online resource for exploring music of any kind from secular to gospel and more.">
+</head>
 
 <main class="body-content js-body-content">
 
