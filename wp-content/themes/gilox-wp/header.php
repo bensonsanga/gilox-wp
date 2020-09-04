@@ -512,96 +512,56 @@
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afrobeats</h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/greek-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Greek Mythology"
-						title="Greek Mythology"
-						class="menu-main__image">
-				</figure> -->
+				
 		</a>      </li>
 			<li class="menu-main__mythology">
 		<a href="<?php echo home_url(); ?>/index.php?cat=197" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Highlife </h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/roman-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Roman Mythology"
-						title="Roman Mythology"
-						class="menu-main__image">
-				</figure> -->
+				
 		</a>      </li>
 			<li class="menu-main__mythology">
 		<a href="<?php echo home_url(); ?>/index.php?cat=198" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Juju Music </h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/norse-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Norse Mythology"
-						title="Norse Mythology"
-						class="menu-main__image">
-				</figure> -->
+			
 		</a>      </li>
 			<li class="menu-main__mythology">
 		<a href="<?php echo home_url(); ?>/index.php?cat=195" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afro Gospel </h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/celtic-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Celtic Mythology"
-						title="Celtic Mythology"
-						class="menu-main__image">
-				</figure> -->
+				
 		</a>      </li>
 			<li class="menu-main__mythology">
 		<a href="<?php echo home_url(); ?>/index.php?cat=194" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afrofusion</h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/egyptian-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Egyptian Mythology"
-						title="Egyptian Mythology"
-						class="menu-main__image">
-				</figure> -->
+				
 		</a>      </li>
 			<li class="menu-main__mythology">
 		<a href="<?php echo home_url(); ?>/index.php?cat=196" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Bongo Flava </h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/chinese-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Chinese Mythology"
-						title="Chinese Mythology"
-						class="menu-main__image">
-				</figure> -->
+				
 		</a>      </li>
 			<li class="menu-main__mythology">
 		<a href="<?php echo home_url(); ?>/index.php?cat=199" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Nollywood</h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/japanese-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Japanese Mythology"
-						title="Japanese Mythology"
-						class="menu-main__image">
-				</figure> -->
+				
 		</a>      </li>
 			<li class="menu-main__mythology">
 		<a href="<?php echo home_url(); ?>/index.php?cat=192" class="menu-main__card" data-category="Navigation" data-action="Header Mythology (Main Menu)" itemprop="url">          <div class="menu-main__text" itemprop="name">
 					<h6 class="menu-main__kicker">Category</h6>
 					<h4 class="menu-main__title">Afro Beat</h4>
 				</div>
-				<!-- <figure class="menu-main__media">
-					<img src="https://media.mythopedia.com/assets/images/aztec-mythology.jpg?q=75&fit=crop&w=360&h=320&auto=format"
-						alt="Aztec Mythology"
-						title="Aztec Mythology"
-						class="menu-main__image">
-				</figure> -->
+				
 		</a>      </li>
 		</ul>
 		</nav>
