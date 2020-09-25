@@ -189,7 +189,7 @@
 		</div>
 	</div>
 	<div class="footer-credit">
-		<p class="footer-credit__text">© 2020 <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Gilox</a> – All Rights Reserved. <a href="<?php echo get_page_link( get_page_by_title( About )->ID ); ?>" class="footer-credit__link">Privacy Policy</a></p>
+		<p class="footer-credit__text">© 2020 <a href="<?php echo get_home_url(); ?>" class="footer-credit__link">Gilox</a> – All Rights Reserved. <a href="<?php echo get_page_link( 3 ); ?>" class="footer-credit__link">Privacy Policy</a></p>
 
 	</div>
 	

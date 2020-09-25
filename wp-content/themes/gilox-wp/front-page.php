@@ -74,7 +74,7 @@ get_header();
     </div>
     <div class="home-catalog__text">
       <h5 class="home-catalog__kicker">BEST NEW</h5>
-      <h2 class="home-catalog__title" id="mythologies">Music</h2>
+      <a href="<?php echo get_tag_link( 208 ); ?>"><h2 class="home-catalog__title" id="mythologies">Music</h2></a>
     </div>
 
     <div class="catalog-carousel js-catalog-carousel">
@@ -101,7 +101,7 @@ get_header();
 
   <section class="home-updates">
     <div class="home-updates__text">
-      <h2 class="home-deities__title" id="latest">LATEST</h2>
+    <a href="<?php echo get_tag_link( 208 ); ?>"><h2 class="home-deities__title" id="latest">LATEST</h2></a>
     </div>
     <ul class="home-stories__list">
       <?php echo do_shortcode('[lastest-post]'); ?>
@@ -112,8 +112,7 @@ get_header();
 
   <section class="home-legends">
     <div class="home-deities__text">
-      <!-- <h5 class="home-deities__kicker">the origin story:</h5> -->
-      <h2 class="home-deities__title" id="pantheons">Features</h2>
+    <a href="<?php echo get_tag_link( 208 ); ?>"><h2 class="home-deities__title" id="pantheons">Features</h2></a>
     </div>
     <div class="home-deities__cards">
       <article class="card-pantheon" itemscope itemtype="<?php echo get_home_url(); ?>">
@@ -134,25 +133,6 @@ get_header();
               wp_reset_postdata();
             }
             ?>
-
-
-
-         <!-- <a href="<?php echo get_home_url(); ?>" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <img alt="History" title="History" class="card-pantheon__image" sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
-        </a>
-        <div class="card-pantheon__text">
-          <h3 class="card-pantheon__title">
-            <?php
-            $post_id1 = 1873;
-            $post_info = get_post($post_id1);
-            $title = $post_info->post_title;
-            ?>
-            <a href="<?php echo get_home_url(); ?>" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
-          <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id); ?>
-            </a> </div>
-          <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id); ?></p>
-        </div> -->
 
 
         <div class="card-pantheon__deities">
@@ -176,124 +156,6 @@ get_header();
             ?>
           </ul>
 
-          <!--
-            <ul class="card-pantheon__list">
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                      <a href="egyptian-mythology/titans/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                        <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Baldur, Norse God of Light"
-                                title="Baldur, Norse God of Light"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Wizkid</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Money miss road</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="egyptian-mythology/titans/coeus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                        <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Baldur, Norse God of Light"
-                                title="Baldur, Norse God of Light"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Naira Marley</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Vulgar  King</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="egyptian-mythology/titans/crius/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="The Morrigan, Celtic Phantom Queen"
-                              title="The Morrigan, Celtic Phantom Queen"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Tekno</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Real guyz</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="egyptian-mythology/titans/gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Lugh, Celtic God of Nobility"
-                              title="Lugh, Celtic God of Nobility"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Adekunle</h4>
-                      <p class="card-deity__subtitle" itemprop="description">The sane artist</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="egyptian-mythology/titans/hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Cernunnos, Celtic God of the Wild"
-                              title="Cernunnos, Celtic God of the Wild"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Teni</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Money matters</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="egyptian-mythology/titans/iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Brigid, Celtic Goddess of Fertility"
-                              title="Brigid, Celtic Goddess of Fertility"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Tiwa Savage</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Queen always</p>
-                    </div>
-                </a></article>
-                        </li>
-            </ul>
-            -->
           <a href="<?php echo home_url(); ?>/index.php?cat=193" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
         </div>
       </article>
@@ -315,26 +177,6 @@ get_header();
               wp_reset_postdata();
             }
             ?>
-
-      <!-- <a href="greek-mythology/history/history2.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-
-          <img alt="History" title="History" class="card-pantheon__image" sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
-        </a>
-
-        <div class="card-pantheon__text">
-          <h3 class="card-pantheon__title">
-            <?php
-            $post_id = 1873;
-            $post_info = get_post($post_id);
-            $title = $post_info->post_title;
-            ?>
-            <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
-          <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id); ?>
-            </a> </div>
-          <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id); ?></p>
-        </div> -->
-
 
         <div class="card-pantheon__deities">
           <h5 class="card-pantheon__subtitle">Top Afrobeats artists</h5>
@@ -358,126 +200,6 @@ get_header();
             ?>
           </ul>
 
-          <!--  <ul class="card-pantheon__list">
-                          <li class="card-pantheon__item">
-                            <article class="card-deity card-deity--small">
-                  <a href="greek-mythology/titans/coeus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                        <div class="card-deity__media">
-                            <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Artist"
-                                title="Artist"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                        </div>
-                      </div>
-                      <div class="card-deity__text">
-                        <h4 class="card-deity__title" itemprop="name">Wizkid</h4>
-                        <p class="card-deity__subtitle" itemprop="description">The wonder of music </p>
-                      </div>
-                  </a></article>
-                          </li>
-                          <li class="card-pantheon__item">
-                            <article class="card-deity card-deity--small">
-                  <a href="greek-mythology/titans/crius/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                        <div class="card-deity__media">
-                            <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Thor, Norse God of Thunder"
-                                title="Thor, Norse God of Thunder"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                        </div>
-                      </div>
-                      <div class="card-deity__text">
-                        <h4 class="card-deity__title" itemprop="name">Davido</h4>
-                        <p class="card-deity__subtitle" itemprop="description">King of hiphop</p>
-                      </div>
-                  </a></article>
-                          </li>
-                          <li class="card-pantheon__item">
-                            <article class="card-deity card-deity--small">
-                  <a href="greek-mythology/titans/cronus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                        <div class="card-deity__media">
-                            <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Freya, Norse Goddess of Fertility"
-                                title="Freya, Norse Goddess of Fertility"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                        </div>
-                      </div>
-                      <div class="card-deity__text">
-                        <h4 class="card-deity__title" itemprop="name">Falz</h4>
-                        <p class="card-deity__subtitle" itemprop="description">
-                          <he>
-                        The bad boy</p>
-                      </div>
-                  </a></article>
-                          </li>
-                          <li class="card-pantheon__item">
-                            <article class="card-deity card-deity--small">
-                  <a href="greek-mythology/titans/gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                        <div class="card-deity__media">
-                            <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Loki, Norse Trickster God"
-                                title="Loki, Norse Trickster God"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                        </div>
-                      </div>
-                      <div class="card-deity__text">
-                        <h4 class="card-deity__title" itemprop="name">Teni</h4>
-                        <p class="card-deity__subtitle" itemprop="description">The reigning billionaire</p>
-                      </div>
-                  </a></article>
-                          </li>
-                          <li class="card-pantheon__item">
-                            <article class="card-deity card-deity--small">
-                  <a href="greek-mythology/titans/hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                        <div class="card-deity__media">
-                            <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Heimdall, Norse Guardian of Asgard"
-                                title="Heimdall, Norse Guardian of Asgard"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                        </div>
-                      </div>
-                      <div class="card-deity__text">
-                        <h4 class="card-deity__title" itemprop="name">Asa</h4>
-                        <p class="card-deity__subtitle" itemprop="description">Qyeen of the music jungle</p>
-                      </div>
-                  </a></article>
-                          </li>
-                          <li class="card-pantheon__item">
-                            <article class="card-deity card-deity--small">
-                  <a href="greek-mythology/titans/iapetus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                        <div class="card-deity__media">
-                            <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                                alt="Baldur, Norse God of Light"
-                                title="Baldur, Norse God of Light"
-                                class="card-deity__image lazyload"
-                                itemprop="url"
-                                loading="lazy"
-                                >
-                        </div>
-                      </div>
-                      <div class="card-deity__text">
-                        <h4 class="card-deity__title" itemprop="name">Olamide</h4>
-                        <p class="card-deity__subtitle" itemprop="description">King of street jamz</p>
-                      </div>
-                  </a></article>
-                          </li>
-            </ul> -->
-
-
           <a href="<?php echo the_permalink(); ?>" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
         </div>
       </article>
@@ -500,23 +222,7 @@ get_header();
             }
             ?>
       
-      <!-- <a href="greek-mythology/history/history3.html" class="card-pantheon__media" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-          <img alt="History" title="History" class="card-pantheon__image" sizes="(min-width: 640px) 50vw, 100vw" src="<?php echo get_the_post_thumbnail_url(1873) ?>">
-        </a>
-        </a>
-        <div class="card-pantheon__text">
-          <h3 class="card-pantheon__title">
-            <?php
-            $post_id2 = 1873;
-            $post_info = get_post($post_id2);
-            $title = $post_info->post_title;
-            ?>
-            <a href="greek-mythology/history/history2.html" class="card-pantheon__link" itemprop="url"><?php echo $title; ?></a></h3>
-          <div class="card-pantheon__author" itemprop="author" itemscope itemtype="<?php echo get_home_url(); ?>">
-            <a href="#" class="card-pantheon__author-name" itemprop="url">&nbsp;<?php echo get_the_author($post_id2); ?>
-            </a> </div>
-          <p class="card-pantheon__description" itemprop="description"><?php echo get_the_excerpt($post_id2); ?></p>
-        </div> -->
+     
         <div class="card-pantheon__deities">
           <h5 class="card-pantheon__subtitle">Top Bongo Flava Artist </h5>
 
@@ -538,126 +244,6 @@ get_header();
             ?>
           </ul>
 
-          <!--              
-            <ul class="card-pantheon__list">
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="norse-mythology/titans/atlas/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Jupiter, Roman King of the Gods"
-                              title="Great Artists"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">KSA</h4>
-                      <p class="card-deity__subtitle" itemprop="description">King Sunny Ade</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="norse-mythology/titans/coeus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Juno, Roman Queen of the Gods"
-                              title="KSA"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">BankyW</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Banky Welton</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="norse-mythology/titans/crius/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Neptune, Roman God of the Sea"
-                              title="Banky W"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">PHYNO</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Top Artist</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="norse-mythology/titans/cronus/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Minerva, Roman Goddess of Wisdom"
-                              title="Minerva, Roman Goddess of Wisdom"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Royce</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Young Blood</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="norse-mythology/titans/gaia/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Apollo, Roman God of Music"
-                              title="Royce Young Blood"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Fela</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Anikulapo Ransom Kuti</p>
-                    </div>
-                </a></article>
-                        </li>
-                        <li class="card-pantheon__item">
-                          <article class="card-deity card-deity--small">
-                <a href="norse-mythology/titans/hyperion/index.html" class="card-deity__link" itemprop="url">    <div class="card-deity__icon" itemprop="image" itemscope itemtype="<?php echo get_home_url(); ?>">
-                      <div class="card-deity__media">
-                          <img data-src="<?php bloginfo('template_directory'); ?>/images/Avatars/1x/avatarf.jpg?q=75&amp;w=80&amp;auto=format"
-                              alt="Venus, Roman Goddess of Love"
-                              title="Anikulapo Ransom Kuti"
-                              class="card-deity__image lazyload"
-                              itemprop="url"
-                              loading="lazy"
-                              >
-                      </div>
-                    </div>
-                    <div class="card-deity__text">
-                      <h4 class="card-deity__title" itemprop="name">Mr Eazi</h4>
-                      <p class="card-deity__subtitle" itemprop="description">Africa Artist</p>
-                    </div>
-                </a></article>
-                        </li>
-            </ul> -->
-
-
-
           <a href="roman-mythology/gods/index.html" class="card-pantheon__button">View Them All<span class="mythology-pantheon__arrow"></span></a>
         </div>
       </article>
@@ -668,7 +254,7 @@ get_header();
   <section class="home-domains">
     <div class="home-domains__text">
       <h5 class="home-domains__kicker">OUR </h5>
-      <h2 class="home-domains__title" id="domains">Videos</h2>
+      <a href="<?php echo get_tag_link( 219 ); ?>"><h2 class="home-domains__title" id="domains">Videos</h2></a>
     </div>
     <div class="l-section l-section--dark">
 
@@ -1190,7 +776,7 @@ get_header();
 
   <section class="home-legends">
     <div class="home-deities__text">
-      <h2 class="home-deities__title" id="legends">ALBUM REVIEWS</h2>
+    <a href="<?php echo get_category_link( 205 ); ?>"><h2 class="home-deities__title" id="legends">ALBUM REVIEWS</h2></a>
     </div>
 
 
@@ -1221,7 +807,7 @@ get_header();
   <section class="home-domains">
     <div class="home-domains__text">
       <h5 class="home-domains__kicker">OUR </h5>
-      <h2 class="home-domains__title" id="domains">New Discoveries</h2>
+      <a href="<?php echo get_tag_link( 215 ); ?>"><h2 class="home-domains__title" id="domains">New Discoveries</h2></a>
     </div>
     <div class="home-domains__groups">
       <div class="home-domains__group">
@@ -1326,7 +912,7 @@ get_header();
 
   <section class="home-stories">
     <div class="home-stories__text">
-      <h2 class="home-deities__title" id="stories">MOVIE REVIEWS</h2>
+    <a href="<?php echo get_tag_link( 228 ); ?>"><h2 class="home-deities__title" id="stories">MOVIE REVIEWS</h2></a>
     </div>
 
     <ul class="home-legends__list">
@@ -1388,7 +974,7 @@ get_header();
         </article>
         <section class="home-stories">
           <div class="home-stories__text">
-            <h2 class="home-deities__title" id="stories">Editors Pick</h2>
+          <a href="<?php echo get_tag_link( 230 ); ?>"><h2 class="home-deities__title" id="stories">Editors Pick</h2></a>
           </div>
           <ul class="home-stories__list">
             <?php
